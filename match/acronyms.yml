@@ -1,0 +1,18 @@
+matches:
+  - trigger: "imda-"
+    replace: "Infocomm Media Development Authority"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "nyp-"
+    replace: "Nanyang Polytechnic"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "nus-"
+    replace: "National University of Singapore"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

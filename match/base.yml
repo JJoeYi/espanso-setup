@@ -1,0 +1,82 @@
+global_vars:
+  - name: "slidecount"
+    type: "shell"
+    params:
+      cmd: "bash $CONFIG/slideCounter/counter.sh"
+
+matches:
+  - trigger: "/rfs"
+    replace: "[reading from slide]"
+
+  - trigger: "/l"
+    replace: "[laugher]"
+
+  - trigger: "/s"
+    replace: "(slide {{slidecount}})"
+    word: true
+
+  - trigger: "/ia"
+    replace: "[inaudible]"
+
+  - trigger: "/?"
+    replace: "_(?)"
+
+  - trigger: ":time"
+    replace: "{{mytime}}"
+    vars:
+      - name: mytime
+        type: date
+        params:
+          format: "%H:%M"
+
+  - trigger: ":time"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%d-%B-%Y"
+
+  - trigger: ":time"
+    replace: "{{mydatetime}}"
+    vars:
+      - name: mydatetime
+        type: date
+        params:
+          format: "%d-%B-%Y %H:%M"
+
+  - trigger: "/cc"
+    replace: "{{context}}"
+    vars:
+      - name: context
+        type: choice
+        params:
+          values:
+            - "[inaudible]"
+            - "(?)"
+            - "[reading from slide]"
+            - "[writing]"
+            - "[referring to code]"
+            - "[coding]"
+
+  - trigger: "/sc"
+    replace: "{{soundctx}}"
+    vars:
+      - name: soundctx
+        type: choice
+        params:
+          values:
+            - "[inaudible]"
+            - "[student question]"
+            - "[video playing]"
+            - "[interruption]"
+            - "[laughter]"
+            - "[applause]"
+            - "[phone notifcation sound]"
+            - "[bell ringing]"
+            - "[sigh]"
+            - "[music in background]"
+            - "[mic feedback]"
+            - "[background chatter]"
+            - "[whispering]"
+            - "[silence]"

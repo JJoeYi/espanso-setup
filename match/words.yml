@@ -1,0 +1,1235 @@
+matches:
+  - trigger: "gnr8"
+    replace: "generate"
+    word: true
+    propagate_case: true
+  - trigger: "gnr8d"
+    replace: "generated"
+    word: true
+    propagate_case: true
+  - trigger: "gnr8n"
+    replace: "generation"
+    word: true
+    propagate_case: true
+  - trigger: "gnr8ns"
+    replace: "generations"
+    word: true
+    propagate_case: true
+  - trigger: "gnr8r"
+    replace: "generator"
+    word: true
+    propagate_case: true
+  - trigger: "gnr8rs"
+    replace: "generators"
+    word: true
+    propagate_case: true
+
+  - trigger: "dsn"
+    replace: "design"
+    word: true
+    propagate_case: true
+  - trigger: "dsnd"
+    replace: "designed"
+    word: true
+    propagate_case: true
+  - trigger: "dsng"
+    replace: "designing"
+    word: true
+    propagate_case: true
+  - trigger: "dsnr"
+    replace: "designer"
+    word: true
+    propagate_case: true
+  - trigger: "dsnrs"
+    replace: "designers"
+    word: true
+    propagate_case: true
+
+  - trigger: "cls"
+    replace: "class"
+    word: true
+    propagate_case: true
+  - trigger: "clss"
+    replace: "classes"
+    word: true
+    propagate_case: true
+  - trigger: "clsd"
+    replace: "classed"
+    word: true
+    propagate_case: true
+  - trigger: "clsg"
+    replace: "classing"
+    word: true
+    propagate_case: true
+  - trigger: "clsr"
+    replace: "classifier"
+    word: true
+    propagate_case: true
+
+  - trigger: "clsfy"
+    replace: "classify"
+    word: true
+    propagate_case: true
+  - trigger: "clsfyd"
+    replace: "classified"
+    word: true
+    propagate_case: true
+  - trigger: "clsfyn"
+    replace: "classification"
+    word: true
+    propagate_case: true
+  - trigger: "clsfyns"
+    replace: "classifications"
+    word: true
+    propagate_case: true
+  - trigger: "clsfyr"
+    replace: "classifier"
+    word: true
+    propagate_case: true
+  - trigger: "clsfyrs"
+    replace: "classifiers"
+    word: true
+    propagate_case: true
+
+  - trigger: "tut"
+    replace: "tutorial"
+    word: true
+    propagate_case: true
+  - trigger: "tuts"
+    replace: "tutorials"
+    word: true
+    propagate_case: true
+
+  - trigger: "dift"
+    replace: "different"
+    word: true
+    propagate_case: true
+  - trigger: "diftly"
+    replace: "differently"
+    word: true
+    propagate_case: true
+  - trigger: "diftiate"
+    replace: "differentiate"
+    word: true
+    propagate_case: true
+  - trigger: "diftiated"
+    replace: "differentiated"
+    word: true
+    propagate_case: true
+  - trigger: "diftiatn"
+    replace: "differentiation"
+    word: true
+    propagate_case: true
+  - trigger: "diftial"
+    replace: "differential"
+    word: true
+    propagate_case: true
+
+  - trigger: "difn"
+    replace: "difference"
+    word: true
+    propagate_case: true
+  - trigger: "difns"
+    replace: "differences"
+    word: true
+    propagate_case: true
+
+  - trigger: "mkt"
+    replace: "market"
+    word: true
+    propagate_case: true
+  - trigger: "mkts"
+    replace: "markets"
+    word: true
+    propagate_case: true
+  - trigger: "mktd"
+    replace: "marketed"
+    word: true
+    propagate_case: true
+  - trigger: "mktg"
+    replace: "marketing"
+    word: true
+    propagate_case: true
+
+  - trigger: "rsrc"
+    replace: "research"
+    word: true
+    propagate_case: true
+  - trigger: "rsrcs"
+    replace: "researches"
+    word: true
+    propagate_case: true
+  - trigger: "rsrcd"
+    replace: "researched"
+    word: true
+    propagate_case: true
+  - trigger: "rsrcg"
+    replace: "researching"
+    word: true
+    propagate_case: true
+  - trigger: "rsrcr"
+    replace: "researcher"
+    word: true
+    propagate_case: true
+  - trigger: "rsrcrs"
+    replace: "researchers"
+    word: true
+    propagate_case: true
+
+  - trigger: "tnlg"
+    replace: "technology"
+    word: true
+    propagate_case: true
+  - trigger: "tnlgs"
+    replace: "technologies"
+    word: true
+    propagate_case: true
+
+  - trigger: "spk"
+    replace: "speak"
+    word: true
+    propagate_case: true
+  - trigger: "spkr"
+    replace: "speaker"
+    word: true
+    propagate_case: true
+  - trigger: "spkrs"
+    replace: "speakers"
+    word: true
+    propagate_case: true
+
+  - trigger: "chlng"
+    replace: "challenge"
+    word: true
+    propagate_case: true
+  - trigger: "chlngs"
+    replace: "challenges"
+    word: true
+    propagate_case: true
+  - trigger: "chlngd"
+    replace: "challenged"
+    word: true
+    propagate_case: true
+  - trigger: "chlngg"
+    replace: "challenging"
+    word: true
+    propagate_case: true
+  - trigger: "chlngr"
+    replace: "challenger"
+    word: true
+    propagate_case: true
+  - trigger: "chlngrs"
+    replace: "challengers"
+    word: true
+    propagate_case: true
+
+  - trigger: "alct"
+    replace: "allocate"
+    word: true
+    propagate_case: true
+  - trigger: "alctd"
+    replace: "allocated"
+    word: true
+    propagate_case: true
+  - trigger: "alctn"
+    replace: "allocation"
+    word: true
+    propagate_case: true
+  - trigger: "alctns"
+    replace: "allocations"
+    word: true
+    propagate_case: true
+  - trigger: "alctve"
+    replace: "allocative"
+    word: true
+    propagate_case: true
+  - trigger: "alctr"
+    replace: "allocator"
+    word: true
+    propagate_case: true
+  - trigger: "alctrs"
+    replace: "allocators"
+    word: true
+    propagate_case: true
+
+  - trigger: "stdnt"
+    replace: "student"
+    word: true
+    propagate_case: true
+  - trigger: "stdnts"
+    replace: "students"
+    word: true
+    propagate_case: true
+
+  - trigger: "pfsnl"
+    replace: "professional"
+    word: true
+    propagate_case: true
+  - trigger: "pfsnly"
+    replace: "professionally"
+    word: true
+    propagate_case: true
+  - trigger: "pfsnls"
+    replace: "professionals"
+    word: true
+    propagate_case: true
+
+  - trigger: "impt"
+    replace: "important"
+    word: true
+    propagate_case: true
+  - trigger: "imptly"
+    replace: "importantly"
+    word: true
+    propagate_case: true
+  - trigger: "imptnce"
+    replace: "importance"
+    word: true
+    propagate_case: true
+  - trigger: "imptnces"
+    replace: "importances"
+    word: true
+    propagate_case: true
+
+  - trigger: "docm"
+    replace: "document"
+    word: true
+    propagate_case: true
+  - trigger: "docms"
+    replace: "documents"
+    word: true
+    propagate_case: true
+  - trigger: "docmd"
+    replace: "documented"
+    word: true
+    propagate_case: true
+  - trigger: "docmg"
+    replace: "documenting"
+    word: true
+    propagate_case: true
+  - trigger: "docmr"
+    replace: "documenter"
+    word: true
+    propagate_case: true
+  - trigger: "docmrs"
+    replace: "documenters"
+    word: true
+    propagate_case: true
+  - trigger: "docmtry"
+    replace: "documentary"
+    word: true
+    propagate_case: true
+  - trigger: "docmtrys"
+    replace: "documentaries"
+    word: true
+    propagate_case: true
+
+  - trigger: "plr"
+    replace: "pillar"
+    word: true
+    propagate_case: true
+  - trigger: "plrs"
+    replace: "pillars"
+    word: true
+    propagate_case: true
+
+  - trigger: "ppl"
+    replace: "people"
+    word: true
+    propagate_case: true
+  - trigger: "ppls"
+    replace: "peoples"
+    word: true
+    propagate_case: true
+
+  - trigger: "psn"
+    replace: "person"
+    word: true
+    propagate_case: true
+  - trigger: "psns"
+    replace: "persons"
+    word: true
+    propagate_case: true
+  - trigger: "psnl"
+    replace: "personal"
+    word: true
+    propagate_case: true
+  - trigger: "psnly"
+    replace: "personally"
+    word: true
+    propagate_case: true
+  - trigger: "psnlty"
+    replace: "personality"
+    word: true
+    propagate_case: true
+  - trigger: "psnlts"
+    replace: "personalities"
+    word: true
+    propagate_case: true
+
+  - trigger: "atnd"
+    replace: "attend"
+    word: true
+    propagate_case: true
+  - trigger: "atndd"
+    replace: "attended"
+    word: true
+    propagate_case: true
+  - trigger: "atndg"
+    replace: "attending"
+    word: true
+    propagate_case: true
+  - trigger: "atndn"
+    replace: "attendance"
+    word: true
+    propagate_case: true
+  - trigger: "atndns"
+    replace: "attendances"
+    word: true
+    propagate_case: true
+  - trigger: "atndnt"
+    replace: "attendant"
+    word: true
+    propagate_case: true
+  - trigger: "atndnts"
+    replace: "attendants"
+    word: true
+    propagate_case: true
+
+  - trigger: "attn"
+    replace: "attention"
+    word: true
+    propagate_case: true
+
+  - trigger: "pract"
+    replace: "practical"
+    word: true
+    propagate_case: true
+  - trigger: "practs"
+    replace: "practicals"
+    word: true
+    propagate_case: true
+  - trigger: "practly"
+    replace: "practically"
+    word: true
+    propagate_case: true
+
+  - trigger: "pracc"
+    replace: "practice"
+    word: true
+    propagate_case: true
+  - trigger: "praccs"
+    replace: "practices"
+    word: true
+    propagate_case: true
+  - trigger: "praccd"
+    replace: "practiced"
+    word: true
+    propagate_case: true
+  - trigger: "praccg"
+    replace: "practicing"
+    word: true
+    propagate_case: true
+  - trigger: "praccr"
+    replace: "practicer"
+    word: true
+    propagate_case: true
+  - trigger: "praccrs"
+    replace: "practicers"
+    word: true
+    propagate_case: true
+
+  - trigger: "pblm"
+    replace: "problem"
+    word: true
+    propagate_case: true
+  - trigger: "pblms"
+    replace: "problems"
+    word: true
+    propagate_case: true
+  - trigger: "pblmatic"
+    replace: "problematic"
+    word: true
+    propagate_case: true
+
+  - trigger: "cnsld"
+    replace: "consolidate"
+    word: true
+    propagate_case: true
+  - trigger: "cnsldd"
+    replace: "consolidated"
+    word: true
+    propagate_case: true
+  - trigger: "cnsldn"
+    replace: "consolidation"
+    word: true
+    propagate_case: true
+
+  - trigger: "ldr"
+    replace: "leader"
+    word: true
+    propagate_case: true
+  - trigger: "ldrs"
+    replace: "leaders"
+    word: true
+    propagate_case: true
+  - trigger: "ldshp"
+    replace: "leadership"
+    word: true
+    propagate_case: true
+
+  - trigger: "mng"
+    replace: "manage"
+    word: true
+    propagate_case: true
+  - trigger: "mngd"
+    replace: "managed"
+    word: true
+    propagate_case: true
+  - trigger: "mngm"
+    replace: "management"
+    word: true
+    propagate_case: true
+  - trigger: "mngr"
+    replace: "manager"
+    word: true
+    propagate_case: true
+  - trigger: "mngrs"
+    replace: "managers"
+    word: true
+    propagate_case: true
+  - trigger: "mngg"
+    replace: "managing"
+    word: true
+    propagate_case: true
+
+  - trigger: "wrld"
+    replace: "world"
+    word: true
+    propagate_case: true
+  - trigger: "wrlds"
+    replace: "worlds"
+    word: true
+    propagate_case: true
+
+  - trigger: "wrk"
+    replace: "work"
+    word: true
+    propagate_case: true
+  - trigger: "wrkd"
+    replace: "worked"
+    word: true
+    propagate_case: true
+  - trigger: "wrkg"
+    replace: "working"
+    word: true
+    propagate_case: true
+  - trigger: "wrkr"
+    replace: "worker"
+    word: true
+    propagate_case: true
+  - trigger: "wrkrs"
+    replace: "workers"
+    word: true
+    propagate_case: true
+  - trigger: "wrkpl"
+    replace: "workplace"
+    word: true
+    propagate_case: true
+  - trigger: "wrkpls"
+    replace: "workplaces"
+    word: true
+    propagate_case: true
+
+  - trigger: "thr"
+    replace: "there"
+    word: true
+    propagate_case: true
+  - trigger: "thr4"
+    replace: "therefore"
+    word: true
+    propagate_case: true
+
+  - trigger: "thru"
+    replace: "through"
+    word: true
+    propagate_case: true
+  - trigger: "thruout"
+    replace: "throughout"
+    word: true
+    propagate_case: true
+
+  - trigger: "tho"
+    replace: "though"
+    word: true
+    propagate_case: true
+  - trigger: "altho"
+    replace: "although"
+    word: true
+    propagate_case: true
+
+  - trigger: "cre8"
+    replace: "create"
+    word: true
+    propagate_case: true
+  - trigger: "cre8d"
+    replace: "created"
+    word: true
+    propagate_case: true
+  - trigger: "cre8n"
+    replace: "creation"
+    word: true
+    propagate_case: true
+  - trigger: "cre8ns"
+    replace: "creations"
+    word: true
+    propagate_case: true
+  - trigger: "cre8r"
+    replace: "creator"
+    word: true
+    propagate_case: true
+  - trigger: "cre8rs"
+    replace: "creators"
+    word: true
+    propagate_case: true
+
+  - trigger: "gd"
+    replace: "good"
+    word: true
+    propagate_case: true
+  - trigger: "gds"
+    replace: "goods"
+    word: true
+    propagate_case: true
+
+  - trigger: "svc"
+    replace: "service"
+    word: true
+    propagate_case: true
+  - trigger: "svcs"
+    replace: "services"
+    word: true
+    propagate_case: true
+  - trigger: "svcd"
+    replace: "serviced"
+    word: true
+    propagate_case: true
+  - trigger: "svcg"
+    replace: "servicing"
+    word: true
+    propagate_case: true
+  - trigger: "svcr"
+    replace: "servicer"
+    word: true
+    propagate_case: true
+  - trigger: "svcrs"
+    replace: "servicers"
+    word: true
+    propagate_case: true
+
+  - trigger: "ptcp"
+    replace: "participate"
+    word: true
+    propagate_case: true
+  - trigger: "ptcpd"
+    replace: "participated"
+    word: true
+    propagate_case: true
+  - trigger: "ptcpn"
+    replace: "participation"
+    word: true
+    propagate_case: true
+  - trigger: "ptcpns"
+    replace: "participations"
+    word: true
+    propagate_case: true
+  - trigger: "ptcpr"
+    replace: "participant"
+    word: true
+    propagate_case: true
+  - trigger: "ptcprs"
+    replace: "participants"
+    word: true
+    propagate_case: true
+
+  - trigger: "hlo"
+    replace: "hello"
+    word: true
+    propagate_case: true
+
+  - trigger: "yr"
+    replace: "year"
+    word: true
+    propagate_case: true
+  - trigger: "yrs"
+    replace: "years"
+    word: true
+    propagate_case: true
+  - trigger: "yrly"
+    replace: "yearly"
+    word: true
+    propagate_case: true
+
+  - trigger: "min"
+    replace: "minute"
+    word: true
+    propagate_case: true
+  - trigger: "mins"
+    replace: "minutes"
+    word: true
+    propagate_case: true
+
+  - trigger: "hr"
+    replace: "hour"
+    word: true
+    propagate_case: true
+  - trigger: "hrs"
+    replace: "hours"
+    word: true
+    propagate_case: true
+  - trigger: "hrly"
+    replace: "hourly"
+    word: true
+    propagate_case: true
+
+  - trigger: "sec"
+    replace: "second"
+    word: true
+    propagate_case: true
+
+  - trigger: "wk"
+    replace: "week"
+    word: true
+    propagate_case: true
+  - trigger: "wks"
+    replace: "weeks"
+    word: true
+    propagate_case: true
+  - trigger: "wkly"
+    replace: "weekly"
+    word: true
+    propagate_case: true
+
+  - trigger: "mth"
+    replace: "month"
+    word: true
+    propagate_case: true
+  - trigger: "mths"
+    replace: "months"
+    word: true
+    propagate_case: true
+  - trigger: "mthly"
+    replace: "monthly"
+    word: true
+    propagate_case: true
+
+  - trigger: "ttr"
+    replace: "tutor"
+    word: true
+    propagate_case: true
+  - trigger: "ttrs"
+    replace: "tutors"
+    word: true
+    propagate_case: true
+  - trigger: "ttrg"
+    replace: "tutoring"
+    word: true
+    propagate_case: true
+  - trigger: "ttrd"
+    replace: "tutored"
+    word: true
+    propagate_case: true
+
+  - trigger: "imd"
+    replace: "immediate"
+    word: true
+    propagate_case: true
+  - trigger: "imdl"
+    replace: "immediately"
+    word: true
+    propagate_case: true
+
+  - trigger: "hv"
+    replace: "have"
+    word: true
+    propagate_case: true
+
+  - trigger: "hvyall"
+    replace: "have you all"
+    word: true
+    propagate_case: true
+
+  - trigger: "hvnt"
+    replace: "haven't"
+    word: true
+    propagate_case: true
+
+  - trigger: "hvn"
+    replace: "haven't"
+    word: true
+    propagate_case: true
+
+  - trigger: "hvg"
+    replace: "having"
+    word: true
+    propagate_case: true
+
+  - trigger: "flw"
+    replace: "follow"
+    word: true
+    propagate_case: true
+  - trigger: "flwd"
+    replace: "followed"
+    word: true
+    propagate_case: true
+  - trigger: "flwg"
+    replace: "following"
+    word: true
+    propagate_case: true
+  - trigger: "flwr"
+    replace: "follower"
+    word: true
+    propagate_case: true
+  - trigger: "flwrs"
+    replace: "followers"
+    word: true
+    propagate_case: true
+  - trigger: "flwup"
+    replace: "follow up"
+    word: true
+    propagate_case: true
+  - trigger: "flwups"
+    replace: "follow ups"
+    word: true
+    propagate_case: true
+
+  - trigger: "on9"
+    replace: "online"
+    word: true
+    propagate_case: true
+
+  - trigger: "cm"
+    replace: "come"
+    word: true
+    propagate_case: true
+  - trigger: "cmg"
+    replace: "coming"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmpsry"
+    replace: "compulsory"
+    word: true
+    propagate_case: true
+
+  - trigger: "b4"
+    replace: "before"
+    word: true
+    propagate_case: true
+  - trigger: "b4hand"
+    replace: "beforehand"
+    word: true
+    propagate_case: true
+
+  - trigger: "assnm"
+    replace: "assignment"
+    word: true
+    propagate_case: true
+  - trigger: "assnms"
+    replace: "assignments"
+    word: true
+    propagate_case: true
+  - trigger: "assn"
+    replace: "assign"
+    word: true
+    propagate_case: true
+  - trigger: "assnd"
+    replace: "assigned"
+    word: true
+    propagate_case: true
+  - trigger: "assng"
+    replace: "assigning"
+    word: true
+    propagate_case: true
+
+  - trigger: "undst"
+    replace: "understand"
+    word: true
+    propagate_case: true
+  - trigger: "undstd"
+    replace: "understood"
+    word: true
+    propagate_case: true
+  - trigger: "undstg"
+    replace: "understanding"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmplt"
+    replace: "complete"
+    word: true
+    propagate_case: true
+  - trigger: "cmpltd"
+    replace: "completed"
+    word: true
+    propagate_case: true
+  - trigger: "cmpltn"
+    replace: "completion"
+    word: true
+    propagate_case: true
+  - trigger: "cmpltns"
+    replace: "completions"
+    word: true
+    propagate_case: true
+
+  - trigger: "any1"
+    replace: "anyone"
+    word: true
+    propagate_case: true
+  - trigger: "anyth"
+    replace: "anything"
+    word: true
+    propagate_case: true
+  - trigger: "anywh"
+    replace: "anywhere"
+    word: true
+    propagate_case: true
+  - trigger: "anyw"
+    replace: "anyway"
+    word: true
+    propagate_case: true
+  - trigger: "anyt"
+    replace: "anytime"
+    word: true
+    propagate_case: true
+  - trigger: "anyh"
+    replace: "anyhow"
+    word: true
+    propagate_case: true
+  - trigger: "anyb"
+    replace: "anybody"
+    word: true
+    propagate_case: true
+
+  - trigger: "evy"
+    replace: "every"
+    word: true
+    propagate_case: true
+  - trigger: "ev1"
+    replace: "everyone"
+    word: true
+    propagate_case: true
+  - trigger: "evb"
+    replace: "everybody"
+    word: true
+    propagate_case: true
+  - trigger: "evt"
+    replace: "everytime"
+    word: true
+    propagate_case: true
+  - trigger: "evth"
+    replace: "everything"
+    word: true
+    propagate_case: true
+  - trigger: "evw"
+    replace: "everywhere"
+    word: true
+    propagate_case: true
+
+  - trigger: "sm"
+    replace: "some"
+    word: true
+    propagate_case: true
+  - trigger: "sm1"
+    replace: "someone"
+    word: true
+    propagate_case: true
+  - trigger: "smb"
+    replace: "somebody"
+    word: true
+    propagate_case: true
+  - trigger: "smt"
+    replace: "sometime"
+    word: true
+    propagate_case: true
+  - trigger: "sth"
+    replace: "something"
+    word: true
+    propagate_case: true
+  - trigger: "smth"
+    replace: "something"
+    word: true
+    propagate_case: true
+  - trigger: "smts"
+    replace: "sometimes"
+    word: true
+    propagate_case: true
+  - trigger: "smw"
+    replace: "somewhere"
+    word: true
+    propagate_case: true
+
+  - trigger: "sry"
+    replace: "sorry"
+    word: true
+    propagate_case: true
+
+  - trigger: "abt"
+    replace: "about"
+    word: true
+    propagate_case: true
+
+  - trigger: "wld"
+    replace: "would"
+    word: true
+    propagate_case: true
+  - trigger: "wldn"
+    replace: "wouldn't"
+    word: true
+    propagate_case: true
+  - trigger: "wldv"
+    replace: "would've"
+    word: true
+    propagate_case: true
+
+  - trigger: "cld"
+    replace: "could"
+    word: true
+    propagate_case: true
+  - trigger: "cldn"
+    replace: "couldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "shld"
+    replace: "should"
+    word: true
+    propagate_case: true
+  - trigger: "shldn"
+    replace: "shouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "isn"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+  - trigger: "iz"
+    replace: "it's"
+    word: true
+    propagate_case: true
+  - trigger: "izn"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "uu"
+    replace: "you"
+    word: true
+    propagate_case: true
+  - trigger: "ur"
+    replace: "your"
+    word: true
+    propagate_case: true
+  - trigger: "urs"
+    replace: "yours"
+    word: true
+    propagate_case: true
+
+  - trigger: "im"
+    replace: "I'm"
+    word: true
+    propagate_case: true
+  - trigger: "idw"
+    replace: "I don't want"
+    word: true
+    propagate_case: true
+  - trigger: "idk"
+    replace: "I don't know"
+    word: true
+    propagate_case: true
+  - trigger: "idc"
+    replace: "I don't care"
+    word: true
+    propagate_case: true
+  - trigger: "idr"
+    replace: "I don't remember"
+    word: true
+    propagate_case: true
+  - trigger: "idt"
+    replace: "I don't think"
+    word: true
+    propagate_case: true
+  - trigger: "idts"
+    replace: "I don't think so"
+    word: true
+    propagate_case: true
+
+  - trigger: "pls"
+    replace: "please"
+    word: true
+    propagate_case: true
+  - trigger: "plz"
+    replace: "please"
+    word: true
+    propagate_case: true
+
+  - trigger: "ty"
+    replace: "thank you"
+    word: true
+    propagate_case: true
+  - trigger: "tysm"
+    replace: "thank you so much"
+    word: true
+    propagate_case: true
+  - trigger: "thx"
+    replace: "thanks"
+    word: true
+    propagate_case: true
+
+  - trigger: "fyi"
+    replace: "for your information"
+    word: true
+    propagate_case: true
+
+  - trigger: "ti4d"
+    replace: "that's it for today"
+    word: true
+    propagate_case: true
+  - trigger: "tdy"
+    replace: "today"
+    word: true
+    propagate_case: true
+  - trigger: "tmr"
+    replace: "tomorrow"
+    word: true
+    propagate_case: true
+  - trigger: "nxt"
+    replace: "next"
+    word: true
+    propagate_case: true
+  - trigger: "nxtw"
+    replace: "next week"
+    word: true
+    propagate_case: true
+
+  - trigger: "tt"
+    replace: "that"
+    word: true
+    propagate_case: true
+
+  - trigger: "bc"
+    replace: "because"
+    word: true
+    propagate_case: true
+
+  - trigger: "btw"
+    replace: "by the way"
+    word: true
+    propagate_case: true
+
+  - trigger: "tnk"
+    replace: "think"
+    word: true
+    propagate_case: true
+  - trigger: "tnkg"
+    replace: "thinking"
+    word: true
+    propagate_case: true
+  - trigger: "tnkr"
+    replace: "thinker"
+    word: true
+    propagate_case: true
+  - trigger: "tnkrs"
+    replace: "thinkers"
+    word: true
+    propagate_case: true
+
+  - trigger: "env"
+    replace: "environment"
+    word: true
+    propagate_case: true
+  - trigger: "envs"
+    replace: "environments"
+    word: true
+    propagate_case: true
+  - trigger: "envl"
+    replace: "environmental"
+    word: true
+    propagate_case: true
+  - trigger: "envly"
+    replace: "environmentally"
+    word: true
+    propagate_case: true
+  - trigger: "envr"
+    replace: "environmentalist"
+    word: true
+    propagate_case: true
+
+  - trigger: "tot"
+    replace: "thought"
+    word: true
+    propagate_case: true
+  - trigger: "tots"
+    replace: "thoughts"
+    word: true
+    propagate_case: true
+
+  - trigger: "rly"
+    replace: "really"
+    word: true
+    propagate_case: true
+
+  - trigger: "wt"
+    replace: "what"
+    word: true
+    propagate_case: true
+
+  - trigger: "dyu"
+    replace: "do you understand"
+    word: true
+    propagate_case: true
+
+  - trigger: "grp"
+    replace: "group"
+    word: true
+    propagate_case: true
+  - trigger: "grps"
+    replace: "groups"
+    word: true
+    propagate_case: true
+  - trigger: "grpd"
+    replace: "grouped"
+    word: true
+    propagate_case: true
+  - trigger: "grpg"
+    replace: "grouping"
+    word: true
+    propagate_case: true
+  - trigger: "grpgs"
+    replace: "groupings"
+    word: true
+    propagate_case: true
+
+  - trigger: "ltr"
+    replace: "later"
+    word: true
+    propagate_case: true
+
+  - trigger: "usu"
+    replace: "usual"
+    word: true
+    propagate_case: true
+  - trigger: "usul"
+    replace: "usually"
+    word: true
+    propagate_case: true
+
+  - trigger: "eg"
+    replace: "example"
+    word: true
+    propagate_case: true
+  - trigger: "egs"
+    replace: "examples"
+    word: true
+    propagate_case: true
