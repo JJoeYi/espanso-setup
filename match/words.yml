@@ -291,6 +291,15 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "tng"
+    replace: "thing"
+    word: true
+    propagate_case: true
+  - trigger: "tngs"
+    replace: "things"
+    word: true
+    propagate_case: true
+
   - trigger: "docm"
     replace: "document"
     word: true
@@ -822,12 +831,106 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "b4"
+  - trigger: "be4"
     replace: "before"
     word: true
     propagate_case: true
-  - trigger: "b4hand"
+  - trigger: "be4hand"
     replace: "beforehand"
+    word: true
+    propagate_case: true
+
+  - trigger: "psble"
+    replace: "possible"
+    word: true
+    propagate_case: true
+  - trigger: "psbly"
+    replace: "possibly"
+    word: true
+    propagate_case: true
+
+  - trigger: "wf"
+    replace: "with"
+    word: true
+    propagate_case: true
+  - trigger: "wfx"
+    replace: "without"
+    word: true
+    propagate_case: true
+
+  - trigger: "gr8"
+    replace: "great"
+    word: true
+    propagate_case: true
+  - trigger: "gr8er"
+    replace: "greater"
+    word: true
+    propagate_case: true
+  - trigger: "gr8est"
+    replace: "greatest"
+    word: true
+    propagate_case: true
+
+  - trigger: "pt"
+    replace: "point"
+    word: true
+    propagate_case: true
+  - trigger: "pts"
+    replace: "points"
+    word: true
+    propagate_case: true
+  - trigger: "ptd"
+    replace: "pointed"
+    word: true
+    propagate_case: true
+  - trigger: "ptg"
+    replace: "pointing"
+    word: true
+    propagate_case: true
+  - trigger: "ptr"
+    replace: "pointer"
+    word: true
+    propagate_case: true
+  - trigger: "ptrs"
+    replace: "pointers"
+    word: true
+    propagate_case: true
+
+  - trigger: "sys"
+    replace: "system"
+    word: true
+    propagate_case: true
+  - trigger: "sysm"
+    replace: "systematic"
+    word: true
+    propagate_case: true
+  - trigger: "syss"
+    replace: "systems"
+    word: true
+    propagate_case: true
+  - trigger: "sysmly"
+    replace: "systematically"
+    word: true
+    propagate_case: true
+
+  - trigger: "sch"
+    replace: "school"
+    word: true
+    propagate_case: true
+  - trigger: "schs"
+    replace: "schools"
+    word: true
+    propagate_case: true
+  - trigger: "schr"
+    replace: "scholar"
+    word: true
+    propagate_case: true
+  - trigger: "schrs"
+    replace: "scholars"
+    word: true
+    propagate_case: true
+  - trigger: "schrly"
+    replace: "scholarly"
     word: true
     propagate_case: true
 
@@ -979,6 +1082,51 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "abt2"
+    replace: "about to"
+    word: true
+    propagate_case: true
+
+  - trigger: "cant"
+    replace: "can't"
+    word: true
+    propagate_case: true
+
+  - trigger: "havent"
+    replace: "haven't"
+    word: true
+    propagate_case: true
+
+  - trigger: "dont"
+    replace: "don't"
+    word: true
+    propagate_case: true
+
+  - trigger: "wont"
+    replace: "won't"
+    word: true
+    propagate_case: true
+
+  - trigger: "wouldnt"
+    replace: "wouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "couldnt"
+    replace: "couldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "shouldnt"
+    replace: "shouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "isnt"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+
   - trigger: "wld"
     replace: "would"
     word: true
@@ -1033,6 +1181,51 @@ matches:
     propagate_case: true
   - trigger: "urs"
     replace: "yours"
+    word: true
+    propagate_case: true
+
+  - trigger: "kw"
+    replace: "know"
+    word: true
+    propagate_case: true
+  - trigger: "kwg"
+    replace: "knowing"
+    word: true
+    propagate_case: true
+  - trigger: "kwl"
+    replace: "knowledge"
+    word: true
+    propagate_case: true
+  - trigger: "kwn"
+    replace: "known"
+    word: true
+    propagate_case: true
+  - trigger: "ackwl"
+    replace: "acknowledge"
+    word: true
+    propagate_case: true
+  - trigger: "ackwlm"
+    replace: "acknowledgement"
+    word: true
+    propagate_case: true
+  - trigger: "ackwlms"
+    replace: "acknowledgements"
+    word: true
+    propagate_case: true
+  - trigger: "ackwlg"
+    replace: "acknowledging"
+    word: true
+    propagate_case: true
+  - trigger: "ackwld"
+    replace: "acknowledged"
+    word: true
+    propagate_case: true
+  - trigger: "ackwlr"
+    replace: "acknowledger"
+    word: true
+    propagate_case: true
+  - trigger: "ackwlrs"
+    replace: "acknowledgers"
     word: true
     propagate_case: true
 
@@ -1163,6 +1356,46 @@ matches:
     propagate_case: true
   - trigger: "envr"
     replace: "environmentalist"
+    word: true
+    propagate_case: true
+
+  - trigger: "arnd"
+    replace: "around"
+    word: true
+    propagate_case: true
+
+  - trigger: "betw"
+    replace: "between"
+    word: true
+    propagate_case: true
+
+  - trigger: "agn"
+    replace: "again"
+    word: true
+    propagate_case: true
+
+  - trigger: "dvp"
+    replace: "develop"
+    word: true
+    propagate_case: true
+  - trigger: "dvpg"
+    replace: "developing"
+    word: true
+    propagate_case: true
+  - trigger: "dvpm"
+    replace: "development"
+    word: true
+    propagate_case: true
+  - trigger: "dvpr"
+    replace: "developer"
+    word: true
+    propagate_case: true
+  - trigger: "dvprs"
+    replace: "developers"
+    word: true
+    propagate_case: true
+  - trigger: "dvpd"
+    replace: "developed"
     word: true
     propagate_case: true
 
