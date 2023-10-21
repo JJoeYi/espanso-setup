@@ -1,8 +1,8 @@
-global_vars:
-  - name: "slidecount"
-    type: "shell"
-    params:
-      cmd: "bash $CONFIG/slideCounter/counter.sh"
+# global_vars:
+#   - name: "slidecount"
+#     type: "shell"
+#     params:
+#       cmd: "bash $CONFIG/slideCounter/counter.sh"
 
 matches:
   - trigger: "/rfs"
@@ -11,9 +11,12 @@ matches:
   - trigger: "/l"
     replace: "[laugher]"
 
+  # - trigger: "/s"
+  #   replace: "(slide {{slidecount}})"
+  #   word: true
+
   - trigger: "/s"
-    replace: "(slide {{slidecount}})"
-    word: true
+    replace: "(slide "
 
   - trigger: "/ia"
     replace: "[inaudible]"

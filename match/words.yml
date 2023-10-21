@@ -376,6 +376,77 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "num"
+    replace: "number"
+    word: true
+    propagate_case: true
+  - trigger: "nums"
+    replace: "numbers"
+    word: true
+    propagate_case: true
+  - trigger: "numd"
+    replace: "numbered"
+    word: true
+    propagate_case: true
+  - trigger: "numg"
+    replace: "numbering"
+    word: true
+    propagate_case: true
+  - trigger: "numr"
+    replace: "numberer"
+    word: true
+    propagate_case: true
+
+  - trigger: "gnrl"
+    replace: "general"
+    word: true
+    propagate_case: true
+  - trigger: "gnrly"
+    replace: "generally"
+    word: true
+    propagate_case: true
+  - trigger: "gnrls"
+    replace: "generals"
+    word: true
+    propagate_case: true
+
+  - trigger: "aft"
+    replace: "after"
+    word: true
+    propagate_case: true
+
+  - trigger: "aftn"
+    replace: "afternoon"
+    word: true
+    propagate_case: true
+
+  - trigger: "mrng"
+    replace: "morning"
+    word: true
+    propagate_case: true
+
+  - trigger: "evng"
+    replace: "evening"
+    word: true
+    propagate_case: true
+
+  - trigger: "govt"
+    replace: "government"
+    word: true
+    propagate_case: true
+  - trigger: "govts"
+    replace: "governments"
+    word: true
+    propagate_case: true
+  - trigger: "govtl"
+    replace: "governmental"
+    word: true
+    propagate_case: true
+  - trigger: "govtly"
+    replace: "governmentally"
+    word: true
+    propagate_case: true
+
   - trigger: "atnd"
     replace: "attend"
     word: true
@@ -862,12 +933,37 @@ matches:
     replace: "great"
     word: true
     propagate_case: true
+  - trigger: "gr9"
+    replace: "great"
+    word: true
+    propagate_case: true
   - trigger: "gr8er"
     replace: "greater"
     word: true
     propagate_case: true
   - trigger: "gr8est"
     replace: "greatest"
+    word: true
+    propagate_case: true
+
+  - trigger: "ext"
+    replace: "extend"
+    word: true
+    propagate_case: true
+  - trigger: "extd"
+    replace: "extended"
+    word: true
+    propagate_case: true
+  - trigger: "extn"
+    replace: "extension"
+    word: true
+    propagate_case: true
+  - trigger: "extns"
+    replace: "extensions"
+    word: true
+    propagate_case: true
+  - trigger: "extg"
+    replace: "extending"
     word: true
     propagate_case: true
 
@@ -1087,6 +1183,11 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "anth"
+    replace: "another"
+    word: true
+    propagate_case: true
+
   - trigger: "cant"
     replace: "can't"
     word: true
@@ -1226,6 +1327,161 @@ matches:
     propagate_case: true
   - trigger: "ackwlrs"
     replace: "acknowledgers"
+    word: true
+    propagate_case: true
+
+  - trigger: "mk"
+    replace: "make"
+    word: true
+    propagate_case: true
+  - trigger: "mkd"
+    replace: "made"
+    word: true
+    propagate_case: true
+  - trigger: "mkg"
+    replace: "making"
+    word: true
+    propagate_case: true
+  - trigger: "mkr"
+    replace: "maker"
+    word: true
+    propagate_case: true
+  - trigger: "mkrs"
+    replace: "makers"
+    word: true
+    propagate_case: true
+
+  - trigger: "gv"
+    replace: "give"
+    word: true
+    propagate_case: true
+  - trigger: "gvg"
+    replace: "giving"
+    word: true
+    propagate_case: true
+  - trigger: "gvr"
+    replace: "giver"
+    word: true
+    propagate_case: true
+  - trigger: "gvrs"
+    replace: "givers"
+    word: true
+    propagate_case: true
+  - trigger: "gvd"
+    replace: "gave"
+    word: true
+    propagate_case: true
+  - trigger: "gvn"
+    replace: "given"
+    word: true
+    propagate_case: true
+
+  - trigger: "tk"
+    replace: "take"
+    word: true
+    propagate_case: true
+  - trigger: "tkg"
+    replace: "taking"
+    word: true
+    propagate_case: true
+  - trigger: "tkn"
+    replace: "taken"
+    word: true
+    propagate_case: true
+  - trigger: "tkr"
+    replace: "taker"
+    word: true
+    propagate_case: true
+  - trigger: "tkrs"
+    replace: "takers"
+    word: true
+    propagate_case: true
+  - trigger: "tkd"
+    replace: "took"
+    word: true
+    propagate_case: true
+
+  - trigger: "csd"
+    replace: "consider"
+    word: true
+    propagate_case: true
+  - trigger: "csdr"
+    replace: "considerer"
+    word: true
+    propagate_case: true
+  - trigger: "csds"
+    replace: "considers"
+    word: true
+    propagate_case: true
+  - trigger: "csdg"
+    replace: "considering"
+    word: true
+    propagate_case: true
+  - trigger: "csdd"
+    replace: "considered"
+    word: true
+    propagate_case: true
+  - trigger: "csdn"
+    replace: "consideration"
+    word: true
+    propagate_case: true
+  - trigger: "csdns"
+    replace: "considerations"
+    word: true
+    propagate_case: true
+
+  - trigger: "pgm"
+    replace: "program"
+    word: true
+    propagate_case: true
+  - trigger: "pgms"
+    replace: "programs"
+    word: true
+    propagate_case: true
+  - trigger: "pgmd"
+    replace: "programmed"
+    word: true
+    propagate_case: true
+  - trigger: "pgmg"
+    replace: "programming"
+    word: true
+    propagate_case: true
+  - trigger: "pgmr"
+    replace: "programmer"
+    word: true
+    propagate_case: true
+  - trigger: "pgmrs"
+    replace: "programmers"
+    word: true
+    propagate_case: true
+
+  - trigger: "pgmm"
+    replace: "programme"
+    word: true
+    propagate_case: true
+  - trigger: "pgmms"
+    replace: "programmes"
+    word: true
+    propagate_case: true
+
+  - trigger: "incr"
+    replace: "increase"
+    word: true
+    propagate_case: true
+  - trigger: "incrs"
+    replace: "increases"
+    word: true
+    propagate_case: true
+  - trigger: "incrd"
+    replace: "increased"
+    word: true
+    propagate_case: true
+  - trigger: "incrg"
+    replace: "increasing"
+    word: true
+    propagate_case: true
+  - trigger: "incrm"
+    replace: "increment"
     word: true
     propagate_case: true
 
@@ -1464,5 +1720,60 @@ matches:
     propagate_case: true
   - trigger: "egs"
     replace: "examples"
+    word: true
+    propagate_case: true
+
+  - trigger: "frm"
+    replace: "from"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmt"
+    replace: "comment"
+    word: true
+    propagate_case: true
+  - trigger: "cmts"
+    replace: "comments"
+    word: true
+    propagate_case: true
+  - trigger: "cmtd"
+    replace: "commented"
+    word: true
+    propagate_case: true
+  - trigger: "cmtr"
+    replace: "commenter"
+    word: true
+    propagate_case: true
+  - trigger: "cmtrs"
+    replace: "commenters"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmnc"
+    replace: "communicate"
+    word: true
+    propagate_case: true
+  - trigger: "cmncd"
+    replace: "communicated"
+    word: true
+    propagate_case: true
+  - trigger: "cmncg"
+    replace: "communicating"
+    word: true
+    propagate_case: true
+  - trigger: "cmncn"
+    replace: "communication"
+    word: true
+    propagate_case: true
+  - trigger: "cmncns"
+    replace: "communications"
+    word: true
+    propagate_case: true
+  - trigger: "cmncr"
+    replace: "communicator"
+    word: true
+    propagate_case: true
+  - trigger: "cmncrs"
+    replace: "communicators"
     word: true
     propagate_case: true
