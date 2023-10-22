@@ -134,6 +134,44 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "difc"
+    replace: "difficult"
+    word: true
+    propagate_case: true
+  - trigger: "difcty"
+    replace: "difficulty"
+    word: true
+    propagate_case: true
+
+  - trigger: "cdn"
+    replace: "condition"
+    word: true
+    propagate_case: true
+  - trigger: "cdns"
+    replace: "conditions"
+    word: true
+    propagate_case: true
+  - trigger: "cdnd"
+    replace: "conditioned"
+    word: true
+    propagate_case: true
+  - trigger: "cdnl"
+    replace: "conditional"
+    word: true
+    propagate_case: true
+  - trigger: "cdnly"
+    replace: "conditionally"
+    word: true
+    propagate_case: true
+  - trigger: "cdnr"
+    replace: "conditioner"
+    word: true
+    propagate_case: true
+  - trigger: "cdnrs"
+    replace: "conditioners"
+    word: true
+    propagate_case: true
+
   - trigger: "mkt"
     replace: "market"
     word: true
@@ -630,6 +668,53 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "thn"
+    replace: "then"
+    word: true
+    propagate_case: true
+
+  - trigger: "ee"
+    replace: "the"
+    word: true
+    propagate_case: true
+
+  - trigger: "whr"
+    replace: "where"
+    word: true
+    propagate_case: true
+  - trigger: "whrby"
+    replace: "whereby"
+    word: true
+    propagate_case: true
+  - trigger: "whrabt"
+    replace: "whereabout"
+    word: true
+    propagate_case: true
+  - trigger: "whrabts"
+    replace: "whereabout"
+    word: true
+    propagate_case: true
+
+  - trigger: "wen"
+    replace: "when"
+    word: true
+    propagate_case: true
+
+  - trigger: "wch"
+    replace: "which"
+    word: true
+    propagate_case: true
+
+  - trigger: "wat"
+    replace: "what"
+    word: true
+    propagate_case: true
+
+  - trigger: "hwevr"
+    replace: "however"
+    word: true
+    propagate_case: true
+
   - trigger: "thru"
     replace: "through"
     word: true
@@ -747,6 +832,39 @@ matches:
     propagate_case: true
   - trigger: "yrly"
     replace: "yearly"
+    word: true
+    propagate_case: true
+  - trigger: "yro"
+    replace: "year old"
+    word: true
+    propagate_case: true
+  - trigger: "yrso"
+    replace: "years old"
+    word: true
+    propagate_case: true
+
+  - trigger: "mdl"
+    replace: "model"
+    word: true
+    propagate_case: true
+  - trigger: "mdls"
+    replace: "models"
+    word: true
+    propagate_case: true
+  - trigger: "mdld"
+    replace: "modeled"
+    word: true
+    propagate_case: true
+  - trigger: "mdlg"
+    replace: "modeling"
+    word: true
+    propagate_case: true
+  - trigger: "mdlr"
+    replace: "modeler"
+    word: true
+    propagate_case: true
+  - trigger: "mdlrs"
+    replace: "modelers"
     word: true
     propagate_case: true
 
@@ -928,6 +1046,14 @@ matches:
     replace: "without"
     word: true
     propagate_case: true
+  - trigger: "wfc"
+    replace: "without"
+    word: true
+    propagate_case: true
+  - trigger: "wfin"
+    replace: "within"
+    word: true
+    propagate_case: true
 
   - trigger: "gr8"
     replace: "great"
@@ -1051,16 +1177,102 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "undst"
+  - trigger: "atch"
+    replace: "attach"
+    word: true
+    propagate_case: true
+  - trigger: "atchd"
+    replace: "attached"
+    word: true
+    propagate_case: true
+  - trigger: "atchg"
+    replace: "attaching"
+    word: true
+    propagate_case: true
+  - trigger: "atchm"
+    replace: "attachment"
+    word: true
+    propagate_case: true
+  - trigger: "atchms"
+    replace: "attachments"
+    word: true
+    propagate_case: true
+
+  - trigger: "mtd"
+    replace: "method"
+    word: true
+    propagate_case: true
+  - trigger: "mtds"
+    replace: "methods"
+    word: true
+    propagate_case: true
+
+  - trigger: "std"
+    replace: "standard"
+    word: true
+    propagate_case: true
+  - trigger: "stds"
+    replace: "standards"
+    word: true
+    propagate_case: true
+
+  - trigger: "acnt"
+    replace: "account"
+    word: true
+    propagate_case: true
+  - trigger: "acnts"
+    replace: "accounts"
+    word: true
+    propagate_case: true
+  - trigger: "acntd"
+    replace: "accounted"
+    word: true
+    propagate_case: true
+  - trigger: "acntg"
+    replace: "accounting"
+    word: true
+    propagate_case: true
+  - trigger: "acntr"
+    replace: "accounter"
+    word: true
+    propagate_case: true
+  - trigger: "acntrs"
+    replace: "accounters"
+    word: true
+    propagate_case: true
+
+  - trigger: "unstd"
     replace: "understand"
     word: true
     propagate_case: true
-  - trigger: "undstd"
+  - trigger: "unstdd"
     replace: "understood"
     word: true
     propagate_case: true
-  - trigger: "undstg"
+  - trigger: "unstdg"
     replace: "understanding"
+    word: true
+    propagate_case: true
+
+  - trigger: "nvr"
+    replace: "never"
+    word: true
+    propagate_case: true
+  - trigger: "nvm"
+    replace: "nevermind"
+    word: true
+    propagate_case: true
+
+  - trigger: "mn"
+    replace: "mean"
+    word: true
+    propagate_case: true
+  - trigger: "mng"
+    replace: "meaning"
+    word: true
+    propagate_case: true
+  - trigger: "mngs"
+    replace: "meanings"
     word: true
     propagate_case: true
 
@@ -1208,8 +1420,27 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "didn"
+    replace: "didn't"
+    word: true
+    propagate_case: true
+  - trigger: "didnt"
+    replace: "didn't"
+    word: true
+    propagate_case: true
+
   - trigger: "wouldnt"
     replace: "wouldn't"
+    word: true
+    propagate_case: true
+
+  - trigger: "wasnt"
+    replace: "wasnt't"
+    word: true
+    propagate_case: true
+
+  - trigger: "doesnt"
+    replace: "doesn't"
     word: true
     propagate_case: true
 
@@ -1220,11 +1451,6 @@ matches:
 
   - trigger: "shouldnt"
     replace: "shouldn't"
-    word: true
-    propagate_case: true
-
-  - trigger: "isnt"
-    replace: "isn't"
     word: true
     propagate_case: true
 
@@ -1268,6 +1494,14 @@ matches:
     word: true
     propagate_case: true
   - trigger: "izn"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+  - trigger: "iznt"
+    replace: "isn't"
+    word: true
+    propagate_case: true
+  - trigger: "isnt"
     replace: "isn't"
     word: true
     propagate_case: true
