@@ -1222,6 +1222,14 @@ matches:
     replace: "before"
     word: true
     propagate_case: true
+  - trigger: "be3"
+    replace: "before"
+    word: true
+    propagate_case: true
+  - trigger: "be5"
+    replace: "before"
+    word: true
+    propagate_case: true
   - trigger: "be4hand"
     replace: "beforehand"
     word: true
