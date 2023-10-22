@@ -1916,6 +1916,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "addr"
+    replace: "address"
+    word: true
+    propagate_case: true
+  - trigger: "addrs"
+    replace: "addresses"
+    word: true
+    propagate_case: true
+  - trigger: "addrd"
+    replace: "addressed"
+    word: true
+    propagate_case: true
+  - trigger: "addrg"
+    replace: "addressing"
+    word: true
+    propagate_case: true
+  - trigger: "addrr"
+    replace: "addresser"
+    word: true
+    propagate_case: true
+  - trigger: "addrrs"
+    replace: "addressers"
+    word: true
+    propagate_case: true
+
   - trigger: "mk"
     replace: "make"
     word: true
