@@ -17,11 +17,17 @@ matches:
   - trigger: "/rtc"
     replace: "[referring to code]"
 
+  - trigger: "/rtw"
+    replace: "[referring to writing]"
+
   - trigger: "/w"
     replace: "[writing]"
 
-  - trigger: "/l"
+  - trigger: "/lt"
     replace: "[laugher]"
+
+  - trigger: "la"
+    replace: "[laughs]"
 
   # - trigger: "/s"
   #   replace: "(slide {{slidecount}})"
@@ -30,13 +36,13 @@ matches:
   - trigger: "/sn"
     replace: "(slide "
 
-  - trigger: "/sli"
+  - trigger: "/sl"
     replace: "(slide change)"
 
-  - trigger: "/qstu"
+  - trigger: "/stuq"
     replace: "[student question]"
 
-  - trigger: "/astu"
+  - trigger: "/stua"
     replace: "[student answer]"
 
   - trigger: "/ans"
@@ -46,7 +52,7 @@ matches:
     replace: "[question]"
 
   - trigger: "/ia"
-    replace: "[inaudible]"
+    replace: "_[inaudible]"
 
   - trigger: "/?"
     replace: "_(?)"

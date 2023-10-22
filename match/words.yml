@@ -24,6 +24,23 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "defn"
+    replace: "definition"
+    word: true
+    propagate_case: true
+  - trigger: "defns"
+    replace: "definitions"
+    word: true
+    propagate_case: true
+  - trigger: "defnd"
+    replace: "defined"
+    word: true
+    propagate_case: true
+  - trigger: "defng"
+    replace: "defining"
+    word: true
+    propagate_case: true
+
   - trigger: "dsn"
     replace: "design"
     word: true
@@ -908,7 +925,7 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "hwevr"
+  - trigger: "hwe"
     replace: "however"
     word: true
     propagate_case: true
@@ -933,6 +950,10 @@ matches:
 
   - trigger: "cre8"
     replace: "create"
+    word: true
+    propagate_case: true
+  - trigger: "cre8g"
+    replace: "creating"
     word: true
     propagate_case: true
   - trigger: "cre8d"
@@ -1215,6 +1236,52 @@ matches:
 
   - trigger: "cmpsry"
     replace: "compulsory"
+    word: true
+    propagate_case: true
+
+  - trigger: "qn"
+    replace: "question"
+    word: true
+    propagate_case: true
+  - trigger: "qns"
+    replace: "questions"
+    word: true
+    propagate_case: true
+  - trigger: "qnd"
+    replace: "questioned"
+    word: true
+    propagate_case: true
+  - trigger: "qng"
+    replace: "questioning"
+    word: true
+    propagate_case: true
+  - trigger: "qnr"
+    replace: "questioner"
+    word: true
+    propagate_case: true
+  - trigger: "qnrs"
+    replace: "questioners"
+    word: true
+    propagate_case: true
+
+  - trigger: "ans"
+    replace: "answer"
+    word: true
+    propagate_case: true
+  - trigger: "ansd"
+    replace: "answered"
+    word: true
+    propagate_case: true
+  - trigger: "ansg"
+    replace: "answering"
+    word: true
+    propagate_case: true
+  - trigger: "ansr"
+    replace: "answerer"
+    word: true
+    propagate_case: true
+  - trigger: "anss"
+    replace: "answers"
     word: true
     propagate_case: true
 
@@ -1611,6 +1678,27 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "avg"
+    replace: "average"
+    word: true
+    propagate_case: true
+  - trigger: "avgs"
+    replace: "averages"
+    word: true
+    propagate_case: true
+  - trigger: "avgd"
+    replace: "averaged"
+    word: true
+    propagate_case: true
+  - trigger: "avgg"
+    replace: "averaging"
+    word: true
+    propagate_case: true
+  - trigger: "avgr"
+    replace: "averager"
+    word: true
+    propagate_case: true
+
   - trigger: "havent"
     replace: "haven't"
     word: true
@@ -1672,6 +1760,10 @@ matches:
     replace: "would've"
     word: true
     propagate_case: true
+  - trigger: "wouldve"
+    replace: "would've"
+    word: true
+    propagate_case: true
 
   - trigger: "cld"
     replace: "could"
@@ -1681,6 +1773,14 @@ matches:
     replace: "couldn't"
     word: true
     propagate_case: true
+  - trigger: "cldv"
+    replace: "could've"
+    word: true
+    propagate_case: true
+  - trigger: "couldve"
+    replace: "could've"
+    word: true
+    propagate_case: true
 
   - trigger: "shld"
     replace: "should"
@@ -1688,6 +1788,14 @@ matches:
     propagate_case: true
   - trigger: "shldn"
     replace: "shouldn't"
+    word: true
+    propagate_case: true
+  - trigger: "shldv"
+    replace: "should've"
+    word: true
+    propagate_case: true
+  - trigger: "shouldve"
+    replace: "should've"
     word: true
     propagate_case: true
 
@@ -2054,6 +2162,86 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "whats"
+    replace: "what's"
+    word: true
+    propagate_case: true
+
+  - trigger: "theres"
+    replace: "there's"
+    word: true
+    propagate_case: true
+
+  - trigger: "wats"
+    replace: "what's"
+    word: true
+    propagate_case: true
+
+  - trigger: "crspnd"
+    replace: "correspond"
+    word: true
+    propagate_case: true
+  - trigger: "crspndg"
+    replace: "corresponding"
+    word: true
+    propagate_case: true
+  - trigger: "crspndd"
+    replace: "corresponded"
+    word: true
+    propagate_case: true
+  - trigger: "crspndr"
+    replace: "correspondent"
+    word: true
+    propagate_case: true
+  - trigger: "crspndrs"
+    replace: "correspondents"
+    word: true
+    propagate_case: true
+
+  - trigger: "ognl"
+    replace: "original"
+    word: true
+    propagate_case: true
+  - trigger: "ognly"
+    replace: "originally"
+    word: true
+    propagate_case: true
+
+  - trigger: "lvl"
+    replace: "level"
+    word: true
+    propagate_case: true
+  - trigger: "lvls"
+    replace: "levels"
+    word: true
+    propagate_case: true
+  - trigger: "lvld"
+    replace: "leveled"
+    word: true
+    propagate_case: true
+  - trigger: "lvlg"
+    replace: "leveling"
+    word: true
+    propagate_case: true
+  - trigger: "lvlup"
+    replace: "level up"
+    word: true
+    propagate_case: true
+
+  - trigger: "tgt"
+    replace: "together"
+    word: true
+    propagate_case: true
+
+  - trigger: "txtu"
+    replace: "texture"
+    word: true
+    propagate_case: true
+  - trigger: "txtus"
+    replace: "textures"
+    word: true
+    propagate_case: true
+
   - trigger: "ez"
     replace: "easy"
     word: true
@@ -2275,6 +2463,40 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "cmn"
+    replace: "common"
+    word: true
+    propagate_case: true
+  - trigger: "cmns"
+    replace: "commons"
+    word: true
+    propagate_case: true
+  - trigger: "cmnly"
+    replace: "commonly"
+    word: true
+    propagate_case: true
+
+  - trigger: "remb"
+    replace: "remember"
+    word: true
+    propagate_case: true
+  - trigger: "rmb"
+    replace: "remember"
+    word: true
+    propagate_case: true
+  - trigger: "rembd"
+    replace: "remembered"
+    word: true
+    propagate_case: true
+  - trigger: "rembg"
+    replace: "remembering"
+    word: true
+    propagate_case: true
+  - trigger: "rmbg"
+    replace: "remembering"
+    word: true
+    propagate_case: true
+
   - trigger: "cmnc"
     replace: "communicate"
     word: true
@@ -2301,5 +2523,20 @@ matches:
     propagate_case: true
   - trigger: "cmncrs"
     replace: "communicators"
+    word: true
+    propagate_case: true
+
+  - trigger: "Ill"
+    replace: "I'll"
+    word: true
+    propagate_case: true
+
+  - trigger: "teh"
+    replace: "the"
+    word: true
+    propagate_case: true
+
+  - trigger: "irl"
+    replace: "in real life"
     word: true
     propagate_case: true
