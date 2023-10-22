@@ -91,6 +91,65 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "lect"
+    replace: "lecture"
+    word: true
+    propagate_case: true
+  - trigger: "lects"
+    replace: "lectures"
+    word: true
+    propagate_case: true
+  - trigger: "lectd"
+    replace: "lectured"
+    word: true
+    propagate_case: true
+  - trigger: "lectg"
+    replace: "lecturing"
+    word: true
+    propagate_case: true
+  - trigger: "lectr"
+    replace: "lecturer"
+    word: true
+    propagate_case: true
+  - trigger: "lectrs"
+    replace: "lecturers"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmp"
+    replace: "compare"
+    word: true
+    propagate_case: true
+  - trigger: "cmpd"
+    replace: "compared"
+    word: true
+    propagate_case: true
+  - trigger: "cmpg"
+    replace: "comparing"
+    word: true
+    propagate_case: true
+  - trigger: "cmpr"
+    replace: "comparer"
+    word: true
+    propagate_case: true
+  - trigger: "cmprs"
+    replace: "comparers"
+    word: true
+    propagate_case: true
+  - trigger: "cmprsn"
+    replace: "comparison"
+    word: true
+    propagate_case: true
+  - trigger: "cmprsns"
+    replace: "comparisons"
+    word: true
+    propagate_case: true
+
+  - trigger: "alr"
+    replace: "already"
+    word: true
+    propagate_case: true
+
   - trigger: "tut"
     replace: "tutorial"
     word: true
@@ -140,6 +199,53 @@ matches:
     propagate_case: true
   - trigger: "difcty"
     replace: "difficulty"
+    word: true
+    propagate_case: true
+
+  - trigger: "nid"
+    replace: "need"
+    word: true
+    propagate_case: true
+  - trigger: "nids"
+    replace: "needs"
+    word: true
+    propagate_case: true
+  - trigger: "nidd"
+    replace: "needed"
+    word: true
+    propagate_case: true
+  - trigger: "nidg"
+    replace: "needing"
+    word: true
+    propagate_case: true
+  - trigger: "nidy"
+    replace: "needy"
+    word: true
+    propagate_case: true
+
+  - trigger: "infom"
+    replace: "information"
+    word: true
+    propagate_case: true
+  - trigger: "infoms"
+    replace: "informations"
+    word: true
+    propagate_case: true
+
+  - trigger: "obj"
+    replace: "object"
+    word: true
+    propagate_case: true
+  - trigger: "objs"
+    replace: "objects"
+    word: true
+    propagate_case: true
+  - trigger: "objd"
+    replace: "objected"
+    word: true
+    propagate_case: true
+  - trigger: "objg"
+    replace: "objecting"
     word: true
     propagate_case: true
 
@@ -452,9 +558,34 @@ matches:
     replace: "after"
     word: true
     propagate_case: true
-
   - trigger: "aftn"
     replace: "afternoon"
+    word: true
+    propagate_case: true
+  - trigger: "aftw"
+    replace: "afterwards"
+    word: true
+    propagate_case: true
+
+  - trigger: "coord"
+    replace: "coordinate"
+    word: true
+    propagate_case: true
+  - trigger: "coords"
+    replace: "coordinates"
+    word: true
+    propagate_case: true
+  - trigger: "coordd"
+    replace: "coordinated"
+    word: true
+    propagate_case: true
+  - trigger: "coordn"
+    replace: "coordination"
+    word: true
+    propagate_case: true
+
+  - trigger: "alot"
+    replace: "a lot"
     word: true
     propagate_case: true
 
@@ -580,6 +711,73 @@ matches:
     propagate_case: true
   - trigger: "cnsldn"
     replace: "consolidation"
+    word: true
+    propagate_case: true
+
+  - trigger: "lk"
+    replace: "like"
+    word: true
+    propagate_case: true
+  - trigger: "lkd"
+    replace: "liked"
+    word: true
+    propagate_case: true
+  - trigger: "lkg"
+    replace: "liking"
+    word: true
+    propagate_case: true
+  - trigger: "lkr"
+    replace: "liker"
+    word: true
+    propagate_case: true
+
+  - trigger: "intp"
+    replace: "interpret"
+    word: true
+    propagate_case: true
+  - trigger: "intpd"
+    replace: "interpreted"
+    word: true
+    propagate_case: true
+  - trigger: "intpn"
+    replace: "interpretation"
+    word: true
+    propagate_case: true
+  - trigger: "intpns"
+    replace: "interpretations"
+    word: true
+    propagate_case: true
+  - trigger: "intpr"
+    replace: "interpreter"
+    word: true
+    propagate_case: true
+  - trigger: "intprs"
+    replace: "interpreters"
+    word: true
+    propagate_case: true
+
+  - trigger: "itpl"
+    replace: "interpolate"
+    word: true
+    propagate_case: true
+  - trigger: "itpld"
+    replace: "interpolated"
+    word: true
+    propagate_case: true
+  - trigger: "itpln"
+    replace: "interpolation"
+    word: true
+    propagate_case: true
+  - trigger: "itplns"
+    replace: "interpolations"
+    word: true
+    propagate_case: true
+  - trigger: "itplr"
+    replace: "interpolator"
+    word: true
+    propagate_case: true
+  - trigger: "itplrs"
+    replace: "interpolators"
     word: true
     propagate_case: true
 
@@ -1241,15 +1439,15 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "unstd"
+  - trigger: "undst"
     replace: "understand"
     word: true
     propagate_case: true
-  - trigger: "unstdd"
+  - trigger: "undstd"
     replace: "understood"
     word: true
     propagate_case: true
-  - trigger: "unstdg"
+  - trigger: "undstg"
     replace: "understanding"
     word: true
     propagate_case: true
@@ -1516,6 +1714,44 @@ matches:
     propagate_case: true
   - trigger: "urs"
     replace: "yours"
+    word: true
+    propagate_case: true
+  - trigger: "ure"
+    replace: "you're"
+    word: true
+    propagate_case: true
+  - trigger: "youre"
+    replace: "you're"
+    word: true
+    propagate_case: true
+
+  - trigger: "img"
+    replace: "image"
+    word: true
+    propagate_case: true
+  - trigger: "imgs"
+    replace: "images"
+    word: true
+    propagate_case: true
+  - trigger: "imgd"
+    replace: "imaged"
+    word: true
+    propagate_case: true
+  - trigger: "imgg"
+    replace: "imaging"
+    word: true
+    propagate_case: true
+  - trigger: "imgr"
+    replace: "imager"
+    word: true
+    propagate_case: true
+
+  - trigger: "rm"
+    replace: "room"
+    word: true
+    propagate_case: true
+  - trigger: "rms"
+    replace: "rooms"
     word: true
     propagate_case: true
 
@@ -1798,6 +2034,54 @@ matches:
 
   - trigger: "tt"
     replace: "that"
+    word: true
+    propagate_case: true
+  - trigger: "thats"
+    replace: "that's"
+    word: true
+    propagate_case: true
+
+  - trigger: "lets"
+    replace: "let's"
+    word: true
+    propagate_case: true
+
+  - trigger: "ez"
+    replace: "easy"
+    word: true
+    propagate_case: true
+
+  - trigger: "posn"
+    replace: "position"
+    word: true
+    propagate_case: true
+  - trigger: "posns"
+    replace: "positions"
+    word: true
+    propagate_case: true
+  - trigger: "posnd"
+    replace: "positioned"
+    word: true
+    propagate_case: true
+  - trigger: "posng"
+    replace: "positioning"
+    word: true
+    propagate_case: true
+  - trigger: "posnr"
+    replace: "positioner"
+    word: true
+    propagate_case: true
+
+  - trigger: "nesc"
+    replace: "necessary"
+    word: true
+    propagate_case: true
+  - trigger: "nescy"
+    replace: "necessarily"
+    word: true
+    propagate_case: true
+  - trigger: "nescs"
+    replace: "necessities"
     word: true
     propagate_case: true
 

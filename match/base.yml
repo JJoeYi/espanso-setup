@@ -8,6 +8,18 @@ matches:
   - trigger: "/rfs"
     replace: "[reading from slide]"
 
+  - trigger: "/rts"
+    replace: "[referring to slide]"
+
+  - trigger: "/rtb"
+    replace: "[referring to board]"
+
+  - trigger: "/rtc"
+    replace: "[referring to code]"
+
+  - trigger: "/w"
+    replace: "[writing]"
+
   - trigger: "/l"
     replace: "[laugher]"
 
@@ -15,8 +27,23 @@ matches:
   #   replace: "(slide {{slidecount}})"
   #   word: true
 
-  - trigger: "/s"
+  - trigger: "/sn"
     replace: "(slide "
+
+  - trigger: "/sli"
+    replace: "(slide change)"
+
+  - trigger: "/qstu"
+    replace: "[student question]"
+
+  - trigger: "/astu"
+    replace: "[student answer]"
+
+  - trigger: "/ans"
+    replace: "[answer]"
+
+  - trigger: "/qn"
+    replace: "[question]"
 
   - trigger: "/ia"
     replace: "[inaudible]"
