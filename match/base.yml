@@ -24,9 +24,9 @@ matches:
     replace: "[writing]"
 
   - trigger: "/lt"
-    replace: "[laugher]"
+    replace: "[laughter]"
 
-  - trigger: "la"
+  - trigger: "/la"
     replace: "[laughs]"
 
   # - trigger: "/s"
