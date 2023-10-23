@@ -1941,6 +1941,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "sepr"
+    replace: "separate"
+    word: true
+    propagate_case: true
+  - trigger: "seprd"
+    replace: "separated"
+    word: true
+    propagate_case: true
+  - trigger: "seprg"
+    replace: "separating"
+    word: true
+    propagate_case: true
+  - trigger: "seprn"
+    replace: "separation"
+    word: true
+    propagate_case: true
+  - trigger: "seprns"
+    replace: "separations"
+    word: true
+    propagate_case: true
+  - trigger: "seprly"
+    replace: "separately"
+    word: true
+    propagate_case: true
+
   - trigger: "mk"
     replace: "make"
     word: true
