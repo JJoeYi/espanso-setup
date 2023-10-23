@@ -1,0 +1,22 @@
+matches:
+  - trigger: "mrtt"
+    replace: "Market Research and Technology Trends"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "mrttmc"
+    replace: "IT2165"
+    word: true
+    propagate_case: true
+
+  - trigger: "ttr1"
+    replace: "Mr Adrian Eng"
+    propagate_case: true
+
+  - trigger: "ttr2"
+    replace: "Ms Jasmine Ng"
+    propagate_case: true
+
+  - trigger: "sx-"
+    replace: "Si Xian"

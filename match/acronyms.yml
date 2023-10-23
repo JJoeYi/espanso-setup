@@ -16,3 +16,57 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  - trigger: "ai-"
+    replace: "Artificial Intelligence"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ml-"
+    replace: "Machine Learning"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "iot-"
+    replace: "Internet of Things"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "vr-"
+    replace: "Virtual Reality"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ar-"
+    replace: "Augmented Reality"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "mr-"
+    replace: "Mixed Reality"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "blkc-"
+    replace: "Blockchain"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "seo-"
+    replace: "Search Engine Optimization"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ssm-"
+    replace: "Social Media Marketing"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

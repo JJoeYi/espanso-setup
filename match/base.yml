@@ -29,6 +29,12 @@ matches:
   - trigger: "/la"
     replace: "[laughs]"
 
+  - trigger: "/vidp"
+    replace: "[video playing]"
+
+  - trigger: "/vids"
+    replace: "[video stopped]"
+
   # - trigger: "/s"
   #   replace: "(slide {{slidecount}})"
   #   word: true
@@ -45,8 +51,17 @@ matches:
   - trigger: "/stua"
     replace: "[student answer]"
 
+  - trigger: "/stuchat"
+    replace: "[student chatter]"
+
   - trigger: "/ans"
     replace: "[answer]"
+
+  - trigger: "/tans"
+    replace: "[tutor answer]"
+
+  - trigger: "/tqn"
+    replace: "[tutor question]"
 
   - trigger: "/qn"
     replace: "[question]"

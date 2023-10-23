@@ -41,6 +41,39 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "desc"
+    replace: "describe"
+    word: true
+    propagate_case: true
+  - trigger: "descd"
+    replace: "described"
+    word: true
+    propagate_case: true
+  - trigger: "descg"
+    replace: "describing"
+    word: true
+    propagate_case: true
+  - trigger: "descr"
+    replace: "describer"
+    word: true
+    propagate_case: true
+  - trigger: "descrs"
+    replace: "describers"
+    word: true
+    propagate_case: true
+  - trigger: "descn"
+    replace: "description"
+    word: true
+    propagate_case: true
+  - trigger: "descns"
+    replace: "descriptions"
+    word: true
+    propagate_case: true
+  - trigger: "descf"
+    replace: "descriptive"
+    word: true
+    propagate_case: true
+
   - trigger: "dsn"
     replace: "design"
     word: true
@@ -66,6 +99,14 @@ matches:
     replace: "class"
     word: true
     propagate_case: true
+  - trigger: "clsrm"
+    replace: "classroom"
+    word: true
+    propagate_case: true
+  - trigger: "clsrms"
+    replace: "classrooms"
+    word: true
+    propagate_case: true
   - trigger: "clss"
     replace: "classes"
     word: true
@@ -82,7 +123,6 @@ matches:
     replace: "classifier"
     word: true
     propagate_case: true
-
   - trigger: "clsfy"
     replace: "classify"
     word: true
@@ -130,6 +170,35 @@ matches:
     propagate_case: true
   - trigger: "lectrs"
     replace: "lecturers"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmpt"
+    replace: "compete"
+    word: true
+    propagate_case: true
+  - trigger: "cmptf"
+    replace: "competitive"
+    word: true
+    propagate_case: true
+  - trigger: "cmptd"
+    replace: "competed"
+    word: true
+    propagate_case: true
+  - trigger: "cmptg"
+    replace: "competing"
+    word: true
+    propagate_case: true
+  - trigger: "cmptn"
+    replace: "competition"
+    word: true
+    propagate_case: true
+  - trigger: "cmptns"
+    replace: "competitions"
+    word: true
+    propagate_case: true
+  - trigger: "cmptve"
+    replace: "competitive"
     word: true
     propagate_case: true
 
@@ -311,6 +380,105 @@ matches:
     replace: "marketing"
     word: true
     propagate_case: true
+  - trigger: "mktr"
+    replace: "marketer"
+    word: true
+    propagate_case: true
+  - trigger: "mktrs"
+    replace: "marketers"
+    word: true
+    propagate_case: true
+
+  - trigger: "qualt"
+    replace: "quality"
+    word: true
+    propagate_case: true
+  - trigger: "qualtf"
+    replace: "qualitative"
+    word: true
+    propagate_case: true
+  - trigger: "qualts"
+    replace: "qualities"
+    word: true
+    propagate_case: true
+  - trigger: "qualtd"
+    replace: "qualified"
+    word: true
+    propagate_case: true
+  - trigger: "qualtg"
+    replace: "qualifying"
+    word: true
+    propagate_case: true
+  - trigger: "qualtr"
+    replace: "qualifier"
+    word: true
+    propagate_case: true
+
+  - trigger: "quant"
+    replace: "quantity"
+    word: true
+    propagate_case: true
+  - trigger: "quantf"
+    replace: "quantitative"
+    word: true
+    propagate_case: true
+  - trigger: "quants"
+    replace: "quantities"
+    word: true
+    propagate_case: true
+  - trigger: "quantd"
+    replace: "quantified"
+    word: true
+    propagate_case: true
+  - trigger: "quantg"
+    replace: "quantifying"
+    word: true
+    propagate_case: true
+  - trigger: "quantr"
+    replace: "quantifier"
+    word: true
+    propagate_case: true
+  - trigger: "quantrs"
+    replace: "quantifiers"
+    word: true
+    propagate_case: true
+
+  - trigger: "segm"
+    replace: "segment"
+    word: true
+    propagate_case: true
+  - trigger: "segms"
+    replace: "segments"
+    word: true
+    propagate_case: true
+  - trigger: "segmd"
+    replace: "segmented"
+    word: true
+    propagate_case: true
+  - trigger: "segmg"
+    replace: "segmenting"
+    word: true
+    propagate_case: true
+  - trigger: "segmr"
+    replace: "segmenter"
+    word: true
+    propagate_case:
+  - trigger: "segmn"
+    replace: "segmentation"
+    word: true
+    propagate_case: true
+  - trigger: "segmns"
+    replace: "segmentations"
+    word: true
+    propagate_case: true
+  - trigger: "segmtn"
+    replace: "segmentation"
+    word: true
+    propagate_case: true
+  - trigger: "segmtns"
+    replace: "segmentations"
+    word: true
+    propagate_case: true
 
   - trigger: "rsrc"
     replace: "research"
@@ -337,6 +505,14 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "techn"
+    replace: "technology"
+    word: true
+    propagate_case: true
+  - trigger: "techns"
+    replace: "technologies"
+    word: true
+    propagate_case: true
   - trigger: "tnlg"
     replace: "technology"
     word: true
@@ -537,6 +713,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "bnf"
+    replace: "benefit"
+    word: true
+    propagate_case: true
+  - trigger: "bnfs"
+    replace: "benefits"
+    word: true
+    propagate_case: true
+  - trigger: "bnfd"
+    replace: "benefited"
+    word: true
+    propagate_case: true
+  - trigger: "bnfg"
+    replace: "benefiting"
+    word: true
+    propagate_case: true
+  - trigger: "bnfr"
+    replace: "benefiter"
+    word: true
+    propagate_case: true
+  - trigger: "bnfrs"
+    replace: "benefiters"
+    word: true
+    propagate_case: true
+
   - trigger: "num"
     replace: "number"
     word: true
@@ -718,15 +919,28 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "cnsld"
+  - trigger: "prob"
+    replace: "probably"
+    word: true
+    propagate_case: true
+  - trigger: "probty"
+    replace: "probability"
+    word: true
+    propagate_case: true
+  - trigger: "probts"
+    replace: "probabilities"
+    word: true
+    propagate_case: true
+
+  - trigger: "csld"
     replace: "consolidate"
     word: true
     propagate_case: true
-  - trigger: "cnsldd"
+  - trigger: "csldd"
     replace: "consolidated"
     word: true
     propagate_case: true
-  - trigger: "cnsldn"
+  - trigger: "csldn"
     replace: "consolidation"
     word: true
     propagate_case: true
@@ -750,6 +964,10 @@ matches:
 
   - trigger: "intp"
     replace: "interpret"
+    word: true
+    propagate_case: true
+  - trigger: "intpg"
+    replace: "interpreting"
     word: true
     propagate_case: true
   - trigger: "intpd"
@@ -795,6 +1013,27 @@ matches:
     propagate_case: true
   - trigger: "itplrs"
     replace: "interpolators"
+    word: true
+    propagate_case: true
+
+  - trigger: "lrn"
+    replace: "learn"
+    word: true
+    propagate_case: true
+  - trigger: "lrnd"
+    replace: "learned"
+    word: true
+    propagate_case: true
+  - trigger: "lrng"
+    replace: "learning"
+    word: true
+    propagate_case: true
+  - trigger: "lrnr"
+    replace: "learner"
+    word: true
+    propagate_case: true
+  - trigger: "lrnrs"
+    replace: "learners"
     word: true
     propagate_case: true
 
@@ -924,6 +1163,10 @@ matches:
     replace: "what"
     word: true
     propagate_case: true
+  - trigger: "wtv"
+    replace: "whatever"
+    word: true
+    propagate_case: true
 
   - trigger: "hwe"
     replace: "however"
@@ -1008,6 +1251,19 @@ matches:
     propagate_case: true
   - trigger: "svcrs"
     replace: "servicers"
+    word: true
+    propagate_case: true
+
+  - trigger: "ptcr"
+    replace: "particular"
+    word: true
+    propagate_case: true
+  - trigger: "ptcrly"
+    replace: "particularly"
+    word: true
+    propagate_case: true
+  - trigger: "ptcrs"
+    replace: "particulars"
     word: true
     propagate_case: true
 
@@ -1109,6 +1365,15 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "ctx"
+    replace: "context"
+    word: true
+    propagate_case: true
+  - trigger: "ctxs"
+    replace: "contexts"
+    word: true
+    propagate_case: true
+
   - trigger: "sec"
     replace: "second"
     word: true
@@ -1157,11 +1422,86 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "dgt"
+    replace: "digit"
+    word: true
+    propagate_case: true
+  - trigger: "dgts"
+    replace: "digits"
+    word: true
+    propagate_case: true
+  - trigger: "dgtl"
+    replace: "digital"
+    word: true
+    propagate_case: true
+  - trigger: "dgtly"
+    replace: "digitally"
+    word: true
+    propagate_case: true
+
+  - trigger: "cstmr"
+    replace: "customer"
+    word: true
+    propagate_case: true
+  - trigger: "cstmrs"
+    replace: "customers"
+    word: true
+    propagate_case: true
+
+  - trigger: "rln"
+    replace: "relation"
+    word: true
+    propagate_case: true
+  - trigger: "rlng"
+    replace: "relating"
+    word: true
+    propagate_case: true
+  - trigger: "rlnd"
+    replace: "related"
+    word: true
+    propagate_case: true
+  - trigger: "rlns"
+    replace: "relations"
+    word: true
+    propagate_case: true
+  - trigger: "rlnly"
+    replace: "relationally"
+    word: true
+    propagate_case: true
+  - trigger: "rlnshp"
+    replace: "relationship"
+    word: true
+    propagate_case: true
+  - trigger: "rlnshps"
+    replace: "relationships"
+    word: true
+    propagate_case: true
+  - trigger: "rlnship"
+    replace: "relationship"
+    word: true
+    propagate_case: true
+  - trigger: "rlnships"
+    replace: "relationships"
+    word: true
+    propagate_case: true
+
   - trigger: "imd"
     replace: "immediate"
     word: true
     propagate_case: true
+  - trigger: "immd"
+    replace: "immediate"
+    word: true
+    propagate_case: true
   - trigger: "imdl"
+    replace: "immediately"
+    word: true
+    propagate_case: true
+  - trigger: "imdly"
+    replace: "immediately"
+    word: true
+    propagate_case: true
+  - trigger: "immdl"
     replace: "immediately"
     word: true
     propagate_case: true
@@ -1540,12 +1880,17 @@ matches:
     replace: "mean"
     word: true
     propagate_case: true
-  - trigger: "mng"
+  - trigger: "meang"
     replace: "meaning"
     word: true
     propagate_case: true
   - trigger: "mngs"
     replace: "meanings"
+    word: true
+    propagate_case: true
+
+  - trigger: "cybersec"
+    replace: "cybersecurity"
     word: true
     propagate_case: true
 
@@ -1595,6 +1940,40 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "csm"
+    replace: "consume"
+    word: true
+    propagate_case: true
+  - trigger: "csmr"
+    replace: "consumer"
+    word: true
+    propagate_case: true
+  - trigger: "csmrs"
+    replace: "consumers"
+    word: true
+    propagate_case: true
+  - trigger: "csmd"
+    replace: "consumed"
+    word: true
+    propagate_case: true
+  - trigger: "csmg"
+    replace: "consuming"
+    word: true
+    propagate_case: true
+
+  - trigger: "ayt"
+    replace: "analytics"
+    word: true
+    propagate_case: true
+  - trigger: "ays"
+    replace: "analysis"
+    word: true
+    propagate_case: true
+
+  - trigger: "ev"
+    replace: "every"
+    word: true
+    propagate_case: true
   - trigger: "evy"
     replace: "every"
     word: true
@@ -1670,6 +2049,19 @@ matches:
 
   - trigger: "anth"
     replace: "another"
+    word: true
+    propagate_case: true
+
+  - trigger: "otr"
+    replace: "other"
+    word: true
+    propagate_case: true
+  - trigger: "otrs"
+    replace: "others"
+    word: true
+    propagate_case: true
+  - trigger: "otwise"
+    replace: "otherwise"
     word: true
     propagate_case: true
 
@@ -1762,6 +2154,19 @@ matches:
     propagate_case: true
   - trigger: "wouldve"
     replace: "would've"
+    word: true
+    propagate_case: true
+
+  - trigger: "mgt"
+    replace: "might"
+    word: true
+    propagate_case: true
+  - trigger: "mgtv"
+    replace: "might've"
+    word: true
+    propagate_case: true
+  - trigger: "mightve"
+    replace: "might've"
     word: true
     propagate_case: true
 
@@ -2363,6 +2768,27 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "kp"
+    replace: "keep"
+    word: true
+    propagate_case: true
+  - trigger: "kpg"
+    replace: "keeping"
+    word: true
+    propagate_case: true
+  - trigger: "kpr"
+    replace: "keeper"
+    word: true
+    propagate_case: true
+  - trigger: "kprs"
+    replace: "keepers"
+    word: true
+    propagate_case: true
+  - trigger: "kpd"
+    replace: "kept"
+    word: true
+    propagate_case: true
+
   - trigger: "env"
     replace: "environment"
     word: true
@@ -2530,6 +2956,15 @@ matches:
     replace: "commonly"
     word: true
     propagate_case: true
+  - trigger: "uncmn"
+    replace: "uncommon"
+    word: true
+    propagate_case: true
+
+  - trigger: "nth"
+    replace: "nothing"
+    word: true
+    propagate_case: true
 
   - trigger: "remb"
     replace: "remember"
@@ -2549,6 +2984,15 @@ matches:
     propagate_case: true
   - trigger: "rmbg"
     replace: "remembering"
+    word: true
+    propagate_case: true
+
+  - trigger: "univ"
+    replace: "university"
+    word: true
+    propagate_case: true
+  - trigger: "univs"
+    replace: "universities"
     word: true
     propagate_case: true
 
