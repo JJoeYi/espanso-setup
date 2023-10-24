@@ -20,3 +20,9 @@ matches:
 
   - trigger: "sx-"
     replace: "Si Xian"
+
+  - trigger: "im-"
+    replace: "Immersive Media"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

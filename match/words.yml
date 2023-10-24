@@ -388,6 +388,10 @@ matches:
     replace: "marketers"
     word: true
     propagate_case: true
+  - trigger: "mkta"
+    replace: "marketable"
+    word: true
+    propagate_case: true
 
   - trigger: "qualt"
     replace: "quality"
@@ -589,6 +593,14 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "studn"
+    replace: "student"
+    word: true
+    propagate_case: true
+  - trigger: "studns"
+    replace: "students"
+    word: true
+    propagate_case: true
   - trigger: "stdnt"
     replace: "student"
     word: true
@@ -807,6 +819,11 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "abit"
+    replace: "a bit"
+    word: true
+    propagate_case: true
+
   - trigger: "mrng"
     replace: "morning"
     word: true
@@ -929,6 +946,15 @@ matches:
     propagate_case: true
   - trigger: "probts"
     replace: "probabilities"
+    word: true
+    propagate_case: true
+
+  - trigger: "soln"
+    replace: "solution"
+    word: true
+    propagate_case: true
+  - trigger: "solns"
+    replace: "solutions"
     word: true
     propagate_case: true
 
@@ -1136,6 +1162,10 @@ matches:
     replace: "where"
     word: true
     propagate_case: true
+  - trigger: "wheres"
+    replace: "where's"
+    word: true
+    propagate_case: true
   - trigger: "whrby"
     replace: "whereby"
     word: true
@@ -1164,6 +1194,10 @@ matches:
     word: true
     propagate_case: true
   - trigger: "wtv"
+    replace: "whatever"
+    word: true
+    propagate_case: true
+  - trigger: "watev"
     replace: "whatever"
     word: true
     propagate_case: true
@@ -1197,6 +1231,18 @@ matches:
     propagate_case: true
   - trigger: "cre8g"
     replace: "creating"
+    word: true
+    propagate_case: true
+  - trigger: "cre8f"
+    replace: "creative"
+    word: true
+    propagate_case: true
+  - trigger: "cre8tive"
+    replace: "creative"
+    word: true
+    propagate_case: true
+  - trigger: "cre8t"
+    replace: "creative"
     word: true
     propagate_case: true
   - trigger: "cre8d"
@@ -1650,6 +1696,14 @@ matches:
     replace: "possibly"
     word: true
     propagate_case: true
+  - trigger: "psbl"
+    replace: "possible"
+    word: true
+    propagate_case: true
+  - trigger: "psbly"
+    replace: "possibly"
+    word: true
+    propagate_case: true
 
   - trigger: "wf"
     replace: "with"
@@ -2052,6 +2106,11 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "weil"
+    replace: "we'll"
+    word: true
+    propagate_case: true
+
   - trigger: "otr"
     replace: "other"
     word: true
@@ -2243,6 +2302,14 @@ matches:
     propagate_case: true
   - trigger: "youre"
     replace: "you're"
+    word: true
+    propagate_case: true
+  - trigger: "youll"
+    replace: "you'll"
+    word: true
+    propagate_case: true
+  - trigger: "ull"
+    replace: "you'll"
     word: true
     propagate_case: true
 
@@ -2505,7 +2572,15 @@ matches:
     replace: "programme"
     word: true
     propagate_case: true
+  - trigger: "pgmme"
+    replace: "programme"
+    word: true
+    propagate_case: true
   - trigger: "pgmms"
+    replace: "programmes"
+    word: true
+    propagate_case: true
+  - trigger: "pgmmes"
     replace: "programmes"
     word: true
     propagate_case: true
@@ -2566,6 +2641,36 @@ matches:
     propagate_case: true
   - trigger: "plz"
     replace: "please"
+    word: true
+    propagate_case: true
+
+  - trigger: "memb"
+    replace: "member"
+    word: true
+    propagate_case: true
+  - trigger: "membs"
+    replace: "members"
+    word: true
+    propagate_case: true
+
+  - trigger: "acs"
+    replace: "access"
+    word: true
+    propagate_case: true
+  - trigger: "acsd"
+    replace: "accessed"
+    word: true
+    propagate_case: true
+  - trigger: "acsg"
+    replace: "accessing"
+    word: true
+    propagate_case: true
+  - trigger: "acsr"
+    replace: "accesser"
+    word: true
+    propagate_case: true
+  - trigger: "acsrs"
+    replace: "accessers"
     word: true
     propagate_case: true
 
@@ -2825,6 +2930,11 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "agnst"
+    replace: "against"
+    word: true
+    propagate_case: true
+
   - trigger: "dvp"
     replace: "develop"
     word: true
@@ -2974,6 +3084,14 @@ matches:
     replace: "remember"
     word: true
     propagate_case: true
+  - trigger: "rembs"
+    replace: "remembers"
+    word: true
+    propagate_case: true
+  - trigger: "rmbs"
+    replace: "remembers"
+    word: true
+    propagate_case: true
   - trigger: "rembd"
     replace: "remembered"
     word: true
@@ -2984,6 +3102,50 @@ matches:
     propagate_case: true
   - trigger: "rmbg"
     replace: "remembering"
+    word: true
+    propagate_case: true
+
+  - trigger: "etp"
+    replace: "enterprise"
+    word: true
+    propagate_case: true
+  - trigger: "etps"
+    replace: "enterprises"
+    word: true
+    propagate_case: true
+  - trigger: "etpg"
+    replace: "enterprising"
+    word: true
+    propagate_case: true
+  - trigger: "etpr"
+    replace: "enterpriser"
+    word: true
+    propagate_case: true
+  - trigger: "etprs"
+    replace: "enterprisers"
+    word: true
+    propagate_case: true
+
+  - trigger: "softw"
+    replace: "software"
+    word: true
+    propagate_case: true
+  - trigger: "softws"
+    replace: "softwares"
+    word: true
+    propagate_case: true
+
+  - trigger: "hardw"
+    replace: "hardware"
+    word: true
+    propagate_case: true
+  - trigger: "hardws"
+    replace: "hardwares"
+    word: true
+    propagate_case: true
+
+  - trigger: "enuf"
+    replace: "enough"
     word: true
     propagate_case: true
 
@@ -3037,5 +3199,34 @@ matches:
 
   - trigger: "irl"
     replace: "in real life"
+    word: true
+    propagate_case: true
+
+  - trigger: "dyk"
+    replace: "do you know"
+    word: true
+    propagate_case: true
+
+  - trigger: "hes"
+    replace: "he's"
+    word: true
+    propagate_case: true
+
+  - trigger: "shes"
+    replace: "she's"
+    word: true
+    propagate_case: true
+
+  - trigger: "arent"
+    replace: "aren't"
+    word: true
+    propagate_case: true
+
+  - trigger: "convo"
+    replace: "conversation"
+    word: true
+    propagate_case: true
+  - trigger: "convos"
+    replace: "conversations"
     word: true
     propagate_case: true

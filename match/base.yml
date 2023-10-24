@@ -72,6 +72,12 @@ matches:
   - trigger: "/?"
     replace: "_(?)"
 
+  - trigger: "/eos"
+    replace: "[end of session $|$]"
+
+  - trigger: "/atnd"
+    replace: "[taking attendance]"
+
   - trigger: ":time"
     replace: "{{mytime}}"
     vars:
