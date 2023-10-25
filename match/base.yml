@@ -17,6 +17,9 @@ matches:
   - trigger: "/rtc"
     replace: "[referring to code]"
 
+  - trigger: "/code"
+    replace: "[coding]"
+
   - trigger: "/rtw"
     replace: "[referring to writing]"
 
@@ -45,14 +48,17 @@ matches:
   - trigger: "/sl"
     replace: "(slide change)"
 
-  - trigger: "/stuq"
+  - trigger: "/stuqn"
     replace: "[student question]"
 
-  - trigger: "/stua"
+  - trigger: "/stuans"
     replace: "[student answer]"
 
   - trigger: "/stuchat"
     replace: "[student chatter]"
+
+  - trigger: "/stucom"
+    replace: "[student comment]"
 
   - trigger: "/ans"
     replace: "[answer]"
@@ -62,6 +68,9 @@ matches:
 
   - trigger: "/tqn"
     replace: "[tutor question]"
+
+  - trigger: "/tcom"
+    replace: "[tutor comment]"
 
   - trigger: "/qn"
     replace: "[question]"

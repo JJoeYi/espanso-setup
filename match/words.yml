@@ -392,6 +392,68 @@ matches:
     replace: "marketable"
     word: true
     propagate_case: true
+  - trigger: "mktable"
+    replace: "marketable"
+    word: true
+    propagate_case: true
+
+  - trigger: "rqr"
+    replace: "require"
+    word: true
+    propagate_case: true
+  - trigger: "rqrs"
+    replace: "requires"
+    word: true
+    propagate_case: true
+  - trigger: "rqrd"
+    replace: "required"
+    word: true
+    propagate_case: true
+  - trigger: "rqrg"
+    replace: "requiring"
+    word: true
+    propagate_case: true
+  - trigger: "rqrm"
+    replace: "requirement"
+    word: true
+    propagate_case: true
+  - trigger: "rqrms"
+    replace: "requirements"
+    word: true
+    propagate_case: true
+
+  - trigger: "dpt"
+    replace: "depart"
+    word: true
+    propagate_case: true
+  - trigger: "dpts"
+    replace: "departs"
+    word: true
+    propagate_case: true
+  - trigger: "dptd"
+    replace: "departed"
+    word: true
+    propagate_case: true
+  - trigger: "dptg"
+    replace: "departing"
+    word: true
+    propagate_case: true
+  - trigger: "dptr"
+    replace: "departer"
+    word: true
+    propagate_case: true
+  - trigger: "dptrs"
+    replace: "departers"
+    word: true
+    propagate_case: true
+  - trigger: "dptm"
+    replace: "department"
+    word: true
+    propagate_case: true
+  - trigger: "dptms"
+    replace: "departments"
+    word: true
+    propagate_case: true
 
   - trigger: "qualt"
     replace: "quality"
@@ -688,6 +750,60 @@ matches:
     propagate_case: true
   - trigger: "plrs"
     replace: "pillars"
+    word: true
+    propagate_case: true
+
+  - trigger: "ppr"
+    replace: "prepare"
+    word: true
+    propagate_case: true
+  - trigger: "pprd"
+    replace: "prepared"
+    word: true
+    propagate_case: true
+  - trigger: "pprg"
+    replace: "preparing"
+    word: true
+    propagate_case: true
+  - trigger: "pprn"
+    replace: "preparation"
+    word: true
+    propagate_case: true
+  - trigger: "pprns"
+    replace: "preparations"
+    word: true
+    propagate_case: true
+  - trigger: "pprr"
+    replace: "preparer"
+    word: true
+    propagate_case: true
+  - trigger: "pprrs"
+    replace: "preparers"
+    word: true
+    propagate_case: true
+
+  - trigger: "pfl"
+    replace: "profile"
+    word: true
+    propagate_case: true
+  - trigger: "pfls"
+    replace: "profiles"
+    word: true
+    propagate_case: true
+  - trigger: "pfld"
+    replace: "profiled"
+    word: true
+    propagate_case: true
+  - trigger: "pflg"
+    replace: "profiling"
+    word: true
+    propagate_case: true
+  - trigger: "pflr"
+    replace: "profiler"
+    word: true
+    propagate_case: true
+  - trigger: "pflrs"
+    replace: "profilers"
     word: true
     propagate_case: true
 
@@ -1086,6 +1202,10 @@ matches:
     propagate_case: true
   - trigger: "mngm"
     replace: "management"
+    word: true
+    propagate_case: true
+  - trigger: "mngms"
+    replace: "managements"
     word: true
     propagate_case: true
   - trigger: "mngr"
@@ -1562,6 +1682,95 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "yall"
+    replace: "you all"
+    word: true
+    propagate_case: true
+
+  - trigger: "empwer"
+    replace: "empower"
+    word: true
+    propagate_case: true
+  - trigger: "empwrd"
+    replace: "empowered"
+    word: true
+    propagate_case: true
+  - trigger: "empwrg"
+    replace: "empowering"
+    word: true
+    propagate_case: true
+  - trigger: "empwrm"
+    replace: "empowerment"
+    word: true
+    propagate_case: true
+  - trigger: "empwrms"
+    replace: "empowerments"
+    word: true
+    propagate_case: true
+  - trigger: "empwrr"
+    replace: "empowerer"
+    word: true
+    propagate_case: true
+  - trigger: "empwrrs"
+    replace: "empowerers"
+    word: true
+    propagate_case: true
+
+  - trigger: "appn"
+    replace: "application"
+    word: true
+    propagate_case: true
+  - trigger: "appns"
+    replace: "applications"
+    word: true
+    propagate_case: true
+
+  - trigger: "secu"
+    replace: "secure"
+    word: true
+    propagate_case: true
+  - trigger: "secud"
+    replace: "secured"
+    word: true
+    propagate_case: true
+  - trigger: "secug"
+    replace: "securing"
+    word: true
+    propagate_case: true
+  - trigger: "secut"
+    replace: "security"
+    word: true
+    propagate_case: true
+  - trigger: "secuts"
+    replace: "securities"
+    word: true
+    propagate_case: true
+  - trigger: "secur"
+    replace: "securer"
+    word: true
+    propagate_case: true
+  - trigger: "securs"
+    replace: "securers"
+    word: true
+    propagate_case: true
+
+  - trigger: "avbl"
+    replace: "available"
+    word: true
+    propagate_case: true
+  - trigger: "avb"
+    replace: "available"
+    word: true
+    propagate_case: true
+  - trigger: "avby"
+    replace: "availability"
+    word: true
+    propagate_case: true
+  - trigger: "avbys"
+    replace: "availabilities"
+    word: true
+    propagate_case: true
+
   - trigger: "hvnt"
     replace: "haven't"
     word: true
@@ -1871,6 +2080,11 @@ matches:
     propagate_case: true
   - trigger: "mtds"
     replace: "methods"
+    word: true
+    propagate_case: true
+
+  - trigger: "instd"
+    replace: "instead"
     word: true
     propagate_case: true
 
@@ -2318,6 +2532,35 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "dwn"
+    replace: "down"
+    word: true
+    propagate_case: true
+  - trigger: "dwnld"
+    replace: "download"
+    word: true
+    propagate_case: true
+  - trigger: "dwnlds"
+    replace: "downloads"
+    word: true
+    propagate_case: true
+  - trigger: "dwnldd"
+    replace: "downloaded"
+    word: true
+    propagate_case: true
+  - trigger: "dwnldg"
+    replace: "downloading"
+    word: true
+    propagate_case: true
+  - trigger: "dwnldr"
+    replace: "downloader"
+    word: true
+    propagate_case: true
+  - trigger: "dwnldrs"
+    replace: "downloaders"
+    word: true
+    propagate_case: true
+
   - trigger: "img"
     replace: "image"
     word: true
@@ -2336,6 +2579,10 @@ matches:
     propagate_case: true
   - trigger: "imgr"
     replace: "imager"
+    word: true
+    propagate_case: true
+  - trigger: "imgrs"
+    replace: "imagers"
     word: true
     propagate_case: true
 
@@ -2698,6 +2945,14 @@ matches:
     propagate_case: true
   - trigger: "tdy"
     replace: "today"
+    word: true
+    propagate_case: true
+  - trigger: "todays"
+    replace: "today's"
+    word: true
+    propagate_case: true
+  - trigger: "tdys"
+    replace: "today's"
     word: true
     propagate_case: true
   - trigger: "tmr"
@@ -3102,6 +3357,31 @@ matches:
     propagate_case: true
   - trigger: "rmbg"
     replace: "remembering"
+    word: true
+    propagate_case: true
+
+  - trigger: "proj"
+    replace: "project"
+    word: true
+    propagate_case: true
+  - trigger: "projs"
+    replace: "projects"
+    word: true
+    propagate_case: true
+  - trigger: "projd"
+    replace: "projected"
+    word: true
+    propagate_case: true
+  - trigger: "projg"
+    replace: "projecting"
+    word: true
+    propagate_case: true
+  - trigger: "projr"
+    replace: "projector"
+    word: true
+    propagate_case: true
+  - trigger: "projrs"
+    replace: "projectors"
     word: true
     propagate_case: true
 
