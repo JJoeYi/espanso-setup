@@ -1,0 +1,18 @@
+matches:
+  - trigger: "mad-"
+    replace: "Mobile Application Development"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "mvc-"
+    replace: "Model View Controller"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "mvvm-"
+    replace: "Model View ViewModel"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

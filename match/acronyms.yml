@@ -76,3 +76,110 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  - trigger: "nn-"
+    replace: "Neural Network"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+  - trigger: "nns-"
+    replace: "Neural Networks"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "as-"
+    replace: "Android Studio"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "xml-"
+    replace: "Extensible Markup Language"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "json-"
+    replace: "JavaScript Object Notation"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ui-"
+    replace: "User Interface"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ux-"
+    replace: "User Experience"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sdk-"
+    replace: "Software Development Kit"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ide-"
+    replace: "Integrated Development Environment"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "avd-"
+    replace: "Android Virtual Device"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "api-"
+    replace: "Application Programming Interface"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "js-"
+    replace: "JavaScript"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "css-"
+    replace: "Cascading Style Sheets"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "html-"
+    replace: "HyperText Markup Language"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sql-"
+    replace: "Structured Query Language"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "php-"
+    replace: "PHP: Hypertext Preprocessor"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "cg-"
+    replace: "Computer Graphics"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "it-"
+    replace: "Information Technology"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

@@ -87,6 +87,10 @@ matches:
   - trigger: "/atnd"
     replace: "[taking attendance]"
 
+  - trigger: "?>"
+    replace: ">>>"
+    word: true
+
   - trigger: ":time"
     replace: "{{mytime}}"
     vars:

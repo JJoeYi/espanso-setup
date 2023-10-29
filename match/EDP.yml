@@ -1,0 +1,12 @@
+matches:
+  - trigger: "edp-"
+    replace: "Enterprise Development Project"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "efc-"
+    replace: "Entity Framework Core"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
