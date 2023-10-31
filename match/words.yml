@@ -760,6 +760,14 @@ matches:
     replace: "removes"
     word: true
     propagate_case: true
+  - trigger: "rmr"
+    replace: "remover"
+    word: true
+    propagate_case: true
+  - trigger: "rmrs"
+    replace: "removers"
+    word: true
+    propagate_case: true
   - trigger: "rmd"
     replace: "removed"
     word: true
@@ -2162,19 +2170,23 @@ matches:
     propagate_case: true
 
   - trigger: "lk"
-    replace: "like"
+    replace: "look"
     word: true
     propagate_case: true
   - trigger: "lkd"
-    replace: "liked"
+    replace: "looked"
     word: true
     propagate_case: true
   - trigger: "lkg"
-    replace: "liking"
+    replace: "looking"
     word: true
     propagate_case: true
   - trigger: "lkr"
-    replace: "liker"
+    replace: "looker"
+    word: true
+    propagate_case: true
+  - trigger: "lkrs"
+    replace: "lookers"
     word: true
     propagate_case: true
 
@@ -3704,6 +3716,14 @@ matches:
     replace: "no one"
     word: true
     propagate_case: true
+  - trigger: "nobd"
+    replace: "nobody"
+    word: true
+    propagate_case: true
+  - trigger: "nowh"
+    replace: "nowhere"
+    word: true
+    propagate_case: true
 
   - trigger: "any1"
     replace: "anyone"
@@ -3802,7 +3822,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: "ev1"
-    replace: "everyone"
+    replace: "  "
     word: true
     propagate_case: true
   - trigger: "evb"
@@ -4127,6 +4147,10 @@ matches:
     word: true
     propagate_case: true
   - trigger: "iz"
+    replace: "it's"
+    word: true
+    propagate_case: true
+  - trigger: "itz"
     replace: "it's"
     word: true
     propagate_case: true
@@ -4543,14 +4567,6 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "im"
-    replace: "I'm"
-    word: true
-    propagate_case: true
-  - trigger: "id"
-    replace: "I'd"
-    word: true
-    propagate_case: true
   - trigger: "idw"
     replace: "I don't want"
     word: true
@@ -5349,7 +5365,7 @@ matches:
     replace: "I'll"
     word: true
     propagate_case: true
-  - trigger: "iail"
+  - trigger: "iil"
     replace: "I'll"
     word: true
     propagate_case: true
@@ -5357,14 +5373,21 @@ matches:
     replace: "I've"
     word: true
     propagate_case: true
-
-  - trigger: "ee"
-    replace: "the"
+  - trigger: "id"
+    replace: "I'd"
+    word: true
+    propagate_case: true
+  - trigger: "ii"
+    replace: "I"
+    word: true
+    propagate_case: true
+  - trigger: "im"
+    replace: "I'm"
     word: true
     propagate_case: true
 
-  - trigger: "ii"
-    replace: "I"
+  - trigger: "ee"
+    replace: "the"
     word: true
     propagate_case: true
 
@@ -5527,44 +5550,36 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "orgnize"
+  - trigger: "orgn"
     replace: "organize"
     word: true
     propagate_case: true
-  - trigger: "orgnizes"
-    replace: "organizes"
+  - trigger: "orgnn"
+    replace: "organization"
     word: true
     propagate_case: true
-  - trigger: "orgnized"
+  - trigger: "orgnns"
+    replace: "organizations"
+    word: true
+    propagate_case: true
+  - trigger: "orgnd"
     replace: "organized"
     word: true
     propagate_case: true
-  - trigger: "orgnizeg"
+  - trigger: "orgng"
     replace: "organizing"
     word: true
     propagate_case: true
-  - trigger: "orgnizer"
+  - trigger: "orgnr"
     replace: "organizer"
     word: true
     propagate_case: true
-  - trigger: "orgnizers"
+  - trigger: "orgnrs"
     replace: "organizers"
     word: true
     propagate_case: true
-  - trigger: "orgnization"
-    replace: "organization"
-    word: true
-    propagate_case: true
-  - trigger: "orgnizations"
-    replace: "organizations"
-    word: true
-    propagate_case: true
-  - trigger: "orgnizn"
-    replace: "organization"
-    word: true
-    propagate_case: true
-  - trigger: "orgnizns"
-    replace: "organizations"
+  - trigger: "orgnl"
+    replace: "organizational"
     word: true
     propagate_case: true
 
@@ -5953,5 +5968,213 @@ matches:
     propagate_case: true
   - trigger: "knls"
     replace: "kernels"
+    word: true
+    propagate_case: true
+
+  - trigger: "ettm"
+    replace: "entertainment"
+    word: true
+    propagate_case: true
+  - trigger: "ettms"
+    replace: "entertainments"
+    word: true
+    propagate_case: true
+  - trigger: "ettmg"
+    replace: "entertaining"
+    word: true
+    propagate_case: true
+  - trigger: "ettmr"
+    replace: "entertainer"
+    word: true
+    propagate_case: true
+  - trigger: "ettmrs"
+    replace: "entertainers"
+    word: true
+    propagate_case: true
+
+  - trigger: "mtpx"
+    replace: "multiplex"
+    word: true
+    propagate_case: true
+  - trigger: "mtpxs"
+    replace: "multiplexes"
+    word: true
+    propagate_case: true
+  - trigger: "mtpxd"
+    replace: "multiplexed"
+    word: true
+    propagate_case: true
+  - trigger: "mtpxg"
+    replace: "multiplexing"
+    word: true
+    propagate_case: true
+  - trigger: "mtpxr"
+    replace: "multiplexer"
+    word: true
+    propagate_case: true
+  - trigger: "mtpxrs"
+    replace: "multiplexers"
+    word: true
+    propagate_case: true
+
+  - trigger: "max-"
+    replace: "maximum"
+    word: true
+    propagate_case: true
+  - trigger: "maxs-"
+    replace: "maximums"
+    word: true
+    propagate_case: true
+  - trigger: "maxd-"
+    replace: "maximized"
+    word: true
+    propagate_case: true
+  - trigger: "maxg-"
+    replace: "maximizing"
+    word: true
+    propagate_case: true
+  - trigger: "maxr-"
+    replace: "maximizer"
+    word: true
+    propagate_case: true
+  - trigger: "maxrs-"
+    replace: "maximizers"
+    word: true
+    propagate_case: true
+
+  - trigger: "min-"
+    replace: "minimum"
+    word: true
+    propagate_case: true
+  - trigger: "mins-"
+    replace: "minimums"
+    word: true
+    propagate_case: true
+  - trigger: "mind-"
+    replace: "minimized"
+    word: true
+    propagate_case: true
+  - trigger: "ming-"
+    replace: "minimizing"
+    word: true
+    propagate_case: true
+  - trigger: "minr-"
+    replace: "minimizer"
+    word: true
+    propagate_case: true
+  - trigger: "minrs-"
+    replace: "minimizers"
+    word: true
+    propagate_case: true
+
+  - trigger: "com-"
+    replace: "computer"
+    word: true
+    propagate_case: true
+  - trigger: "comn-"
+    replace: "computation"
+    word: true
+    propagate_case: true
+
+  - trigger: "optm"
+    replace: "optimize"
+    word: true
+    propagate_case: true
+  - trigger: "optms"
+    replace: "optimizes"
+    word: true
+    propagate_case: true
+  - trigger: "optmd"
+    replace: "optimized"
+    word: true
+    propagate_case: true
+  - trigger: "optmg"
+    replace: "optimizing"
+    word: true
+    propagate_case: true
+  - trigger: "optmr"
+    replace: "optimizer"
+    word: true
+    propagate_case: true
+  - trigger: "optmrs"
+    replace: "optimizers"
+    word: true
+    propagate_case: true
+  - trigger: "optmn"
+    replace: "optimization"
+    word: true
+    propagate_case: true
+  - trigger: "optmns"
+    replace: "optimizations"
+    word: true
+    propagate_case: true
+  - trigger: "optml"
+    replace: "optimal"
+    word: true
+    propagate_case: true
+
+  - trigger: "aprch"
+    replace: "approach"
+    word: true
+    propagate_case: true
+  - trigger: "aprchs"
+    replace: "approaches"
+    word: true
+    propagate_case: true
+  - trigger: "aprchd"
+    replace: "approached"
+    word: true
+    propagate_case: true
+  - trigger: "aprchg"
+    replace: "approaching"
+    word: true
+    propagate_case: true
+  - trigger: "aprchr"
+    replace: "approacher"
+    word: true
+    propagate_case: true
+  - trigger: "aprchrs"
+    replace: "approachers"
+    word: true
+    propagate_case: true
+
+  - trigger: "scs"
+    replace: "success"
+    word: true
+    propagate_case: true
+  - trigger: "scss"
+    replace: "successes"
+    word: true
+    propagate_case: true
+  - trigger: "scsd"
+    replace: "succeeded"
+    word: true
+    propagate_case: true
+  - trigger: "scsg"
+    replace: "succeeding"
+    word: true
+    propagate_case: true
+  - trigger: "scsr"
+    replace: "successor"
+    word: true
+    propagate_case: true
+  - trigger: "scsrs"
+    replace: "successors"
+    word: true
+    propagate_case: true
+  - trigger: "scsn"
+    replace: "succession"
+    word: true
+    propagate_case: true
+  - trigger: "scsns"
+    replace: "successions"
+    word: true
+    propagate_case: true
+  - trigger: "scsf"
+    replace: "successful"
+    word: true
+    propagate_case: true
+  - trigger: "scsfl"
+    replace: "successfully"
     word: true
     propagate_case: true

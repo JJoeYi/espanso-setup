@@ -5,6 +5,12 @@ matches:
     uppercase_style: "capitalize_words"
     propagate_case: true
 
+  - trigger: "osa-"
+    replace: "Operating Systems and Administration"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
   - trigger: "vna-"
     replace: "Von Neumann Architecture"
     word: true
