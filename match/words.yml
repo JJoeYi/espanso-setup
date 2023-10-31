@@ -8,6 +8,11 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "abv"
+    replace: "above"
+    word: true
+    propagate_case: true
+
   - trigger: "antn"
     replace: "annotation"
     word: true
@@ -44,11 +49,40 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "cnt"
+  - trigger: "ctnu"
+    replace: "continue"
+    word: true
+    propagate_case: true
+  - trigger: "ctnud"
+    replace: "continued"
+    word: true
+    propagate_case: true
+  - trigger: "ctnug"
+    replace: "continuing"
+    word: true
+    propagate_case: true
+  - trigger: "ctnur"
+    replace: "continuer"
+    word: true
+    propagate_case: true
+  - trigger: "ctnurs"
+    replace: "continuers"
+    word: true
+    propagate_case: true
+  - trigger: "ctnun"
+    replace: "continuation"
+    word: true
+    propagate_case: true
+  - trigger: "ctnuns"
+    replace: "continuations"
+    word: true
+    propagate_case: true
+
+  - trigger: "contnt"
     replace: "content"
     word: true
     propagate_case: true
-  - trigger: "cnts"
+  - trigger: "contnts"
     replace: "contents"
     word: true
     propagate_case: true
@@ -70,7 +104,11 @@ matches:
     word: true
     propagate_case: true
   - trigger: "ornt"
-    replace: "orient"
+    replace: "orientate"
+    word: true
+    propagate_case: true
+  - trigger: "orntl"
+    replace: "oriental"
     word: true
     propagate_case: true
 
@@ -162,7 +200,19 @@ matches:
     propagate_case: true
 
   - trigger: "opr"
-    replace: "operation"
+    replace: "operate"
+    word: true
+    propagate_case: true
+  - trigger: "oprs"
+    replace: "operates"
+    word: true
+    propagate_case: true
+  - trigger: "oprd"
+    replace: "operated"
+    word: true
+    propagate_case: true
+  - trigger: "oprg"
+    replace: "operating"
     word: true
     propagate_case: true
   - trigger: "oprn"
@@ -400,12 +450,25 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "cmpont"
+  - trigger: "cmpn"
     replace: "component"
     word: true
     propagate_case: true
-  - trigger: "cmponts"
+  - trigger: "cmpns"
     replace: "components"
+    word: true
+    propagate_case: true
+
+  - trigger: "comptr"
+    replace: "computer"
+    word: true
+    propagate_case: true
+  - trigger: "comptrs"
+    replace: "computers"
+    word: true
+    propagate_case: true
+  - trigger: "comptg"
+    replace: "computing"
     word: true
     propagate_case: true
 
@@ -420,6 +483,27 @@ matches:
 
   - trigger: "actl"
     replace: "actually"
+    word: true
+    propagate_case: true
+
+  - trigger: "rpsb"
+    replace: "responsible"
+    word: true
+    propagate_case: true
+  - trigger: "rpsbl"
+    replace: "responsibility"
+    word: true
+    propagate_case: true
+  - trigger: "rpsbls"
+    replace: "responsibilities"
+    word: true
+    propagate_case: true
+  - trigger: "rpsby"
+    replace: "responsibility"
+    word: true
+    propagate_case: true
+  - trigger: "rpsbys"
+    replace: "responsibilities"
     word: true
     propagate_case: true
 
@@ -765,28 +849,28 @@ matches:
     replace: "configurations"
     word: true
     propagate_case: true
-  - trigger: "cfgrbl"
+  - trigger: "cfgrb"
     replace: "configurable"
     word: true
     propagate_case: true
-  - trigger: "cfgrbls"
+  - trigger: "cfgrbs"
     replace: "configurables"
     word: true
     propagate_case: true
-  - trigger: "cfgrblty"
+  - trigger: "cfgrbty"
     replace: "configurability"
     word: true
     propagate_case: true
-  - trigger: "cfgrbltys"
+  - trigger: "cfgrbtys"
     replace: "configurabilities"
     word: true
     propagate_case: true
 
-  - trigger: "abty"
+  - trigger: "ablt"
     replace: "ability"
     word: true
     propagate_case: true
-  - trigger: "abtys"
+  - trigger: "ablts"
     replace: "abilities"
     word: true
     propagate_case: true
@@ -1071,11 +1155,11 @@ matches:
     replace: "comparers"
     word: true
     propagate_case: true
-  - trigger: "cmprsn"
+  - trigger: "cmpsn"
     replace: "comparison"
     word: true
     propagate_case: true
-  - trigger: "cmprsns"
+  - trigger: "cmpsns"
     replace: "comparisons"
     word: true
     propagate_case: true
@@ -1187,11 +1271,11 @@ matches:
     replace: "objective"
     word: true
     propagate_case: true
-  - trigger: "objtf"
+  - trigger: "objf"
     replace: "objective"
     word: true
     propagate_case: true
-  - trigger: "objtfs"
+  - trigger: "objfs"
     replace: "objectives"
     word: true
     propagate_case: true
@@ -1495,31 +1579,35 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "alct"
+  - trigger: "alc"
     replace: "allocate"
     word: true
     propagate_case: true
-  - trigger: "alctd"
+  - trigger: "alcd"
     replace: "allocated"
     word: true
     propagate_case: true
-  - trigger: "alctn"
+  - trigger: "alcn"
     replace: "allocation"
     word: true
     propagate_case: true
-  - trigger: "alctns"
+  - trigger: "alcns"
     replace: "allocations"
     word: true
     propagate_case: true
-  - trigger: "alctve"
+  - trigger: "alcve"
     replace: "allocative"
     word: true
     propagate_case: true
-  - trigger: "alctr"
+  - trigger: "alcf"
+    replace: "allocative"
+    word: true
+    propagate_case: true
+  - trigger: "alcr"
     replace: "allocator"
     word: true
     propagate_case: true
-  - trigger: "alctrs"
+  - trigger: "alcrs"
     replace: "allocators"
     word: true
     propagate_case: true
@@ -1770,6 +1858,35 @@ matches:
     propagate_case: true
   - trigger: "ppls"
     replace: "peoples"
+    word: true
+    propagate_case: true
+
+  - trigger: "pfm"
+    replace: "perform"
+    word: true
+    propagate_case: true
+  - trigger: "pfmd"
+    replace: "performed"
+    word: true
+    propagate_case: true
+  - trigger: "pfmg"
+    replace: "performing"
+    word: true
+    propagate_case: true
+  - trigger: "pfmr"
+    replace: "performer"
+    word: true
+    propagate_case: true
+  - trigger: "pfmrs"
+    replace: "performers"
+    word: true
+    propagate_case: true
+  - trigger: "pfmn"
+    replace: "performance"
+    word: true
+    propagate_case: true
+  - trigger: "pfmns"
+    replace: "performances"
     word: true
     propagate_case: true
 
@@ -2086,6 +2203,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "itrp"
+    replace: "interrupt"
+    word: true
+    propagate_case: true
+  - trigger: "itrpd"
+    replace: "interrupted"
+    word: true
+    propagate_case: true
+  - trigger: "itrpn"
+    replace: "interruption"
+    word: true
+    propagate_case: true
+  - trigger: "itrpns"
+    replace: "interruptions"
+    word: true
+    propagate_case: true
+  - trigger: "itrpr"
+    replace: "interrupter"
+    word: true
+    propagate_case: true
+  - trigger: "itrprs"
+    replace: "interrupters"
+    word: true
+    propagate_case: true
+
   - trigger: "intp"
     replace: "interpret"
     word: true
@@ -2246,6 +2388,14 @@ matches:
     word: true
     propagate_case: true
   - trigger: "thr4"
+    replace: "therefore"
+    word: true
+    propagate_case: true
+  - trigger: "there3"
+    replace: "therefore"
+    word: true
+    propagate_case: true
+  - trigger: "there4"
     replace: "therefore"
     word: true
     propagate_case: true
@@ -2537,27 +2687,6 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "lrn"
-    replace: "learn"
-    word: true
-    propagate_case: true
-  - trigger: "lrnd"
-    replace: "learned"
-    word: true
-    propagate_case: true
-  - trigger: "lrng"
-    replace: "learning"
-    word: true
-    propagate_case: true
-  - trigger: "lrnr"
-    replace: "learner"
-    word: true
-    propagate_case: true
-  - trigger: "lrnrs"
-    replace: "learners"
-    word: true
-    propagate_case: true
-
   - trigger: "mdl"
     replace: "model"
     word: true
@@ -2616,15 +2745,6 @@ matches:
 
   - trigger: "sec"
     replace: "second"
-    word: true
-    propagate_case: true
-
-  - trigger: "secrt"
-    replace: "security"
-    word: true
-    propagate_case: true
-  - trigger: "secrts"
-    replace: "securities"
     word: true
     propagate_case: true
 
@@ -2796,7 +2916,28 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "empwer"
+  - trigger: "pwr"
+    replace: "power"
+    word: true
+    propagate_case: true
+  - trigger: "pwrd"
+    replace: "powered"
+    word: true
+    propagate_case: true
+  - trigger: "pwrg"
+    replace: "powering"
+    word: true
+    propagate_case: true
+  - trigger: "pwrf"
+    replace: "powerful"
+    word: true
+    propagate_case: true
+  - trigger: "pwrfl"
+    replace: "powerfully"
+    word: true
+    propagate_case: true
+
+  - trigger: "empwr"
     replace: "empower"
     word: true
     propagate_case: true
@@ -2854,12 +2995,29 @@ matches:
     replace: "securities"
     word: true
     propagate_case: true
-  - trigger: "secur"
-    replace: "securer"
+
+  - trigger: "seq"
+    replace: "sequence"
     word: true
     propagate_case: true
-  - trigger: "securs"
-    replace: "securers"
+  - trigger: "seqs"
+    replace: "sequences"
+    word: true
+    propagate_case: true
+  - trigger: "seqd"
+    replace: "sequenced"
+    word: true
+    propagate_case: true
+  - trigger: "seqg"
+    replace: "sequencing"
+    word: true
+    propagate_case: true
+  - trigger: "seqr"
+    replace: "sequencer"
+    word: true
+    propagate_case: true
+  - trigger: "seqrs"
+    replace: "sequencers"
     word: true
     propagate_case: true
 
@@ -3004,7 +3162,16 @@ matches:
   - trigger: "be4hand"
     replace: "beforehand"
     word: true
-    propagate_case:
+    propagate_case: true
+
+  - trigger: "in2"
+    replace: "into"
+    word: true
+    propagate_case: true
+  - trigger: "in3"
+    replace: "into"
+    word: true
+    propagate_case: true
 
   - trigger: "impsble"
     replace: "impossible"
@@ -3125,6 +3292,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "sche"
+    replace: "schedule"
+    word: true
+    propagate_case: true
+  - trigger: "sches"
+    replace: "schedules"
+    word: true
+    propagate_case: true
+  - trigger: "sched"
+    replace: "scheduled"
+    word: true
+    propagate_case: true
+  - trigger: "scheg"
+    replace: "scheduling"
+    word: true
+    propagate_case: true
+  - trigger: "scher"
+    replace: "scheduler"
+    word: true
+    propagate_case: true
+  - trigger: "schers"
+    replace: "schedulers"
+    word: true
+    propagate_case: true
+
   - trigger: "sch"
     replace: "school"
     word: true
@@ -3143,6 +3335,97 @@ matches:
     propagate_case: true
   - trigger: "schrly"
     replace: "scholarly"
+    word: true
+    propagate_case: true
+
+  - trigger: "asmb"
+    replace: "assemble"
+    word: true
+    propagate_case: true
+  - trigger: "asmbl"
+    replace: "assembly"
+    word: true
+    propagate_case: true
+  - trigger: "asmbg"
+    replace: "assembling"
+    word: true
+    propagate_case: true
+  - trigger: "asmbly"
+    replace: "assembly"
+    word: true
+    propagate_case: true
+  - trigger: "asmblys"
+    replace: "assemblies"
+    word: true
+    propagate_case: true
+  - trigger: "asmbd"
+    replace: "assembled"
+    word: true
+    propagate_case: true
+
+  - trigger: "mcne"
+    replace: "machine"
+    word: true
+    propagate_case: true
+  - trigger: "mcnes"
+    replace: "machines"
+    word: true
+    propagate_case: true
+  - trigger: "mcnery"
+    replace: "machinery"
+    word: true
+    propagate_case: true
+  - trigger: "mcnerys"
+    replace: "machineries"
+    word: true
+    propagate_case: true
+  - trigger: "mcneg"
+    replace: "machining"
+    word: true
+    propagate_case: true
+  - trigger: "mcned"
+    replace: "machined"
+    word: true
+    propagate_case: true
+  - trigger: "mcner"
+    replace: "machiner"
+    word: true
+    propagate_case: true
+  - trigger: "mcners"
+    replace: "machiners"
+    word: true
+    propagate_case: true
+
+  - trigger: "spec"
+    replace: "specific"
+    word: true
+    propagate_case: true
+  - trigger: "specly"
+    replace: "specifically"
+    word: true
+    propagate_case: true
+  - trigger: "specy"
+    replace: "specificity"
+    word: true
+    propagate_case: true
+  - trigger: "specl"
+    replace: "specifically"
+    word: true
+    propagate_case: true
+  - trigger: "specs"
+    replace: "specifics"
+    word: true
+    propagate_case: true
+  - trigger: "specn"
+    replace: "specification"
+    word: true
+    propagate_case: true
+  - trigger: "specns"
+    replace: "specifications"
+    word: true
+    propagate_case: true
+  - trigger: "specg"
+    replace: "specifying"
     word: true
     propagate_case: true
 
@@ -3207,6 +3490,35 @@ matches:
 
   - trigger: "instd"
     replace: "instead"
+    word: true
+    propagate_case: true
+
+  - trigger: "instrn"
+    replace: "instruction"
+    word: true
+    propagate_case: true
+  - trigger: "instrns"
+    replace: "instructions"
+    word: true
+    propagate_case: true
+  - trigger: "instr"
+    replace: "instruct"
+    word: true
+    propagate_case: true
+  - trigger: "instrd"
+    replace: "instructed"
+    word: true
+    propagate_case: true
+  - trigger: "instrg"
+    replace: "instructing"
+    word: true
+    propagate_case: true
+  - trigger: "instrr"
+    replace: "instructor"
+    word: true
+    propagate_case: true
+  - trigger: "instrrs"
+    replace: "instructors"
     word: true
     propagate_case: true
 
@@ -3306,6 +3618,35 @@ matches:
 
   - trigger: "cybersec"
     replace: "cybersecurity"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmpl"
+    replace: "compile"
+    word: true
+    propagate_case: true
+  - trigger: "cmpld"
+    replace: "compiled"
+    word: true
+    propagate_case: true
+  - trigger: "cmplg"
+    replace: "compiling"
+    word: true
+    propagate_case: true
+  - trigger: "cmplr"
+    replace: "compiler"
+    word: true
+    propagate_case: true
+  - trigger: "cmplrs"
+    replace: "compilers"
+    word: true
+    propagate_case: true
+  - trigger: "cmpln"
+    replace: "compilation"
+    word: true
+    propagate_case: true
+  - trigger: "cmplns"
+    replace: "compilations"
     word: true
     propagate_case: true
 
@@ -3922,12 +4263,32 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "rm"
-    replace: "room"
+  - trigger: "expln"
+    replace: "explain"
     word: true
     propagate_case: true
-  - trigger: "rms"
-    replace: "rooms"
+  - trigger: "explnd"
+    replace: "explained"
+    word: true
+    propagate_case: true
+  - trigger: "explng"
+    replace: "explaining"
+    word: true
+    propagate_case: true
+  - trigger: "explnr"
+    replace: "explainer"
+    word: true
+    propagate_case: true
+  - trigger: "explnrs"
+    replace: "explainers"
+    word: true
+    propagate_case: true
+  - trigger: "explnn"
+    replace: "explanation"
+    word: true
+    propagate_case: true
+  - trigger: "explnns"
+    replace: "explanations"
     word: true
     propagate_case: true
 
@@ -4186,6 +4547,10 @@ matches:
     replace: "I'm"
     word: true
     propagate_case: true
+  - trigger: "id"
+    replace: "I'd"
+    word: true
+    propagate_case: true
   - trigger: "idw"
     replace: "I don't want"
     word: true
@@ -4249,6 +4614,18 @@ matches:
     replace: "accessers"
     word: true
     propagate_case: true
+  - trigger: "acsb"
+    replace: "accessable"
+    word: true
+    propagate_case: true
+  - trigger: "acsby"
+    replace: "accessability"
+    word: true
+    propagate_case: true
+  - trigger: "acsbys"
+    replace: "accessabilities"
+    word: true
+    propagate_case: true
 
   - trigger: "ty"
     replace: "thank you"
@@ -4265,6 +4642,10 @@ matches:
 
   - trigger: "fn"
     replace: "function"
+    word: true
+    propagate_case: true
+  - trigger: "fnl"
+    replace: "functional"
     word: true
     propagate_case: true
   - trigger: "fns"
@@ -4815,8 +5196,16 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "mem"
+  - trigger: "memr"
     replace: "memory"
+    word: true
+    propagate_case: true
+  - trigger: "memrs"
+    replace: "memories"
+    word: true
+    propagate_case: true
+  - trigger: "memrg"
+    replace: "memorizing"
     word: true
     propagate_case: true
 
@@ -4997,12 +5386,20 @@ matches:
     replace: "he'll"
     word: true
     propagate_case: true
+  - trigger: "heil"
+    replace: "he'll"
+    word: true
+    propagate_case: true
 
   - trigger: "shes"
     replace: "she's"
     word: true
     propagate_case: true
   - trigger: "sheail"
+    replace: "she'll"
+    word: true
+    propagate_case: true
+  - trigger: "sheil"
     replace: "she'll"
     word: true
     propagate_case: true
@@ -5018,5 +5415,538 @@ matches:
     propagate_case: true
   - trigger: "convos"
     replace: "conversations"
+    word: true
+    propagate_case: true
+
+  - trigger: "reg"
+    replace: "register"
+    word: true
+    propagate_case: true
+  - trigger: "regs"
+    replace: "registers"
+    word: true
+    propagate_case: true
+  - trigger: "regd"
+    replace: "registered"
+    word: true
+    propagate_case: true
+  - trigger: "regg"
+    replace: "registering"
+    word: true
+    propagate_case: true
+  - trigger: "regr"
+    replace: "registerer"
+    word: true
+    propagate_case: true
+  - trigger: "regrs"
+    replace: "registerers"
+    word: true
+    propagate_case: true
+  - trigger: "regn"
+    replace: "registration"
+    word: true
+    propagate_case: true
+  - trigger: "regns"
+    replace: "registrations"
+    word: true
+    propagate_case: true
+
+  - trigger: "pri"
+    replace: "primary"
+    word: true
+    propagate_case: true
+  - trigger: "pris"
+    replace: "primaries"
+    word: true
+    propagate_case: true
+
+  - trigger: "prit"
+    replace: "priority"
+    word: true
+    propagate_case: true
+  - trigger: "prits"
+    replace: "priorities"
+    word: true
+    propagate_case: true
+  - trigger: "pritg"
+    replace: "prioritizing"
+    word: true
+    propagate_case: true
+  - trigger: "pritd"
+    replace: "prioritized"
+    word: true
+    propagate_case: true
+  - trigger: "pritn"
+    replace: "prioritization"
+    word: true
+    propagate_case: true
+  - trigger: "pritns"
+    replace: "prioritizations"
+    word: true
+    propagate_case: true
+  - trigger: "pritr"
+    replace: "prioritizer"
+    word: true
+    propagate_case: true
+  - trigger: "pritrs"
+    replace: "prioritizers"
+    word: true
+    propagate_case: true
+
+  - trigger: "exe"
+    replace: "execute"
+    word: true
+    propagate_case: true
+  - trigger: "exebor"
+    replace: "executable"
+    word: true
+    propagate_case: true
+
+  - trigger: "ctrl"
+    replace: "control"
+    word: true
+    propagate_case: true
+  - trigger: "ctrls"
+    replace: "controls"
+    word: true
+    propagate_case: true
+  - trigger: "ctrlg"
+    replace: "controlling"
+    word: true
+    propagate_case: true
+  - trigger: "ctrlr"
+    replace: "controller"
+    word: true
+    propagate_case: true
+  - trigger: "ctrlrs"
+    replace: "controllers"
+    word: true
+    propagate_case: true
+  - trigger: "ctrld"
+    replace: "controlled"
+    word: true
+    propagate_case: true
+
+  - trigger: "orgnize"
+    replace: "organize"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizes"
+    replace: "organizes"
+    word: true
+    propagate_case: true
+  - trigger: "orgnized"
+    replace: "organized"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizeg"
+    replace: "organizing"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizer"
+    replace: "organizer"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizers"
+    replace: "organizers"
+    word: true
+    propagate_case: true
+  - trigger: "orgnization"
+    replace: "organization"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizations"
+    replace: "organizations"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizn"
+    replace: "organization"
+    word: true
+    propagate_case: true
+  - trigger: "orgnizns"
+    replace: "organizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "pg"
+    replace: "page"
+    word: true
+    propagate_case: true
+  - trigger: "pgs"
+    replace: "pages"
+    word: true
+    propagate_case: true
+  - trigger: "pgd"
+    replace: "paged"
+    word: true
+    propagate_case: true
+  - trigger: "pgg"
+    replace: "paging"
+    word: true
+    propagate_case: true
+  - trigger: "pgr"
+    replace: "pager"
+    word: true
+    propagate_case: true
+  - trigger: "pgrs"
+    replace: "pagers"
+    word: true
+    propagate_case: true
+  - trigger: "pgn"
+    replace: "pagination"
+    word: true
+    propagate_case: true
+  - trigger: "pgns"
+    replace: "paginations"
+    word: true
+    propagate_case: true
+
+  - trigger: "netw"
+    replace: "network"
+    word: true
+    propagate_case: true
+  - trigger: "netws"
+    replace: "networks"
+    word: true
+    propagate_case: true
+  - trigger: "netwd"
+    replace: "networked"
+    word: true
+    propagate_case: true
+  - trigger: "netwg"
+    replace: "networking"
+    word: true
+    propagate_case: true
+  - trigger: "netwr"
+    replace: "networker"
+    word: true
+    propagate_case: true
+  - trigger: "netwrs"
+    replace: "networkers"
+    word: true
+    propagate_case: true
+
+  - trigger: "hndlr"
+    replace: "handler"
+    word: true
+    propagate_case: true
+  - trigger: "hndlrs"
+    replace: "handlers"
+    word: true
+    propagate_case: true
+  - trigger: "hndlg"
+    replace: "handling"
+    word: true
+    propagate_case: true
+  - trigger: "hndl"
+    replace: "handle"
+    word: true
+    propagate_case: true
+  - trigger: "hndld"
+    replace: "handled"
+    word: true
+    propagate_case: true
+
+  - trigger: "pcs"
+    replace: "process"
+    word: true
+    propagate_case: true
+  - trigger: "pcss"
+    replace: "processes"
+    word: true
+    propagate_case: true
+  - trigger: "pcsd"
+    replace: "processed"
+    word: true
+    propagate_case: true
+  - trigger: "pcsg"
+    replace: "processing"
+    word: true
+    propagate_case: true
+  - trigger: "pcsr"
+    replace: "processor"
+    word: true
+    propagate_case: true
+  - trigger: "pcsrs"
+    replace: "processors"
+    word: true
+    propagate_case: true
+
+  - trigger: "init-"
+    replace: "initialize"
+    word: true
+    propagate_case: true
+  - trigger: "initd"
+    replace: "initialized"
+    word: true
+    propagate_case: true
+  - trigger: "initg"
+    replace: "initializing"
+    word: true
+    propagate_case: true
+  - trigger: "initr"
+    replace: "initializer"
+    word: true
+    propagate_case: true
+  - trigger: "initrs"
+    replace: "initializers"
+    word: true
+    propagate_case: true
+  - trigger: "initn"
+    replace: "initialization"
+    word: true
+    propagate_case: true
+  - trigger: "initns"
+    replace: "initializations"
+    word: true
+    propagate_case: true
+
+  - trigger: "prl"
+    replace: "parallel"
+    word: true
+    propagate_case: true
+  - trigger: "prlg"
+    replace: "parallelizing"
+    word: true
+    propagate_case: true
+  - trigger: "prlz"
+    replace: "parallelize"
+    word: true
+    propagate_case: true
+  - trigger: "prld"
+    replace: "parallelized"
+    word: true
+    propagate_case: true
+  - trigger: "prln"
+    replace: "parallelization"
+    word: true
+    propagate_case: true
+  - trigger: "prlns"
+    replace: "parallelizations"
+    word: true
+    propagate_case: true
+  - trigger: "prlr"
+    replace: "parallelizer"
+    word: true
+    propagate_case: true
+  - trigger: "prlrs"
+    replace: "parallelizers"
+    word: true
+    propagate_case: true
+
+  - trigger: "dtbt"
+    replace: "distribute"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtd"
+    replace: "distributed"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtg"
+    replace: "distributing"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtn"
+    replace: "distribution"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtns"
+    replace: "distributions"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtr"
+    replace: "distributor"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtrs"
+    replace: "distributors"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtl"
+    replace: "distributable"
+    word: true
+    propagate_case: true
+  - trigger: "dtbtls"
+    replace: "distributables"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmd"
+    replace: "command"
+    word: true
+    propagate_case: true
+  - trigger: "cmds"
+    replace: "commands"
+    word: true
+    propagate_case: true
+  - trigger: "cmdd"
+    replace: "commanded"
+    word: true
+    propagate_case: true
+  - trigger: "cmdg"
+    replace: "commanding"
+    word: true
+    propagate_case: true
+  - trigger: "cmdr"
+    replace: "commander"
+    word: true
+    propagate_case: true
+  - trigger: "cmdrs"
+    replace: "commanders"
+    word: true
+    propagate_case: true
+  - trigger: "cmdm"
+    replace: "commandment"
+    word: true
+    propagate_case: true
+  - trigger: "cmdms"
+    replace: "commandments"
+    word: true
+    propagate_case: true
+
+  - trigger: "dtm"
+    replace: "determine"
+    word: true
+    propagate_case: true
+  - trigger: "dtmg"
+    replace: "determining"
+    word: true
+    propagate_case: true
+  - trigger: "dtmd"
+    replace: "determined"
+    word: true
+    propagate_case: true
+  - trigger: "dtmr"
+    replace: "determiner"
+    word: true
+    propagate_case: true
+  - trigger: "dtmrs"
+    replace: "determiners"
+    word: true
+    propagate_case: true
+  - trigger: "dtmn"
+    replace: "determination"
+    word: true
+    propagate_case: true
+  - trigger: "dtmns"
+    replace: "determinations"
+    word: true
+    propagate_case: true
+
+  - trigger: "cpr"
+    replace: "corporate"
+    word: true
+    propagate_case: true
+  - trigger: "cprs"
+    replace: "corporates"
+    word: true
+    propagate_case: true
+  - trigger: "cprn"
+    replace: "corporation"
+    word: true
+    propagate_case: true
+  - trigger: "cprns"
+    replace: "corporations"
+    word: true
+    propagate_case: true
+  - trigger: "incpr"
+    replace: "incorporate"
+    word: true
+    propagate_case: true
+  - trigger: "incprs"
+    replace: "incorporates"
+    word: true
+    propagate_case: true
+  - trigger: "incprd"
+    replace: "incorporated"
+    word: true
+    propagate_case: true
+  - trigger: "incprg"
+    replace: "incorporating"
+    word: true
+    propagate_case: true
+  - trigger: "incprn"
+    replace: "incorporation"
+    word: true
+    propagate_case: true
+  - trigger: "incprns"
+    replace: "incorporations"
+    word: true
+    propagate_case: true
+  - trigger: "incprr"
+    replace: "incorporator"
+    word: true
+    propagate_case: true
+  - trigger: "incprrs"
+    replace: "incorporators"
+    word: true
+    propagate_case: true
+
+  - trigger: "itf"
+    replace: "interface"
+    word: true
+    propagate_case: true
+  - trigger: "itfs"
+    replace: "interfaces"
+    word: true
+    propagate_case: true
+  - trigger: "itfd"
+    replace: "interfaced"
+    word: true
+    propagate_case: true
+  - trigger: "itfg"
+    replace: "interfacing"
+    word: true
+    propagate_case: true
+
+  - trigger: "mdn"
+    replace: "modern"
+    word: true
+    propagate_case: true
+  - trigger: "mdns"
+    replace: "moderns"
+    word: true
+    propagate_case: true
+  - trigger: "mdng"
+    replace: "modernizing"
+    word: true
+    propagate_case: true
+  - trigger: "mdnd"
+    replace: "modernized"
+    word: true
+    propagate_case: true
+  - trigger: "mdnn"
+    replace: "modernization"
+    word: true
+    propagate_case: true
+
+  - trigger: "admin-"
+    replace: "administration"
+    word: true
+    propagate_case: true
+  - trigger: "adminr-"
+    replace: "administrator"
+    word: true
+    propagate_case: true
+
+  - trigger: "pvl"
+    replace: "previlege"
+    word: true
+    propagate_case: true
+  - trigger: "pvls"
+    replace: "previleges"
+    word: true
+    propagate_case: true
+  - trigger: "pvld"
+    replace: "previleged"
+    word: true
+    propagate_case: true
+
+  - trigger: "knl"
+    replace: "kernel"
+    word: true
+    propagate_case: true
+  - trigger: "knls"
+    replace: "kernels"
     word: true
     propagate_case: true

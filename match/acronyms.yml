@@ -183,3 +183,15 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  - trigger: "ict-"
+    replace: "Information and Communications Technology"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "pov-"
+    replace: "Point of View"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

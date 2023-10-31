@@ -1,0 +1,93 @@
+matches:
+  - trigger: "osna-"
+    replace: "Operating Systems and Administration"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "vna-"
+    replace: "Von Neumann Architecture"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "dma-"
+    replace: "Direct Memory Access"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "cpu-"
+    replace: "Central Processing Unit"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "alu-"
+    replace: "Arithmetic Logic Unit"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "os-"
+    replace: "Operating System"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "jl-"
+    replace: "Jacquard Loom"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "cu-"
+    replace: "Control Unit"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ram-"
+    replace: "Random Access Memory"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+  - trigger: "rom-"
+    replace: "Read Only Memory"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+  - trigger: "hdd-"
+    replace: "Hard Disk Drive"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+  - trigger: "ssd-"
+    replace: "Solid State Drive"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "io-"
+    replace: "Input/Output"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "bios-"
+    replace: "Basic Input/Output System"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "km-"
+    replace: "Kernel Mode"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "um-"
+    replace: "User Mode"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
