@@ -236,6 +236,57 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "btm"
+    replace: "bottom"
+    word: true
+    propagate_case: true
+  - trigger: "btms"
+    replace: "bottoms"
+    word: true
+    propagate_case: true
+  - trigger: "btmd"
+    replace: "bottomed"
+    word: true
+    propagate_case: true
+  - trigger: "btmg"
+    replace: "bottoming"
+    word: true
+    propagate_case: true
+
+  - trigger: "symt"
+    replace: "symmetric"
+    word: true
+    propagate_case: true
+  - trigger: "symtl"
+    replace: "symmetrical"
+    word: true
+    propagate_case: true
+  - trigger: "symtry"
+    replace: "symmetry"
+    word: true
+    propagate_case: true
+  - trigger: "symtrys"
+    replace: "symmetries"
+    word: true
+    propagate_case: true
+
+  - trigger: "asymt"
+    replace: "asymmetric"
+    word: true
+    propagate_case: true
+  - trigger: "asymtl"
+    replace: "asymmetrical"
+    word: true
+    propagate_case: true
+  - trigger: "asymtry"
+    replace: "asymmetry"
+    word: true
+    propagate_case: true
+  - trigger: "asymtrys"
+    replace: "asymmetries"
+    word: true
+    propagate_case: true
+
   - trigger: "btn"
     replace: "button"
     word: true
@@ -874,6 +925,14 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "disablt"
+    replace: "disablity"
+    word: true
+    propagate_case: true
+  - trigger: "disablts"
+    replace: "disablities"
+    word: true
+    propagate_case: true
   - trigger: "ablt"
     replace: "ability"
     word: true
@@ -912,15 +971,23 @@ matches:
     replace: "definition"
     word: true
     propagate_case: true
+  - trigger: "defnl"
+    replace: "definitely"
+    word: true
+    propagate_case: true
   - trigger: "defns"
     replace: "definitions"
     word: true
     propagate_case: true
-  - trigger: "defnd"
+  - trigger: "def"
+    replace: "define"
+    word: true
+    propagate_case: true
+  - trigger: "defd"
     replace: "defined"
     word: true
     propagate_case: true
-  - trigger: "defng"
+  - trigger: "defg"
     replace: "defining"
     word: true
     propagate_case: true
@@ -991,7 +1058,7 @@ matches:
     replace: "clearing"
     word: true
     propagate_case: true
-  - trigger: "clry"
+  - trigger: "clrly"
     replace: "clearly"
     word: true
     propagate_case: true
@@ -1258,6 +1325,19 @@ matches:
     replace: "informations"
     word: true
     propagate_case: true
+  - trigger: "infoml"
+    replace: "informational"
+    word: true
+    propagate_case: true
+
+  - trigger: "propt"
+    replace: "property"
+    word: true
+    propagate_case: true
+  - trigger: "propts"
+    replace: "properties"
+    word: true
+    propagate_case: true
 
   - trigger: "obj"
     replace: "object"
@@ -1283,8 +1363,42 @@ matches:
     replace: "objective"
     word: true
     propagate_case: true
+  - trigger: "objfl"
+    replace: "objectively"
+    word: true
+    propagate_case: true
   - trigger: "objfs"
     replace: "objectives"
+    word: true
+    propagate_case: true
+
+  - trigger: "tgt"
+    replace: "target"
+    word: true
+    propagate_case: true
+  - trigger: "tgts"
+    replace: "targets"
+    word: true
+    propagate_case: true
+  - trigger: "tgtd"
+    replace: "targeted"
+    word: true
+    propagate_case: true
+  - trigger: "tgtg"
+    replace: "targeting"
+    word: true
+    propagate_case: true
+  - trigger: "tgtr"
+    replace: "targeter"
+    word: true
+    propagate_case: true
+  - trigger: "tgtrs"
+    replace: "targeters"
+    word: true
+    propagate_case: true
+
+  - trigger: "togt"
+    replace: "together"
     word: true
     propagate_case: true
 
@@ -1543,6 +1657,10 @@ matches:
 
   - trigger: "spk"
     replace: "speak"
+    word: true
+    propagate_case: true
+  - trigger: "spks"
+    replace: "speaks"
     word: true
     propagate_case: true
   - trigger: "spkr"
@@ -3374,6 +3492,14 @@ matches:
     replace: "assembled"
     word: true
     propagate_case: true
+  - trigger: "asmbr"
+    replace: "assembler"
+    word: true
+    propagate_case: true
+  - trigger: "asmbrs"
+    replace: "assemblers"
+    word: true
+    propagate_case: true
 
   - trigger: "mcne"
     replace: "machine"
@@ -3412,6 +3538,10 @@ matches:
     replace: "specific"
     word: true
     propagate_case: true
+  - trigger: "specf"
+    replace: "specify"
+    word: true
+    propagate_case: true
   - trigger: "specly"
     replace: "specifically"
     word: true
@@ -3438,6 +3568,138 @@ matches:
     propagate_case: true
   - trigger: "specg"
     replace: "specifying"
+    word: true
+    propagate_case: true
+
+  - trigger: "dl"
+    replace: "download"
+    word: true
+    propagate_case: true
+  - trigger: "dld"
+    replace: "downloaded"
+    word: true
+    propagate_case: true
+  - trigger: "dlg"
+    replace: "downloading"
+    word: true
+    propagate_case: true
+  - trigger: "dlr"
+    replace: "downloader"
+    word: true
+    propagate_case: true
+  - trigger: "dlrs"
+    replace: "downloaders"
+    word: true
+    propagate_case: true
+
+  - trigger: "impm"
+    replace: "implement"
+    word: true
+    propagate_case: true
+  - trigger: "impms"
+    replace: "implements"
+    word: true
+    propagate_case: true
+  - trigger: "impmd"
+    replace: "implemented"
+    word: true
+    propagate_case: true
+  - trigger: "impmg"
+    replace: "implementing"
+    word: true
+    propagate_case: true
+
+  - trigger: "encpt"
+    replace: "encrypt"
+    word: true
+    propagate_case: true
+  - trigger: "encptn"
+    replace: "encryption"
+    word: true
+    propagate_case: true
+  - trigger: "encptns"
+    replace: "encryptions"
+    word: true
+    propagate_case: true
+  - trigger: "encptd"
+    replace: "encrypted"
+    word: true
+    propagate_case: true
+  - trigger: "encptg"
+    replace: "encrypting"
+    word: true
+    propagate_case: true
+  - trigger: "encptr"
+    replace: "encrypter"
+    word: true
+    propagate_case: true
+  - trigger: "encptrs"
+    replace: "encrypters"
+    word: true
+    propagate_case: true
+
+  - trigger: "decpt"
+    replace: "decrypt"
+    word: true
+    propagate_case: true
+  - trigger: "decptn"
+    replace: "decryption"
+    word: true
+    propagate_case: true
+  - trigger: "decptns"
+    replace: "decryptions"
+    word: true
+    propagate_case: true
+  - trigger: "decptd"
+    replace: "decrypted"
+    word: true
+    propagate_case: true
+  - trigger: "decptg"
+    replace: "decrypting"
+    word: true
+    propagate_case: true
+  - trigger: "decptr"
+    replace: "decrypter"
+    word: true
+    propagate_case: true
+  - trigger: "decptrs"
+    replace: "decrypters"
+    word: true
+    propagate_case: true
+
+  - trigger: "ex-"
+    replace: "exercise"
+    word: true
+    propagate_case: true
+  - trigger: "exs-"
+    replace: "exercises"
+    word: true
+    propagate_case: true
+
+  - trigger: "cvn"
+    replace: "convenient"
+    word: true
+    propagate_case: true
+  - trigger: "cvnn"
+    replace: "convenience"
+    word: true
+    propagate_case: true
+
+  - trigger: "fldr"
+    replace: "folder"
+    word: true
+    propagate_case: true
+  - trigger: "fldrs"
+    replace: "folders"
+    word: true
+    propagate_case: true
+
+  - trigger: "pwd"
+    replace: "password"
+    word: true
+    propagate_case: true
+  - trigger: "pwds"
+    replace: "passwords"
     word: true
     propagate_case: true
 
@@ -3570,6 +3832,10 @@ matches:
 
   - trigger: "undst"
     replace: "understand"
+    word: true
+    propagate_case: true
+  - trigger: "undsts"
+    replace: "understands"
     word: true
     propagate_case: true
   - trigger: "undstd"
@@ -3822,7 +4088,7 @@ matches:
     word: true
     propagate_case: true
   - trigger: "ev1"
-    replace: "  "
+    replace: "everyone"
     word: true
     propagate_case: true
   - trigger: "evb"
@@ -3959,6 +4225,10 @@ matches:
     replace: "other"
     word: true
     propagate_case: true
+  - trigger: "otrw"
+    replace: "otherwise"
+    word: true
+    propagate_case: true
   - trigger: "otrs"
     replace: "others"
     word: true
@@ -4047,6 +4317,10 @@ matches:
 
   - trigger: "wasnt"
     replace: "wasnt't"
+    word: true
+    propagate_case: true
+  - trigger: "werent"
+    replace: "weren't"
     word: true
     propagate_case: true
 
@@ -4318,6 +4592,10 @@ matches:
 
   - trigger: "kw"
     replace: "know"
+    word: true
+    propagate_case: true
+  - trigger: "kws"
+    replace: "knows"
     word: true
     propagate_case: true
   - trigger: "kwg"
@@ -4664,6 +4942,14 @@ matches:
     replace: "functional"
     word: true
     propagate_case: true
+  - trigger: "fnlt"
+    replace: "functionality"
+    word: true
+    propagate_case: true
+  - trigger: "fnlts"
+    replace: "functionalities"
+    word: true
+    propagate_case: true
   - trigger: "fns"
     replace: "functions"
     word: true
@@ -4880,11 +5166,6 @@ matches:
     propagate_case: true
   - trigger: "lvlup"
     replace: "level up"
-    word: true
-    propagate_case: true
-
-  - trigger: "tgt"
-    replace: "together"
     word: true
     propagate_case: true
 
@@ -5373,10 +5654,6 @@ matches:
     replace: "I've"
     word: true
     propagate_case: true
-  - trigger: "id"
-    replace: "I'd"
-    word: true
-    propagate_case: true
   - trigger: "ii"
     replace: "I"
     word: true
@@ -5473,6 +5750,14 @@ matches:
     replace: "registrations"
     word: true
     propagate_case: true
+  - trigger: "regt"
+    replace: "registry"
+    word: true
+    propagate_case: true
+  - trigger: "regts"
+    replace: "registries"
+    word: true
+    propagate_case: true
 
   - trigger: "pri"
     replace: "primary"
@@ -5489,6 +5774,10 @@ matches:
     propagate_case: true
   - trigger: "prits"
     replace: "priorities"
+    word: true
+    propagate_case: true
+  - trigger: "pritz"
+    replace: "prioritize"
     word: true
     propagate_case: true
   - trigger: "pritg"
@@ -5939,8 +6228,16 @@ matches:
     replace: "administration"
     word: true
     propagate_case: true
+  - trigger: "admins-"
+    replace: "administrations"
+    word: true
+    propagate_case: true
   - trigger: "adminr-"
     replace: "administrator"
+    word: true
+    propagate_case: true
+  - trigger: "adminrs-"
+    replace: "administrators"
     word: true
     propagate_case: true
 
@@ -5957,8 +6254,95 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "selc"
+    replace: "select"
+    word: true
+    propagate_case: true
+  - trigger: "selcs"
+    replace: "selects"
+    word: true
+    propagate_case: true
+  - trigger: "selcd"
+    replace: "selected"
+    word: true
+    propagate_case: true
+  - trigger: "selcg"
+    replace: "selecting"
+    word: true
+    propagate_case: true
+  - trigger: "selcr"
+    replace: "selector"
+    word: true
+    propagate_case: true
+  - trigger: "selcrs"
+    replace: "selectors"
+    word: true
+    propagate_case: true
+  - trigger: "selcn"
+    replace: "selection"
+    word: true
+    propagate_case: true
+  - trigger: "selcns"
+    replace: "selections"
+    word: true
+    propagate_case: true
+
   - trigger: "alw"
     replace: "always"
+    word: true
+    propagate_case: true
+
+  - trigger: "sigf"
+    replace: "significant"
+    word: true
+    propagate_case: true
+  - trigger: "sigfs"
+    replace: "significants"
+    word: true
+    propagate_case: true
+  - trigger: "sigfl"
+    replace: "significantly"
+    word: true
+    propagate_case: true
+  - trigger: "sigfn"
+    replace: "significance"
+    word: true
+    propagate_case: true
+  - trigger: "sigfns"
+    replace: "significances"
+    word: true
+    propagate_case: true
+
+  - trigger: "reco"
+    replace: "recommend"
+    word: true
+    propagate_case: true
+  - trigger: "recos"
+    replace: "recommends"
+    word: true
+    propagate_case: true
+  - trigger: "recod"
+    replace: "recommended"
+    word: true
+    propagate_case: true
+  - trigger: "recog"
+    replace: "recommending"
+    word: true
+    propagate_case: true
+  - trigger: "recor"
+    replace: "recommender"
+    word: true
+    propagate_case: true
+  - trigger: "recors"
+    replace: "recommenders"
+    word: true
+    propagate_case: true
+  - trigger: "recom"
+    replace: "recommendation"
+    word: true
+    propagate_case: true
+  - trigger: "recoms"
+    replace: "recommendations"
     word: true
     propagate_case: true
 
@@ -6112,6 +6496,10 @@ matches:
     replace: "optimal"
     word: true
     propagate_case: true
+  - trigger: "optmll"
+    replace: "optimally"
+    word: true
+    propagate_case: true
 
   - trigger: "aprch"
     replace: "approach"
@@ -6176,5 +6564,510 @@ matches:
     propagate_case: true
   - trigger: "scsfl"
     replace: "successfully"
+    word: true
+    propagate_case: true
+
+  - trigger: "mysql"
+    replace: "MySQL"
+    word: true
+    propagate_case: true
+
+  - trigger: "rtv"
+    replace: "retrieve"
+    word: true
+    propagate_case: true
+  - trigger: "rtvs"
+    replace: "retrieves"
+    word: true
+    propagate_case: true
+  - trigger: "rtvd"
+    replace: "retrieved"
+    word: true
+    propagate_case: true
+  - trigger: "rtvg"
+    replace: "retrieving"
+    word: true
+    propagate_case: true
+  - trigger: "rtvr"
+    replace: "retriever"
+    word: true
+    propagate_case: true
+  - trigger: "rtvrs"
+    replace: "retrievers"
+    word: true
+    propagate_case: true
+  - trigger: "rtvl"
+    replace: "retrieval"
+    word: true
+    propagate_case: true
+  - trigger: "rtvls"
+    replace: "retrievals"
+    word: true
+    propagate_case: true
+
+  - trigger: "rdy"
+    replace: "ready"
+    word: true
+    propagate_case: true
+
+  - trigger: "msg"
+    replace: "message"
+    word: true
+    propagate_case: true
+  - trigger: "msgs"
+    replace: "messages"
+    word: true
+    propagate_case: true
+  - trigger: "msgd"
+    replace: "messaged"
+    word: true
+    propagate_case: true
+  - trigger: "msgg"
+    replace: "messaging"
+    word: true
+    propagate_case: true
+  - trigger: "msgr"
+    replace: "messager"
+    word: true
+    propagate_case: true
+  - trigger: "msgrs"
+    replace: "messagers"
+    word: true
+    propagate_case: true
+
+  - trigger: "optnt"
+    replace: "opportunity"
+    word: true
+    propagate_case: true
+  - trigger: "optnts"
+    replace: "opportunities"
+    word: true
+    propagate_case: true
+  - trigger: "optntg"
+    replace: "opportuning"
+    word: true
+    propagate_case: true
+  - trigger: "optntd"
+    replace: "opportuned"
+    word: true
+    propagate_case: true
+
+  - trigger: "+ve"
+    replace: "positive"
+    word: true
+    propagate_case: true
+  - trigger: "+ves"
+    replace: "positives"
+    word: true
+    propagate_case: true
+  - trigger: "+ved"
+    replace: "positived"
+    word: true
+    propagate_case: true
+  - trigger: "+vel"
+    replace: "positivitely"
+    word: true
+    propagate_case: true
+
+  - trigger: "-ve"
+    replace: "negative"
+    word: true
+    propagate_case: true
+  - trigger: "-ves"
+    replace: "negatives"
+    word: true
+    propagate_case: true
+  - trigger: "-ved"
+    replace: "negatived"
+    word: true
+    propagate_case: true
+  - trigger: "-vet"
+    replace: "negativity"
+    word: true
+    propagate_case: true
+  - trigger: "-vel"
+    replace: "negatively"
+    word: true
+    propagate_case: true
+
+  - trigger: "chatgpt"
+    replace: "ChatGPT"
+    word: true
+    propagate_case: true
+
+  - trigger: "strat"
+    replace: "strategy"
+    word: true
+    propagate_case: true
+  - trigger: "strats"
+    replace: "strategies"
+    word: true
+    propagate_case: true
+  - trigger: "stratz"
+    replace: "strategize"
+    word: true
+    propagate_case: true
+  - trigger: "stratd"
+    replace: "strategized"
+    word: true
+    propagate_case: true
+  - trigger: "stratg"
+    replace: "strategizing"
+    word: true
+    propagate_case: true
+  - trigger: "stratr"
+    replace: "strategizer"
+    word: true
+    propagate_case: true
+  - trigger: "stratrs"
+    replace: "strategizers"
+    word: true
+    propagate_case: true
+
+  - trigger: "eft"
+    replace: "effect"
+    word: true
+    propagate_case: true
+  - trigger: "efts"
+    replace: "effects"
+    word: true
+    propagate_case: true
+  - trigger: "eftd"
+    replace: "effected"
+    word: true
+    propagate_case: true
+  - trigger: "eftg"
+    replace: "effecting"
+    word: true
+    propagate_case: true
+  - trigger: "eftr"
+    replace: "effector"
+    word: true
+    propagate_case: true
+  - trigger: "eftrs"
+    replace: "effectors"
+    word: true
+    propagate_case: true
+  - trigger: "eftn"
+    replace: "effectiveness"
+    word: true
+    propagate_case: true
+  - trigger: "eftf"
+    replace: "effective"
+    word: true
+    propagate_case: true
+  - trigger: "eftfl"
+    replace: "effectively"
+    word: true
+    propagate_case: true
+
+  - trigger: "pdt"
+    replace: "product"
+    word: true
+    propagate_case: true
+  - trigger: "pdts"
+    replace: "products"
+    word: true
+    propagate_case: true
+  - trigger: "pdtn"
+    replace: "production"
+    word: true
+    propagate_case: true
+  - trigger: "pdtns"
+    replace: "productions"
+    word: true
+    propagate_case: true
+
+  - trigger: "estm"
+    replace: "estimate"
+    word: true
+    propagate_case: true
+  - trigger: "estms"
+    replace: "estimates"
+    word: true
+    propagate_case: true
+  - trigger: "estmd"
+    replace: "estimated"
+    word: true
+    propagate_case: true
+  - trigger: "estmg"
+    replace: "estimating"
+    word: true
+    propagate_case: true
+  - trigger: "estmr"
+    replace: "estimator"
+    word: true
+    propagate_case: true
+  - trigger: "estmrs"
+    replace: "estimators"
+    word: true
+    propagate_case: true
+  - trigger: "estmn"
+    replace: "estimation"
+    word: true
+    propagate_case: true
+  - trigger: "estmns"
+    replace: "estimations"
+    word: true
+    propagate_case: true
+
+  - trigger: "incl"
+    replace: "include"
+    word: true
+    propagate_case: true
+  - trigger: "inclg"
+    replace: "including"
+    word: true
+    propagate_case: true
+  - trigger: "incln"
+    replace: "inclusion"
+    word: true
+    propagate_case: true
+  - trigger: "inclns"
+    replace: "inclusions"
+    word: true
+    propagate_case: true
+  - trigger: "incld"
+    replace: "included"
+    word: true
+    propagate_case: true
+
+  - trigger: "migr"
+    replace: "migrate"
+    word: true
+    propagate_case: true
+  - trigger: "migrs"
+    replace: "migrates"
+    word: true
+    propagate_case: true
+  - trigger: "migrd"
+    replace: "migrated"
+    word: true
+    propagate_case: true
+  - trigger: "migrn"
+    replace: "migration"
+    word: true
+    propagate_case: true
+  - trigger: "migrns"
+    replace: "migrations"
+    word: true
+    propagate_case: true
+  - trigger: "migrg"
+    replace: "migrating"
+    word: true
+    propagate_case: true
+  - trigger: "migrtr"
+    replace: "migrator"
+    word: true
+    propagate_case: true
+  - trigger: "migrtrs"
+    replace: "migrators"
+    word: true
+    propagate_case: true
+  - trigger: "migrl"
+    replace: "migratable"
+    word: true
+    propagate_case: true
+  - trigger: "migrls"
+    replace: "migratables"
+    word: true
+    propagate_case: true
+
+  - trigger: "auth"
+    replace: "authenticate"
+    word: true
+    propagate_case: true
+  - trigger: "authn"
+    replace: "authentication"
+    word: true
+    propagate_case: true
+  - trigger: "authns"
+    replace: "authentications"
+    word: true
+    propagate_case: true
+  - trigger: "authd"
+    replace: "authenticated"
+    word: true
+    propagate_case: true
+  - trigger: "authg"
+    replace: "authenticating"
+    word: true
+    propagate_case: true
+  - trigger: "authr"
+    replace: "authenticator"
+    word: true
+    propagate_case: true
+  - trigger: "authrs"
+    replace: "authenticators"
+    word: true
+    propagate_case: true
+
+  - trigger: "authz"
+    replace: "authorize"
+    word: true
+    propagate_case: true
+  - trigger: "authzs"
+    replace: "authorizes"
+    word: true
+    propagate_case: true
+  - trigger: "authzd"
+    replace: "authorized"
+    word: true
+    propagate_case: true
+  - trigger: "authzg"
+    replace: "authorizing"
+    word: true
+    propagate_case: true
+  - trigger: "authzr"
+    replace: "authorizer"
+    word: true
+    propagate_case: true
+  - trigger: "authzrs"
+    replace: "authorizers"
+    word: true
+    propagate_case: true
+  - trigger: "authzn"
+    replace: "authorization"
+    word: true
+    propagate_case: true
+  - trigger: "authzns"
+    replace: "authorizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "fronte"
+    replace: "frontend"
+    word: true
+    propagate_case: true
+  - trigger: "backe"
+    replace: "backend"
+    word: true
+    propagate_case: true
+
+  - trigger: "vsn"
+    replace: "version"
+    word: true
+    propagate_case: true
+  - trigger: "vsns"
+    replace: "versions"
+    word: true
+    propagate_case: true
+  - trigger: "vsnd"
+    replace: "versioned"
+    word: true
+    propagate_case: true
+  - trigger: "vsng"
+    replace: "versioning"
+    word: true
+    propagate_case: true
+
+  - trigger: "clb"
+    replace: "collab"
+    word: true
+    propagate_case: true
+  - trigger: "clbs"
+    replace: "collabs"
+    word: true
+    propagate_case: true
+  - trigger: "clbd"
+    replace: "collabed"
+    word: true
+    propagate_case: true
+  - trigger: "clbg"
+    replace: "collabing"
+    word: true
+    propagate_case: true
+
+  - trigger: "clbr"
+    replace: "collaborate"
+    word: true
+    propagate_case: true
+  - trigger: "clbrs"
+    replace: "collaborates"
+    word: true
+    propagate_case: true
+  - trigger: "clbrd"
+    replace: "collaborated"
+    word: true
+    propagate_case: true
+  - trigger: "clbrg"
+    replace: "collaborating"
+    word: true
+    propagate_case: true
+  - trigger: "clbrn"
+    replace: "collaboration"
+    word: true
+    propagate_case: true
+  - trigger: "clbrns"
+    replace: "collaborations"
+    word: true
+    propagate_case: true
+  - trigger: "clbrt"
+    replace: "collaborator"
+    word: true
+    propagate_case: true
+  - trigger: "clbrts"
+    replace: "collaborators"
+    word: true
+    propagate_case: true
+  - trigger: "clbrf"
+    replace: "collaborative"
+    word: true
+    propagate_case: true
+
+  - trigger: "fren"
+    replace: "friend"
+    word: true
+    propagate_case: true
+  - trigger: "frens"
+    replace: "friends"
+    word: true
+    propagate_case: true
+
+  - trigger: "esp"
+    replace: "especially"
+    word: true
+    propagate_case: true
+
+  - trigger: "param"
+    replace: "parameter"
+    word: true
+    propagate_case: true
+  - trigger: "params"
+    replace: "parameters"
+    word: true
+    propagate_case: true
+  - trigger: "paramz"
+    replace: "parameterize"
+    word: true
+    propagate_case: true
+  - trigger: "paramzd"
+    replace: "parameterized"
+    word: true
+    propagate_case: true
+  - trigger: "paramzg"
+    replace: "parameterizing"
+    word: true
+    propagate_case: true
+
+  - trigger: "del-"
+    replace: "delete"
+    word: true
+    propagate_case: true
+  - trigger: "dels-"
+    replace: "deletes"
+    word: true
+    propagate_case: true
+  - trigger: "deld-"
+    replace: "deleted"
+    word: true
+    propagate_case: true
+  - trigger: "delg-"
+    replace: "deleting"
+    word: true
+    propagate_case: true
+
+  - trigger: "enuf"
+    replace: "enough"
     word: true
     propagate_case: true

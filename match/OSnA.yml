@@ -97,3 +97,27 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  - trigger: "vm-"
+    replace: "Virtual Machine"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "fek-"
+    replace: "File Encryption Key"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sam-"
+    replace: "Security Accounts Manager"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "efs-"
+    replace: "Encrypting File System"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

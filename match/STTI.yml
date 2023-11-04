@@ -1,0 +1,18 @@
+matches:
+  - trigger: "stti-"
+    replace: "Speech-To-Text-Interpreting"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sttir-"
+    replace: "Speech-To-Text-Interpreter"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sttin-"
+    replace: "Speech-To-Text-Interpretation"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

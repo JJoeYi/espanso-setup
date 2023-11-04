@@ -10,3 +10,45 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  - trigger: "vs-"
+    replace: "Visual Studio"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "vsc-"
+    replace: "Visual Studio Code"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ms-"
+    replace: "Microsoft"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "cicd-"
+    replace: "Continuous Integration Continuous Deployment"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "aws-"
+    replace: "Amazon Web Services"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "azure-"
+    replace: "Microsoft Azure"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "gcp-"
+    replace: "Google Cloud Platform"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
