@@ -5,6 +5,11 @@ matches:
     uppercase_style: "capitalize_words"
     propagate_case: true
 
+  - trigger: "mh-"
+    replace: "mental health"
+    word: true
+    propagate_case: true
+
   - trigger: "nyp-"
     replace: "Nanyang Polytechnic"
     word: true

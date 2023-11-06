@@ -4909,15 +4909,135 @@ matches:
     word: true
     propagate_case: true
   - trigger: "acsb"
-    replace: "accessable"
+    replace: "accessible"
     word: true
     propagate_case: true
   - trigger: "acsby"
-    replace: "accessability"
+    replace: "accessibility"
     word: true
     propagate_case: true
   - trigger: "acsbys"
-    replace: "accessabilities"
+    replace: "accessibilities"
+    word: true
+    propagate_case: true
+
+  - trigger: "popu"
+    replace: "popular"
+    word: true
+    propagate_case: true
+  - trigger: "popus"
+    replace: "populars"
+    word: true
+    propagate_case: true
+  - trigger: "popuz"
+    replace: "popularize"
+    word: true
+    propagate_case: true
+  - trigger: "popuzd"
+    replace: "popularized"
+    word: true
+    propagate_case: true
+  - trigger: "popuzg"
+    replace: "popularizing"
+    word: true
+    propagate_case: true
+  - trigger: "popuzr"
+    replace: "popularizer"
+    word: true
+    propagate_case: true
+  - trigger: "popuzrs"
+    replace: "popularizers"
+    word: true
+    propagate_case: true
+  - trigger: "popuzn"
+    replace: "popularization"
+    word: true
+    propagate_case: true
+  - trigger: "popuzns"
+    replace: "popularizations"
+    word: true
+    propagate_case: true
+  - trigger: "poput"
+    replace: "popularity"
+    word: true
+    propagate_case: true
+  - trigger: "poputs"
+    replace: "popularities"
+    word: true
+    propagate_case: true
+  - trigger: "popun"
+    replace: "population"
+    word: true
+    propagate_case: true
+  - trigger: "popuns"
+    replace: "populations"
+    word: true
+    propagate_case: true
+
+  - trigger: "curr"
+    replace: "current"
+    word: true
+    propagate_case: true
+  - trigger: "currs"
+    replace: "currents"
+    word: true
+    propagate_case: true
+  - trigger: "currl"
+    replace: "currently"
+    word: true
+    propagate_case: true
+
+  - trigger: "impv"
+    replace: "improve"
+    word: true
+    propagate_case: true
+  - trigger: "impvd"
+    replace: "improved"
+    word: true
+    propagate_case: true
+  - trigger: "impvg"
+    replace: "improving"
+    word: true
+    propagate_case: true
+  - trigger: "impvr"
+    replace: "improver"
+    word: true
+    propagate_case: true
+  - trigger: "impvrs"
+    replace: "improvers"
+    word: true
+    propagate_case: true
+  - trigger: "impvm"
+    replace: "improvement"
+    word: true
+    propagate_case: true
+  - trigger: "impvms"
+    replace: "improvements"
+    word: true
+    propagate_case: true
+
+  - trigger: "exp"
+    replace: "experience"
+    word: true
+    propagate_case: true
+  - trigger: "exps"
+    replace: "experiences"
+    word: true
+    propagate_case: true
+  - trigger: "expd"
+    replace: "experienced"
+    word: true
+    propagate_case: true
+  - trigger: "expg"
+    replace: "experiencing"
+    word: true
+    propagate_case: true
+  - trigger: "expr"
+    replace: "experiencer"
+    word: true
+    propagate_case: true
+  - trigger: "exprs"
+    replace: "experiencers"
     word: true
     propagate_case: true
 
@@ -6287,8 +6407,103 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "alw"
+  - trigger: "alwy"
     replace: "always"
+    word: true
+    propagate_case: true
+
+  - trigger: "alw"
+    replace: "allow"
+    word: true
+    propagate_case: true
+  - trigger: "alws"
+    replace: "allows"
+    word: true
+    propagate_case: true
+  - trigger: "alwd"
+    replace: "allowed"
+    word: true
+    propagate_case: true
+  - trigger: "alwg"
+    replace: "allowing"
+    word: true
+    propagate_case: true
+  - trigger: "alwr"
+    replace: "allower"
+    word: true
+    propagate_case: true
+  - trigger: "alwrs"
+    replace: "allowers"
+    word: true
+    propagate_case: true
+  - trigger: "alwn"
+    replace: "allowance"
+    word: true
+    propagate_case: true
+  - trigger: "alwns"
+    replace: "allowances"
+    word: true
+    propagate_case: true
+
+  - trigger: "mtv"
+    replace: "motivate"
+    word: true
+    propagate_case: true
+  - trigger: "mtvs"
+    replace: "motivates"
+    word: true
+    propagate_case: true
+  - trigger: "mtvd"
+    replace: "motivated"
+    word: true
+    propagate_case: true
+  - trigger: "mtvg"
+    replace: "motivating"
+    word: true
+    propagate_case: true
+  - trigger: "mtvr"
+    replace: "motivator"
+    word: true
+    propagate_case: true
+  - trigger: "mtvrs"
+    replace: "motivators"
+    word: true
+    propagate_case: true
+  - trigger: "mtvn"
+    replace: "motivation"
+    word: true
+    propagate_case: true
+  - trigger: "mtvns"
+    replace: "motivations"
+    word: true
+    propagate_case: true
+  - trigger: "mtvl"
+    replace: "motivational"
+    word: true
+    propagate_case: true
+
+  - trigger: "bhv"
+    replace: "behave"
+    word: true
+    propagate_case: true
+  - trigger: "bhvr"
+    replace: "behaviour"
+    word: true
+    propagate_case: true
+  - trigger: "bhvrs"
+    replace: "behaviours"
+    word: true
+    propagate_case: true
+  - trigger: "bhvd"
+    replace: "behaved"
+    word: true
+    propagate_case: true
+  - trigger: "bhvg"
+    replace: "behaving"
+    word: true
+    propagate_case: true
+  - trigger: "bhvrl"
+    replace: "behavioural"
     word: true
     propagate_case: true
 
