@@ -84,6 +84,9 @@ matches:
   - trigger: "/eos"
     replace: "[end of session $|$]"
 
+  - trigger: "/eod"
+    replace: "[end of document]"
+
   - trigger: "/atnd"
     replace: "[taking attendance]"
 

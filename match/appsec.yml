@@ -1,0 +1,65 @@
+matches:
+  - trigger: "appsec-"
+    replace: "Application Security"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "c-s-"
+    replace: "cross-site"
+    word: true
+    propagate_case: true
+
+  - trigger: "owasp-"
+    replace: "Open Web Application Security Project"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "2fa-"
+    replace: "Two-Factor Authentication"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "2sv-"
+    replace: "Two-Step Verification"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "http-"
+    replace: "Hypertext Transfer Protocol"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "https-"
+    replace: "Hypertext Transfer Protocol Secure"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "sso-"
+    replace: "Single Sign-On"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "xss-"
+    replace: "Cross-Site Scripting"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "dns-"
+    replace: "Domain Name System"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "ddos-"
+    replace: "Distributed Denial of Service"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
