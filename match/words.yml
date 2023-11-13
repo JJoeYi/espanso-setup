@@ -398,6 +398,10 @@ matches:
     replace: "continue"
     word: true
     propagate_case: true
+  - trigger: "ctnus"
+    replace: "continues"
+    word: true
+    propagate_case: true
   - trigger: "ctnud"
     replace: "continued"
     word: true
@@ -422,13 +426,66 @@ matches:
     replace: "continuations"
     word: true
     propagate_case: true
+  - trigger: "ctnuo"
+    replace: "continuous"
+    word: true
+    propagate_case: true
 
-  - trigger: "contnt"
+  - trigger: "acml"
+    replace: "accumulate"
+    word: true
+    propagate_case: true
+  - trigger: "acmls"
+    replace: "accumulates"
+    word: true
+    propagate_case: true
+  - trigger: "acmld"
+    replace: "accumulated"
+    word: true
+    propagate_case: true
+  - trigger: "acmlg"
+    replace: "accumulating"
+    word: true
+    propagate_case: true
+  - trigger: "acmlr"
+    replace: "accumulator"
+    word: true
+    propagate_case: true
+  - trigger: "acmlrs"
+    replace: "accumulators"
+    word: true
+    propagate_case: true
+  - trigger: "acmln"
+    replace: "accumulation"
+    word: true
+    propagate_case: true
+  - trigger: "acmlns"
+    replace: "accumulations"
+    word: true
+    propagate_case: true
+  - trigger: "acmlf"
+    replace: "accumulative"
+    word: true
+    propagate_case: true
+  - trigger: "acmlfy"
+    replace: "accumulatively"
+    word: true
+    propagate_case: true
+
+  - trigger: "cntt"
     replace: "content"
     word: true
     propagate_case: true
-  - trigger: "contnts"
+  - trigger: "cntts"
     replace: "contents"
+    word: true
+    propagate_case: true
+  - trigger: "cnttd"
+    replace: "contented"
+    word: true
+    propagate_case: true
+  - trigger: "cnttg"
+    replace: "contenting"
     word: true
     propagate_case: true
 
@@ -484,6 +541,10 @@ matches:
 
   - trigger: "pvd"
     replace: "provide"
+    word: true
+    propagate_case: true
+  - trigger: "pvds"
+    replace: "provides"
     word: true
     propagate_case: true
   - trigger: "pvdr"
@@ -2661,6 +2722,14 @@ matches:
     replace: "personal"
     word: true
     propagate_case: true
+  - trigger: "psnlz"
+    replace: "personalize"
+    word: true
+    propagate_case: true
+  - trigger: "psnlzd"
+    replace: "personalized"
+    word: true
+    propagate_case: true
   - trigger: "psnly"
     replace: "personally"
     word: true
@@ -2671,6 +2740,15 @@ matches:
     propagate_case: true
   - trigger: "psnlts"
     replace: "personalities"
+    word: true
+    propagate_case: true
+
+  - trigger: "dvc"
+    replace: "device"
+    word: true
+    propagate_case: true
+  - trigger: "dvcs"
+    replace: "devices"
     word: true
     propagate_case: true
 
@@ -2943,6 +3021,10 @@ matches:
 
   - trigger: "intg"
     replace: "integrate"
+    word: true
+    propagate_case: true
+  - trigger: "intgg"
+    replace: "integrating"
     word: true
     propagate_case: true
   - trigger: "intgl"
@@ -4869,6 +4951,14 @@ matches:
     replace: "complete"
     word: true
     propagate_case: true
+  - trigger: "cmplts"
+    replace: "completes"
+    word: true
+    propagate_case: true
+  - trigger: "cmpltg"
+    replace: "completing"
+    word: true
+    propagate_case: true
   - trigger: "cmpltd"
     replace: "completed"
     word: true
@@ -6167,6 +6257,31 @@ matches:
     propagate_case: true
   - trigger: "rfrng"
     replace: "referencing"
+    word: true
+    propagate_case: true
+
+  - trigger: "pps"
+    replace: "purpose"
+    word: true
+    propagate_case: true
+  - trigger: "ppss"
+    replace: "purposes"
+    word: true
+    propagate_case: true
+  - trigger: "ppsd"
+    replace: "purposed"
+    word: true
+    propagate_case: true
+  - trigger: "ppsl"
+    replace: "purposely"
+    word: true
+    propagate_case: true
+  - trigger: "ppsf"
+    replace: "purposeful"
+    word: true
+    propagate_case: true
+  - trigger: "ppsfl"
+    replace: "purposefully"
     word: true
     propagate_case: true
 
@@ -8432,6 +8547,72 @@ matches:
     propagate_case: true
   - trigger: "delg-"
     replace: "deleting"
+    word: true
+    propagate_case: true
+
+  - trigger: "psnt"
+    replace: "present"
+    word: true
+    propagate_case: true
+  - trigger: "psnts"
+    replace: "presents"
+    word: true
+    propagate_case: true
+  - trigger: "psntd"
+    replace: "presented"
+    word: true
+    propagate_case: true
+  - trigger: "psntg"
+    replace: "presenting"
+    word: true
+    propagate_case: true
+  - trigger: "psntr"
+    replace: "presenter"
+    word: true
+    propagate_case: true
+  - trigger: "psntrs"
+    replace: "presenters"
+    word: true
+    propagate_case: true
+  - trigger: "psntn"
+    replace: "presentation"
+    word: true
+    propagate_case: true
+  - trigger: "psntns"
+    replace: "presentations"
+    word: true
+    propagate_case: true
+  - trigger: "psntl"
+    replace: "presentable"
+    word: true
+    propagate_case: true
+  - trigger: "psntls"
+    replace: "presentables"
+    word: true
+    propagate_case: true
+
+  - trigger: "dtl"
+    replace: "detail"
+    word: true
+    propagate_case: true
+  - trigger: "dtls"
+    replace: "details"
+    word: true
+    propagate_case: true
+  - trigger: "dtld"
+    replace: "detailed"
+    word: true
+    propagate_case: true
+  - trigger: "dtlg"
+    replace: "detailing"
+    word: true
+    propagate_case: true
+  - trigger: "dtlr"
+    replace: "detailer"
+    word: true
+    propagate_case: true
+  - trigger: "dtlrs"
+    replace: "detailers"
     word: true
     propagate_case: true
 
