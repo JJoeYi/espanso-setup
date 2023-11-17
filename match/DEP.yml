@@ -1,0 +1,36 @@
+matches:
+  - trigger: "dep-"
+    replace: "Deaf Empowerment Programme"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "hoh-"
+    replace: "Hard of Hearing"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "dc-"
+    replace: "Deaf Community"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "dct-"
+    replace: "Deaf Culture"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "dhh-"
+    replace: "Deaf and Hard of Hearing"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true
+
+  - trigger: "cc-"
+    replace: "closed captioning"
+    word: true
+    uppercase_style: "capitalize_words"
+    propagate_case: true

@@ -8,6 +8,83 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "mon-"
+    replace: "monday"
+    word: true
+    propagate_case: true
+  - trigger: "tue-"
+    replace: "tuesday"
+    word: true
+    propagate_case: true
+  - trigger: "wed-"
+    replace: "wednesday"
+    word: true
+    propagate_case: true
+  - trigger: "thur-"
+    replace: "thursday"
+    word: true
+    propagate_case: true
+  - trigger: "fri-"
+    replace: "friday"
+    word: true
+    propagate_case: true
+  - trigger: "sat-"
+    replace: "saturday"
+    word: true
+    propagate_case: true
+  - trigger: "sun-"
+    replace: "sunday"
+    word: true
+    propagate_case: true
+  - trigger: "jan-"
+    replace: "january"
+    word: true
+    propagate_case: true
+  - trigger: "feb-"
+    replace: "february"
+    word: true
+    propagate_case: true
+  - trigger: "mar-"
+    replace: "march"
+    word: true
+    propagate_case: true
+  - trigger: "apr-"
+    replace: "april"
+    word: true
+    propagate_case: true
+  - trigger: "may-"
+    replace: "may"
+    word: true
+    propagate_case: true
+  - trigger: "jun-"
+    replace: "june"
+    word: true
+    propagate_case: true
+  - trigger: "jul-"
+    replace: "july"
+    word: true
+    propagate_case: true
+  - trigger: "aug-"
+    replace: "august"
+    word: true
+    propagate_case: true
+  - trigger: "sep-"
+    replace: "september"
+    word: true
+    propagate_case: true
+  - trigger: "oct-"
+    replace: "october"
+    word: true
+    propagate_case: true
+  - trigger: "nov-"
+    replace: "november"
+    word: true
+    propagate_case: true
+  - trigger: "dec-"
+    replace: "december"
+    word: true
+    propagate_case: true
+
   - trigger: "argm"
     replace: "argument"
     word: true
@@ -2743,11 +2820,16 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "dvc"
+  - trigger: "interpsnl"
+    replace: "interpersonal"
+    word: true
+    propagate_case: true
+
+  - trigger: "devc"
     replace: "device"
     word: true
     propagate_case: true
-  - trigger: "dvcs"
+  - trigger: "devcs"
     replace: "devices"
     word: true
     propagate_case: true
@@ -2861,20 +2943,12 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "govt"
+  - trigger: "govm"
     replace: "government"
     word: true
     propagate_case: true
-  - trigger: "govts"
+  - trigger: "govms"
     replace: "governments"
-    word: true
-    propagate_case: true
-  - trigger: "govtl"
-    replace: "governmental"
-    word: true
-    propagate_case: true
-  - trigger: "govtly"
-    replace: "governmentally"
     word: true
     propagate_case: true
 
@@ -3691,19 +3765,6 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "hr"
-    replace: "hour"
-    word: true
-    propagate_case: true
-  - trigger: "hrs"
-    replace: "hours"
-    word: true
-    propagate_case: true
-  - trigger: "hrly"
-    replace: "hourly"
-    word: true
-    propagate_case: true
-
   - trigger: "ctx"
     replace: "context"
     word: true
@@ -4103,10 +4164,6 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "avbl"
-    replace: "available"
-    word: true
-    propagate_case: true
   - trigger: "avb"
     replace: "available"
     word: true
@@ -4297,8 +4354,8 @@ matches:
     replace: "with"
     word: true
     propagate_case: true
-  - trigger: "wfx"
-    replace: "without"
+  - trigger: "wfn"
+    replace: "within"
     word: true
     propagate_case: true
   - trigger: "wfc"
@@ -6866,6 +6923,15 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "cmnt"
+    replace: "community"
+    word: true
+    propagate_case: true
+  - trigger: "cmnts"
+    replace: "communities"
+    word: true
+    propagate_case: true
+
   - trigger: "cmnc"
     replace: "communicate"
     word: true
@@ -7106,6 +7172,30 @@ matches:
     propagate_case: true
   - trigger: "vldn"
     replace: "validation"
+    word: true
+    propagate_case: true
+  - trigger: "vldns"
+    replace: "validations"
+    word: true
+    propagate_case: true
+  - trigger: "vldr"
+    replace: "validator"
+    word: true
+    propagate_case: true
+  - trigger: "vldrs"
+    replace: "validators"
+    word: true
+    propagate_case: true
+  - trigger: "vldt"
+    replace: "validity"
+    word: true
+    propagate_case: true
+  - trigger: "vldts"
+    replace: "validities"
+    word: true
+    propagate_case: true
+  - trigger: "vldtg"
+    replace: "validating"
     word: true
     propagate_case: true
 
@@ -7631,6 +7721,10 @@ matches:
     replace: "always"
     word: true
     propagate_case: true
+  - trigger: "alwys"
+    replace: "always"
+    word: true
+    propagate_case: true
 
   - trigger: "alw"
     replace: "allow"
@@ -7836,6 +7930,10 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "ettn"
+    replace: "entertain"
+    word: true
+    propagate_case: true
   - trigger: "ettm"
     replace: "entertainment"
     word: true
@@ -7844,15 +7942,15 @@ matches:
     replace: "entertainments"
     word: true
     propagate_case: true
-  - trigger: "ettmg"
+  - trigger: "ettng"
     replace: "entertaining"
     word: true
     propagate_case: true
-  - trigger: "ettmr"
+  - trigger: "ettnr"
     replace: "entertainer"
     word: true
     propagate_case: true
-  - trigger: "ettmrs"
+  - trigger: "ettnrs"
     replace: "entertainers"
     word: true
     propagate_case: true
@@ -8790,6 +8888,777 @@ matches:
     propagate_case: true
   - trigger: "mmtms"
     replace: "momentums"
+    word: true
+    propagate_case: true
+
+  - trigger: "intst"
+    replace: "interest"
+    word: true
+    propagate_case: true
+  - trigger: "intsts"
+    replace: "interests"
+    word: true
+    propagate_case: true
+  - trigger: "intstd"
+    replace: "interested"
+    word: true
+    propagate_case: true
+  - trigger: "intstg"
+    replace: "interesting"
+    word: true
+    propagate_case: true
+
+  - trigger: "afm"
+    replace: "affirm"
+    word: true
+    propagate_case: true
+  - trigger: "afms"
+    replace: "affirms"
+    word: true
+    propagate_case: true
+  - trigger: "afmd"
+    replace: "affirmed"
+    word: true
+    propagate_case: true
+  - trigger: "afmg"
+    replace: "affirming"
+    word: true
+    propagate_case: true
+  - trigger: "afmr"
+    replace: "affirmer"
+    word: true
+    propagate_case: true
+  - trigger: "afmrs"
+    replace: "affirmers"
+    word: true
+    propagate_case: true
+  - trigger: "afmn"
+    replace: "affirmation"
+    word: true
+    propagate_case: true
+  - trigger: "afmns"
+    replace: "affirmations"
+    word: true
+    propagate_case: true
+  - trigger: "afmf"
+    replace: "affirmative"
+    word: true
+    propagate_case: true
+  - trigger: "afmfl"
+    replace: "affirmatively"
+    word: true
+    propagate_case: true
+
+  - trigger: "emtn"
+    replace: "emotion"
+    word: true
+    propagate_case: true
+  - trigger: "emtns"
+    replace: "emotions"
+    word: true
+    propagate_case: true
+  - trigger: "emtnl"
+    replace: "emotional"
+    word: true
+    propagate_case: true
+  - trigger: "emtnly"
+    replace: "emotionally"
+    word: true
+    propagate_case: true
+
+  - trigger: "advc"
+    replace: "advocate"
+    word: true
+    propagate_case: true
+  - trigger: "advcs"
+    replace: "advocates"
+    word: true
+    propagate_case: true
+  - trigger: "advcd"
+    replace: "advocated"
+    word: true
+    propagate_case: true
+  - trigger: "advcg"
+    replace: "advocating"
+    word: true
+    propagate_case: true
+  - trigger: "advcr"
+    replace: "advocator"
+    word: true
+    propagate_case: true
+  - trigger: "advcrs"
+    replace: "advocators"
+    word: true
+    propagate_case: true
+  - trigger: "advcy"
+    replace: "advocacy"
+    word: true
+    propagate_case: true
+  - trigger: "advcys"
+    replace: "advocacies"
+    word: true
+    propagate_case: true
+
+  - trigger: "awr"
+    replace: "aware"
+    word: true
+    propagate_case: true
+  - trigger: "awrs"
+    replace: "awares"
+    word: true
+    propagate_case: true
+  - trigger: "awrd"
+    replace: "awared"
+    word: true
+    propagate_case: true
+  - trigger: "awrg"
+    replace: "awaring"
+    word: true
+    propagate_case: true
+  - trigger: "awrn"
+    replace: "awareness"
+    word: true
+    propagate_case: true
+  - trigger: "awrns"
+    replace: "awarenesses"
+    word: true
+    propagate_case: true
+
+  - trigger: "edc"
+    replace: "educate"
+    word: true
+    propagate_case: true
+  - trigger: "edcs"
+    replace: "educates"
+    word: true
+    propagate_case: true
+  - trigger: "edcd"
+    replace: "educated"
+    word: true
+    propagate_case: true
+  - trigger: "edcg"
+    replace: "educating"
+    word: true
+    propagate_case: true
+  - trigger: "edcr"
+    replace: "educator"
+    word: true
+    propagate_case: true
+  - trigger: "edcrs"
+    replace: "educators"
+    word: true
+    propagate_case: true
+  - trigger: "edcn"
+    replace: "education"
+    word: true
+    propagate_case: true
+  - trigger: "edcns"
+    replace: "educations"
+    word: true
+    propagate_case: true
+  - trigger: "edcf"
+    replace: "educative"
+    word: true
+    propagate_case: true
+
+  - trigger: "supt"
+    replace: "support"
+    word: true
+    propagate_case: true
+  - trigger: "supts"
+    replace: "supports"
+    word: true
+    propagate_case: true
+  - trigger: "suptd"
+    replace: "supported"
+    word: true
+    propagate_case: true
+  - trigger: "suptg"
+    replace: "supporting"
+    word: true
+    propagate_case: true
+  - trigger: "suptr"
+    replace: "supporter"
+    word: true
+    propagate_case: true
+  - trigger: "suptrs"
+    replace: "supporters"
+    word: true
+    propagate_case: true
+  - trigger: "suptf"
+    replace: "supportive"
+    word: true
+    propagate_case: true
+  - trigger: "suptfl"
+    replace: "supportively"
+    word: true
+    propagate_case: true
+
+  - trigger: "impr"
+    replace: "impair"
+    word: true
+    propagate_case: true
+  - trigger: "imprs"
+    replace: "impairs"
+    word: true
+    propagate_case: true
+  - trigger: "imprd"
+    replace: "impaired"
+    word: true
+    propagate_case: true
+  - trigger: "imprg"
+    replace: "impairing"
+    word: true
+    propagate_case: true
+  - trigger: "imprm"
+    replace: "impairment"
+    word: true
+    propagate_case: true
+  - trigger: "imprms"
+    replace: "impairments"
+    word: true
+    propagate_case: true
+
+  - trigger: "hr"
+    replace: "hear"
+    word: true
+    propagate_case: true
+  - trigger: "hrs"
+    replace: "hears"
+    word: true
+    propagate_case: true
+  - trigger: "hrd"
+    replace: "heard"
+    word: true
+    propagate_case: true
+  - trigger: "hrg"
+    replace: "hearing"
+    word: true
+    propagate_case: true
+
+  - trigger: "rvw"
+    replace: "review"
+    word: true
+    propagate_case: true
+  - trigger: "rvws"
+    replace: "reviews"
+    word: true
+    propagate_case: true
+  - trigger: "rvwd"
+    replace: "reviewed"
+    word: true
+    propagate_case: true
+  - trigger: "rvwg"
+    replace: "reviewing"
+    word: true
+    propagate_case: true
+  - trigger: "rvwr"
+    replace: "reviewer"
+    word: true
+    propagate_case: true
+  - trigger: "rvwrs"
+    replace: "reviewers"
+    word: true
+    propagate_case: true
+
+  - trigger: "achv"
+    replace: "achieve"
+    word: true
+    propagate_case: true
+  - trigger: "achvs"
+    replace: "achieves"
+    word: true
+    propagate_case: true
+  - trigger: "achvd"
+    replace: "achieved"
+    word: true
+    propagate_case: true
+  - trigger: "achvg"
+    replace: "achieving"
+    word: true
+    propagate_case: true
+  - trigger: "achvr"
+    replace: "achiever"
+    word: true
+    propagate_case: true
+  - trigger: "achvrs"
+    replace: "achievers"
+    word: true
+    propagate_case: true
+  - trigger: "achvm"
+    replace: "achievement"
+    word: true
+    propagate_case: true
+  - trigger: "achvms"
+    replace: "achievements"
+    word: true
+    propagate_case: true
+  - trigger: "achva"
+    replace: "achievable"
+    word: true
+    propagate_case: true
+
+  - trigger: "ast"
+    replace: "assist"
+    word: true
+    propagate_case: true
+  - trigger: "asts"
+    replace: "assists"
+    word: true
+    propagate_case: true
+  - trigger: "astd"
+    replace: "assisted"
+    word: true
+    propagate_case: true
+  - trigger: "astg"
+    replace: "assisting"
+    word: true
+    propagate_case: true
+  - trigger: "astr"
+    replace: "assistant"
+    word: true
+    propagate_case: true
+  - trigger: "astrs"
+    replace: "assistants"
+    word: true
+    propagate_case: true
+  - trigger: "astn"
+    replace: "assistance"
+    word: true
+    propagate_case: true
+  - trigger: "astns"
+    replace: "assistances"
+    word: true
+    propagate_case: true
+  - trigger: "astf"
+    replace: "assistive"
+    word: true
+    propagate_case: true
+  - trigger: "astfl"
+    replace: "assistively"
+    word: true
+    propagate_case: true
+
+  - trigger: "cptn"
+    replace: "caption"
+    word: true
+    propagate_case: true
+  - trigger: "cptns"
+    replace: "captions"
+    word: true
+    propagate_case: true
+  - trigger: "cptnd"
+    replace: "captioned"
+    word: true
+    propagate_case: true
+  - trigger: "cptng"
+    replace: "captioning"
+    word: true
+    propagate_case: true
+  - trigger: "cptnr"
+    replace: "captioner"
+    word: true
+    propagate_case: true
+  - trigger: "cptnrs"
+    replace: "captioners"
+    word: true
+    propagate_case: true
+  - trigger: "cptna"
+    replace: "captionable"
+    word: true
+    propagate_case: true
+
+  - trigger: "eql"
+    replace: "equal"
+    word: true
+    propagate_case: true
+  - trigger: "eqls"
+    replace: "equals"
+    word: true
+    propagate_case: true
+  - trigger: "eqld"
+    replace: "equaled"
+    word: true
+    propagate_case: true
+  - trigger: "eqlg"
+    replace: "equaling"
+    word: true
+    propagate_case: true
+  - trigger: "eqlr"
+    replace: "equaler"
+    word: true
+    propagate_case: true
+  - trigger: "eqlrs"
+    replace: "equalers"
+    word: true
+    propagate_case: true
+  - trigger: "eqlt"
+    replace: "equality"
+    word: true
+    propagate_case: true
+  - trigger: "eqlts"
+    replace: "equalities"
+    word: true
+    propagate_case: true
+  - trigger: "eqlly"
+    replace: "equally"
+    word: true
+    propagate_case: true
+  - trigger: "eqlv"
+    replace: "equivalent"
+    word: true
+    propagate_case: true
+  - trigger: "eqlvs"
+    replace: "equivalents"
+    word: true
+    propagate_case: true
+  - trigger: "eqlvl"
+    replace: "equivalently"
+    word: true
+    propagate_case: true
+
+  - trigger: "acmd"
+    replace: "accommodate"
+    word: true
+    propagate_case: true
+  - trigger: "acmds"
+    replace: "accommodates"
+    word: true
+    propagate_case: true
+  - trigger: "acmdg"
+    replace: "accommodating"
+    word: true
+    propagate_case: true
+  - trigger: "acmdr"
+    replace: "accommodator"
+    word: true
+    propagate_case: true
+  - trigger: "acmdrs"
+    replace: "accommodators"
+    word: true
+    propagate_case: true
+  - trigger: "acmdn"
+    replace: "accommodation"
+    word: true
+    propagate_case: true
+  - trigger: "acmdns"
+    replace: "accommodations"
+    word: true
+    propagate_case: true
+  - trigger: "acmdf"
+    replace: "accommodative"
+    word: true
+    propagate_case: true
+  - trigger: "acmdfl"
+    replace: "accommodatively"
+    word: true
+    propagate_case: true
+
+  - trigger: "dvse"
+    replace: "diverse"
+    word: true
+    propagate_case: true
+  - trigger: "dvst"
+    replace: "diversity"
+    word: true
+    propagate_case: true
+  - trigger: "dvsts"
+    replace: "diversities"
+    word: true
+    propagate_case: true
+  - trigger: "dvsl"
+    replace: "diversely"
+    word: true
+    propagate_case: true
+  - trigger: "dvsn"
+    replace: "diversification"
+    word: true
+    propagate_case: true
+  - trigger: "dvsns"
+    replace: "diversifications"
+    word: true
+    propagate_case: true
+
+  - trigger: "tch"
+    replace: "teach"
+    word: true
+    propagate_case: true
+  - trigger: "tchs"
+    replace: "teaches"
+    word: true
+    propagate_case: true
+  - trigger: "tchd"
+    replace: "taught"
+    word: true
+    propagate_case: true
+  - trigger: "tchg"
+    replace: "teaching"
+    word: true
+    propagate_case: true
+  - trigger: "tchr"
+    replace: "teacher"
+    word: true
+    propagate_case: true
+  - trigger: "tchrs"
+    replace: "teachers"
+    word: true
+    propagate_case: true
+
+  - trigger: "sbjt"
+    replace: "subject"
+    word: true
+    propagate_case: true
+  - trigger: "sbjts"
+    replace: "subjects"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtd"
+    replace: "subjected"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtg"
+    replace: "subjecting"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtr"
+    replace: "subjecter"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtrs"
+    replace: "subjecters"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtf"
+    replace: "subjective"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtfl"
+    replace: "subjectively"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtfy"
+    replace: "subjectivity"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtn"
+    replace: "subjection"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtns"
+    replace: "subjections"
+    word: true
+    propagate_case: true
+  - trigger: "sbjta"
+    replace: "subjectable"
+    word: true
+    propagate_case: true
+  - trigger: "sbjtas"
+    replace: "subjectables"
+    word: true
+    propagate_case: true
+
+  - trigger: "aqr"
+    replace: "acquire"
+    word: true
+    propagate_case: true
+  - trigger: "aqrs"
+    replace: "acquires"
+    word: true
+    propagate_case: true
+  - trigger: "aqrd"
+    replace: "acquired"
+    word: true
+    propagate_case: true
+  - trigger: "aqrg"
+    replace: "acquiring"
+    word: true
+    propagate_case: true
+  - trigger: "aqrr"
+    replace: "acquirer"
+    word: true
+    propagate_case: true
+  - trigger: "aqrrs"
+    replace: "acquirers"
+    word: true
+    propagate_case: true
+  - trigger: "aqrn"
+    replace: "acquisition"
+    word: true
+    propagate_case: true
+  - trigger: "aqrns"
+    replace: "acquisitions"
+    word: true
+    propagate_case: true
+  - trigger: "aqra"
+    replace: "acquirable"
+    word: true
+    propagate_case: true
+  - trigger: "aqras"
+    replace: "acquirables"
+    word: true
+    propagate_case: true
+  - trigger: "aqrb"
+    replace: "acquirability"
+    word: true
+    propagate_case: true
+
+  - trigger: "empt"
+    replace: "empathy"
+    word: true
+    propagate_case: true
+  - trigger: "emptc"
+    replace: "empathic"
+    word: true
+    propagate_case: true
+  - trigger: "emptz"
+    replace: "empathize"
+    word: true
+    propagate_case: true
+  - trigger: "emptzd"
+    replace: "empathized"
+    word: true
+    propagate_case: true
+  - trigger: "emptzg"
+    replace: "empathizing"
+    word: true
+    propagate_case: true
+  - trigger: "emptzr"
+    replace: "empathizer"
+    word: true
+    propagate_case: true
+  - trigger: "emptzrs"
+    replace: "empathizers"
+    word: true
+    propagate_case: true
+  - trigger: "emptzn"
+    replace: "empathization"
+    word: true
+    propagate_case: true
+  - trigger: "emptzns"
+    replace: "empathizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "smpt"
+    replace: "sympathy"
+    word: true
+    propagate_case: true
+  - trigger: "smptc"
+    replace: "sympathic"
+    word: true
+    propagate_case: true
+  - trigger: "smptz"
+    replace: "sympathize"
+    word: true
+    propagate_case: true
+  - trigger: "smptzd"
+    replace: "sympathized"
+    word: true
+    propagate_case: true
+  - trigger: "smptzg"
+    replace: "sympathizing"
+    word: true
+    propagate_case: true
+  - trigger: "smptzr"
+    replace: "sympathizer"
+    word: true
+    propagate_case: true
+  - trigger: "smptzrs"
+    replace: "sympathizers"
+    word: true
+    propagate_case: true
+  - trigger: "smptzn"
+    replace: "sympathization"
+    word: true
+    propagate_case: true
+  - trigger: "smptzns"
+    replace: "sympathizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "acpt"
+    replace: "accept"
+    word: true
+    propagate_case: true
+  - trigger: "acpts"
+    replace: "accepts"
+    word: true
+    propagate_case: true
+  - trigger: "acptd"
+    replace: "accepted"
+    word: true
+    propagate_case: true
+  - trigger: "acptg"
+    replace: "accepting"
+    word: true
+    propagate_case: true
+  - trigger: "acptr"
+    replace: "accepter"
+    word: true
+    propagate_case: true
+  - trigger: "acptrs"
+    replace: "accepters"
+    word: true
+    propagate_case: true
+  - trigger: "acptn"
+    replace: "acceptance"
+    word: true
+    propagate_case: true
+  - trigger: "acptns"
+    replace: "acceptances"
+    word: true
+    propagate_case: true
+  - trigger: "acpta"
+    replace: "acceptable"
+    word: true
+    propagate_case: true
+  - trigger: "acptas"
+    replace: "acceptables"
+    word: true
+    propagate_case: true
+  - trigger: "acptb"
+    replace: "acceptability"
+    word: true
+    propagate_case: true
+  - trigger: "acptbs"
+    replace: "acceptabilities"
+    word: true
+    propagate_case: true
+  - trigger: "acptl"
+    replace: "acceptably"
+    word: true
+    propagate_case: true
+
+  - trigger: "ctre"
+    replace: "culture"
+    word: true
+    propagate_case: true
+  - trigger: "ctres"
+    replace: "cultures"
+    word: true
+    propagate_case: true
+  - trigger: "ctred"
+    replace: "cultured"
+    word: true
+    propagate_case: true
+  - trigger: "ctreg"
+    replace: "culturing"
+    word: true
+    propagate_case: true
+  - trigger: "ctrr"
+    replace: "culturer"
+    word: true
+    propagate_case: true
+  - trigger: "ctrrs"
+    replace: "culturers"
+    word: true
+    propagate_case: true
+  - trigger: "ctrel"
+    replace: "cultural"
+    word: true
+    propagate_case: true
+  - trigger: "ctrely"
+    replace: "culturally"
     word: true
     propagate_case: true
 
