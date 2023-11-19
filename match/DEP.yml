@@ -34,3 +34,46 @@ matches:
     word: true
     uppercase_style: "capitalize_words"
     propagate_case: true
+
+  #   Trainers:
+  # Tina
+  # Patricia
+  # Hidayat
+
+  # Participants:
+  # Rubanesh
+  # Timothy
+  # Wei Xian
+  # Daren
+  # Ummi
+  - trigger: "/tin"
+    replace: "TINA:"
+    word: true
+
+  - trigger: "/pat"
+    replace: "PATRICIA:"
+    word: true
+
+  - trigger: "/hid"
+    replace: "HIDAYAT:"
+    word: true
+
+  - trigger: "/nesh"
+    replace: "RUBANESH:"
+    word: true
+
+  - trigger: "/tim"
+    replace: "TIMOTHY:"
+    word: true
+
+  - trigger: "/wei"
+    replace: "WEI XIAN:"
+    word: true
+
+  - trigger: "/dar"
+    replace: "DAREN:"
+    word: true
+
+  - trigger: "/umm"
+    replace: "UMMI:"
+    word: true
