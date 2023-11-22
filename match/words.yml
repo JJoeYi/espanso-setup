@@ -1065,11 +1065,11 @@ matches:
     replace: "responsible"
     word: true
     propagate_case: true
-  - trigger: "rpsbl"
+  - trigger: "rpsbt"
     replace: "responsibility"
     word: true
     propagate_case: true
-  - trigger: "rpsbls"
+  - trigger: "rpsbts"
     replace: "responsibilities"
     word: true
     propagate_case: true
@@ -1090,28 +1090,24 @@ matches:
     replace: "activities"
     word: true
     propagate_case: true
-  - trigger: "atvtd"
+  - trigger: "atv"
+    replace: "activate"
+    word: true
+    propagate_case: true
+  - trigger: "atvd"
     replace: "activated"
     word: true
     propagate_case: true
-  - trigger: "atvtg"
+  - trigger: "atvg"
     replace: "activating"
     word: true
     propagate_case: true
-  - trigger: "atvtr"
+  - trigger: "atvr"
     replace: "activator"
     word: true
     propagate_case: true
-  - trigger: "atvtrs"
+  - trigger: "atvrs"
     replace: "activators"
-    word: true
-    propagate_case: true
-  - trigger: "actv"
-    replace: "activity"
-    word: true
-    propagate_case: true
-  - trigger: "actvs"
-    replace: "activities"
     word: true
     propagate_case: true
 
