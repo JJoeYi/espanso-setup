@@ -1754,11 +1754,11 @@ matches:
     replace: "comparers"
     word: true
     propagate_case: true
-  - trigger: "cmpsn"
+  - trigger: "cmpn"
     replace: "comparison"
     word: true
     propagate_case: true
-  - trigger: "cmpsns"
+  - trigger: "cmpns"
     replace: "comparisons"
     word: true
     propagate_case: true
@@ -6528,6 +6528,31 @@ matches:
     word: true
     propagate_case: true
 
+  - trigger: "bcm"
+    replace: "become"
+    word: true
+    propagate_case: true
+  - trigger: "bcms"
+    replace: "becomes"
+    word: true
+    propagate_case: true
+  - trigger: "bcmg"
+    replace: "becoming"
+    word: true
+    propagate_case: true
+  - trigger: "bcmr"
+    replace: "becomer"
+    word: true
+    propagate_case: true
+  - trigger: "bcmrs"
+    replace: "becomers"
+    word: true
+    propagate_case: true
+  - trigger: "bcmd"
+    replace: "became"
+    word: true
+    propagate_case: true
+
   - trigger: "btw"
     replace: "by the way"
     word: true
@@ -7190,7 +7215,7 @@ matches:
     replace: "validities"
     word: true
     propagate_case: true
-  - trigger: "vldtg"
+  - trigger: "vldg"
     replace: "validating"
     word: true
     propagate_case: true
@@ -8887,23 +8912,6 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "intst"
-    replace: "interest"
-    word: true
-    propagate_case: true
-  - trigger: "intsts"
-    replace: "interests"
-    word: true
-    propagate_case: true
-  - trigger: "intstd"
-    replace: "interested"
-    word: true
-    propagate_case: true
-  - trigger: "intstg"
-    replace: "interesting"
-    word: true
-    propagate_case: true
-
   - trigger: "afm"
     replace: "affirm"
     word: true
@@ -9672,5 +9680,14 @@ matches:
     propagate_case: true
   - trigger: "intstg"
     replace: "interesting"
+    word: true
+    propagate_case: true
+
+  - trigger: "fav"
+    replace: "favorite"
+    word: true
+    propagate_case: true
+  - trigger: "favs"
+    replace: "favorites"
     word: true
     propagate_case: true

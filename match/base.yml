@@ -7,36 +7,47 @@
 matches:
   - trigger: "/rfs"
     replace: "[reading from slide]"
+    word: true
 
   - trigger: "/rts"
     replace: "[referring to slide]"
+    word: true
 
   - trigger: "/rtb"
     replace: "[referring to board]"
+    word: true
 
   - trigger: "/rtc"
     replace: "[referring to code]"
+    word: true
 
   - trigger: "/code"
     replace: "[coding]"
+    word: true
 
   - trigger: "/rtw"
     replace: "[referring to writing]"
+    word: true
 
   - trigger: "/w"
     replace: "[writing]"
+    word: true
 
   - trigger: "/lt"
     replace: "[laughter]"
+    word: true
 
   - trigger: "/la"
     replace: "[laughs]"
+    word: true
 
   - trigger: "/vidp"
     replace: "[video playing]"
+    word: true
 
   - trigger: "/vids"
     replace: "[video stopped]"
+    word: true
 
   # - trigger: "/s"
   #   replace: "(slide {{slidecount}})"
@@ -44,51 +55,67 @@ matches:
 
   - trigger: "/sn"
     replace: "(slide "
+    word: true
 
   - trigger: "/sl"
     replace: "(slide change)"
+    word: true
 
   - trigger: "/stuqn"
     replace: "[student question]"
+    word: true
 
   - trigger: "/stuans"
     replace: "[student answer]"
+    word: true
 
   - trigger: "/stuchat"
     replace: "[student chatter]"
+    word: true
 
   - trigger: "/stucom"
     replace: "[student comment]"
+    word: true
 
   - trigger: "/ans"
     replace: "[answer]"
+    word: true
 
   - trigger: "/tans"
     replace: "[tutor answer]"
+    word: true
 
   - trigger: "/tqn"
     replace: "[tutor question]"
+    word: true
 
   - trigger: "/tcom"
     replace: "[tutor comment]"
+    word: true
 
   - trigger: "/qn"
     replace: "[question]"
+    word: true
 
   - trigger: "/ia"
     replace: "_[inaudible]"
+    word: true
 
   - trigger: "/?"
     replace: "_(?)"
+    word: true
 
   - trigger: "/eos"
     replace: "[end of session $|$]"
+    word: true
 
   - trigger: "/eod"
     replace: "[end of document]"
+    word: true
 
   - trigger: "/atnd"
     replace: "[taking attendance]"
+    word: true
 
   - trigger: "?>"
     replace: ">>>"
