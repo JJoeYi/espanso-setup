@@ -2884,8 +2884,89 @@ matches:
     replace: "generally"
     word: true
     propagate_case: true
+  - trigger: "gnrll"
+    replace: "generally"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlly"
+    replace: "generally"
+    word: true
+    propagate_case: true
   - trigger: "gnrls"
     replace: "generals"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlz"
+    replace: "generalize"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzd"
+    replace: "generalized"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzg"
+    replace: "generalizing"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzr"
+    replace: "generalizer"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzrs"
+    replace: "generalizers"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlty"
+    replace: "generality"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzn"
+    replace: "generalization"
+    word: true
+    propagate_case: true
+  - trigger: "gnrlzns"
+    replace: "generalizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "rglr"
+    replace: "regular"
+    word: true
+    propagate_case: true
+  - trigger: "rglrl"
+    replace: "regularly"
+    word: true
+    propagate_case: true
+  - trigger: "rglrz"
+    replace: "regularize"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzd"
+    replace: "regularized"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzg"
+    replace: "regularizing"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzr"
+    replace: "regularizer"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzrs"
+    replace: "regularizers"
+    word: true
+    propagate_case: true
+  - trigger: "rglrty"
+    replace: "regularity"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzn"
+    replace: "regularization"
+    word: true
+    propagate_case: true
+  - trigger: "rglrzns"
+    replace: "regularizations"
     word: true
     propagate_case: true
 
@@ -3811,6 +3892,10 @@ matches:
     replace: "introduce"
     word: true
     propagate_case: true
+  - trigger: "introds"
+    replace: "introduces"
+    word: true
+    propagate_case: true
   - trigger: "introdd"
     replace: "introduced"
     word: true
@@ -4169,6 +4254,14 @@ matches:
     word: true
     propagate_case: true
   - trigger: "avbys"
+    replace: "availabilities"
+    word: true
+    propagate_case: true
+  - trigger: "avbt"
+    replace: "availability"
+    word: true
+    propagate_case: true
+  - trigger: "avbts"
     replace: "availabilities"
     word: true
     propagate_case: true
@@ -4669,6 +4762,47 @@ matches:
     propagate_case: true
   - trigger: "impmrs"
     replace: "implementers"
+    word: true
+    propagate_case: true
+
+  - trigger: "cmpm"
+    replace: "complement"
+    word: true
+    propagate_case: true
+  - trigger: "cmpms"
+    replace: "complements"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmd"
+    replace: "complemented"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmg"
+    replace: "complementing"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmn"
+    replace: "complementation"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmns"
+    replace: "complementations"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmr"
+    replace: "complementer"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmrs"
+    replace: "complementers"
+    word: true
+    propagate_case: true
+  - trigger: "cmpml"
+    replace: "complementarily"
+    word: true
+    propagate_case: true
+  - trigger: "cmpmt"
+    replace: "complementary"
     word: true
     propagate_case: true
 
@@ -5646,31 +5780,31 @@ matches:
     word: true
     propagate_case: true
 
-  - trigger: "expln"
+  - trigger: "xpln"
     replace: "explain"
     word: true
     propagate_case: true
-  - trigger: "explnd"
+  - trigger: "xplnd"
     replace: "explained"
     word: true
     propagate_case: true
-  - trigger: "explng"
+  - trigger: "xplng"
     replace: "explaining"
     word: true
     propagate_case: true
-  - trigger: "explnr"
+  - trigger: "xplnr"
     replace: "explainer"
     word: true
     propagate_case: true
-  - trigger: "explnrs"
+  - trigger: "xplnrs"
     replace: "explainers"
     word: true
     propagate_case: true
-  - trigger: "explnn"
+  - trigger: "xplnn"
     replace: "explanation"
     word: true
     propagate_case: true
-  - trigger: "explnns"
+  - trigger: "xplnns"
     replace: "explanations"
     word: true
     propagate_case: true
@@ -9689,5 +9823,352 @@ matches:
     propagate_case: true
   - trigger: "favs"
     replace: "favorites"
+    word: true
+    propagate_case: true
+
+  - trigger: "thm"
+    replace: "theorem"
+    word: true
+    propagate_case: true
+  - trigger: "thms"
+    replace: "theorems"
+    word: true
+    propagate_case: true
+  - trigger: "thmz"
+    replace: "theorize"
+    word: true
+    propagate_case: true
+  - trigger: "thmzd"
+    replace: "theorized"
+    word: true
+    propagate_case: true
+  - trigger: "thmzg"
+    replace: "theorizing"
+    word: true
+    propagate_case: true
+  - trigger: "thmzr"
+    replace: "theorizer"
+    word: true
+    propagate_case: true
+  - trigger: "thmzrs"
+    replace: "theorizers"
+    word: true
+    propagate_case: true
+  - trigger: "thmzn"
+    replace: "theorization"
+    word: true
+    propagate_case: true
+  - trigger: "thmzns"
+    replace: "theorizations"
+    word: true
+    propagate_case: true
+
+  - trigger: "sfc"
+    replace: "sufficient"
+    word: true
+    propagate_case: true
+  - trigger: "sfcl"
+    replace: "sufficiently"
+    word: true
+    propagate_case: true
+  - trigger: "sfcy"
+    replace: "sufficiency"
+    word: true
+    propagate_case: true
+  - trigger: "sfcys"
+    replace: "sufficiencies"
+    word: true
+    propagate_case: true
+
+  - trigger: "dmsn"
+    replace: "dimension"
+    word: true
+    propagate_case: true
+  - trigger: "dmsns"
+    replace: "dimensions"
+    word: true
+    propagate_case: true
+  - trigger: "dmsnd"
+    replace: "dimensioned"
+    word: true
+    propagate_case: true
+  - trigger: "dmsng"
+    replace: "dimensioning"
+    word: true
+    propagate_case: true
+  - trigger: "dmsnl"
+    replace: "dimensional"
+    word: true
+    propagate_case: true
+  - trigger: "dmsnll"
+    replace: "dimensionally"
+    word: true
+    propagate_case: true
+  - trigger: "dmsnr"
+    replace: "dimensioner"
+    word: true
+    propagate_case: true
+
+  - trigger: "intuif"
+    replace: "intuitive"
+    word: true
+    propagate_case: true
+  - trigger: "intuifl"
+    replace: "intuitively"
+    word: true
+    propagate_case: true
+  - trigger: "intuifn"
+    replace: "intuitiveness"
+    word: true
+    propagate_case: true
+  - trigger: "intuifns"
+    replace: "intuitivenesses"
+    word: true
+    propagate_case: true
+  - trigger: "intuin"
+    replace: "intuition"
+    word: true
+    propagate_case: true
+  - trigger: "intuins"
+    replace: "intuitions"
+    word: true
+    propagate_case: true
+
+  - trigger: "tfm"
+    replace: "transform"
+    word: true
+    propagate_case: true
+  - trigger: "tfms"
+    replace: "transforms"
+    word: true
+    propagate_case: true
+  - trigger: "tfmd"
+    replace: "transformed"
+    word: true
+    propagate_case: true
+  - trigger: "tfmg"
+    replace: "transforming"
+    word: true
+    propagate_case: true
+  - trigger: "tfmr"
+    replace: "transformer"
+    word: true
+    propagate_case: true
+  - trigger: "tfmrs"
+    replace: "transformers"
+    word: true
+    propagate_case: true
+  - trigger: "tfmn"
+    replace: "transformation"
+    word: true
+    propagate_case: true
+  - trigger: "tfmns"
+    replace: "transformations"
+    word: true
+    propagate_case: true
+  - trigger: "tfma"
+    replace: "transformable"
+    word: true
+    propagate_case: true
+  - trigger: "tfmas"
+    replace: "transformables"
+    word: true
+    propagate_case: true
+
+  - trigger: "teh"
+    replace: "the"
+    word: true
+    propagate_case: true
+
+  - trigger: "dtg"
+    replace: "distinguish"
+    word: true
+    propagate_case: true
+  - trigger: "dtgs"
+    replace: "distinguishes"
+    word: true
+    propagate_case: true
+  - trigger: "dtgd"
+    replace: "distinguished"
+    word: true
+    propagate_case: true
+  - trigger: "dtgg"
+    replace: "distinguishing"
+    word: true
+    propagate_case: true
+  - trigger: "dtgr"
+    replace: "distinguisher"
+    word: true
+    propagate_case: true
+  - trigger: "dtgrs"
+    replace: "distinguishers"
+    word: true
+    propagate_case: true
+
+  - trigger: "obsv"
+    replace: "observe"
+    word: true
+    propagate_case: true
+  - trigger: "obsvs"
+    replace: "observes"
+    word: true
+    propagate_case: true
+  - trigger: "obsvd"
+    replace: "observed"
+    word: true
+    propagate_case: true
+  - trigger: "obsvg"
+    replace: "observing"
+    word: true
+    propagate_case: true
+  - trigger: "obsvr"
+    replace: "observer"
+    word: true
+    propagate_case: true
+  - trigger: "obsvrs"
+    replace: "observers"
+    word: true
+    propagate_case: true
+  - trigger: "obsvn"
+    replace: "observation"
+    word: true
+    propagate_case: true
+  - trigger: "obsvns"
+    replace: "observations"
+    word: true
+    propagate_case: true
+  - trigger: "obsva"
+    replace: "observably"
+    word: true
+    propagate_case: true
+  - trigger: "obsvty"
+    replace: "observability"
+    word: true
+    propagate_case: true
+
+  - trigger: "xpct"
+    replace: "expect"
+    word: true
+    propagate_case: true
+  - trigger: "xpcts"
+    replace: "expects"
+    word: true
+    propagate_case: true
+  - trigger: "xpctd"
+    replace: "expected"
+    word: true
+    propagate_case: true
+  - trigger: "xpctg"
+    replace: "expecting"
+    word: true
+    propagate_case: true
+  - trigger: "xpctr"
+    replace: "expecter"
+    word: true
+    propagate_case: true
+  - trigger: "xpctrs"
+    replace: "expecters"
+    word: true
+    propagate_case: true
+  - trigger: "xpctn"
+    replace: "expectation"
+    word: true
+    propagate_case: true
+  - trigger: "xpctns"
+    replace: "expectations"
+    word: true
+    propagate_case: true
+  - trigger: "xpcty"
+    replace: "expectancy"
+    word: true
+    propagate_case: true
+  - trigger: "xpctys"
+    replace: "expectancies"
+    word: true
+    propagate_case: true
+
+  - trigger: "mgn"
+    replace: "margin"
+    word: true
+    propagate_case: true
+  - trigger: "mgns"
+    replace: "margins"
+    word: true
+    propagate_case: true
+  - trigger: "mgnd"
+    replace: "margined"
+    word: true
+    propagate_case: true
+  - trigger: "mgnl"
+    replace: "marginal"
+    word: true
+    propagate_case: true
+  - trigger: "mgnll"
+    replace: "marginally"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlz"
+    replace: "marginalize"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzd"
+    replace: "marginalized"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzn"
+    replace: "marginalization"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzns"
+    replace: "marginalizations"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzr"
+    replace: "marginalizer"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzrs"
+    replace: "marginalizers"
+    word: true
+    propagate_case: true
+  - trigger: "mgnlzg"
+    replace: "marginalizing"
+    word: true
+    propagate_case: true
+
+  - trigger: "rpsnt"
+    replace: "represent"
+    word: true
+    propagate_case: true
+  - trigger: "rpsnts"
+    replace: "represents"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntd"
+    replace: "represented"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntg"
+    replace: "representing"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntr"
+    replace: "representer"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntrs"
+    replace: "representers"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntn"
+    replace: "representation"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntns"
+    replace: "representations"
+    word: true
+    propagate_case: true
+  - trigger: "rpsntf"
+    replace: "representative"
     word: true
     propagate_case: true
